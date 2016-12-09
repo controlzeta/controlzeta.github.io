@@ -4,14 +4,26 @@
    Author's custom styles
    ========================================================================== */
 
-.principal-activities{
+.principal-activities {
 	background : rgba(51, 122, 183, 0.75);
 	padding : 15px;
 	border-radius: 10px;
+	margin:5px;
 }
 
+.skills {
+	
+}
 
+.profesional-exp {
+	
+	
+}
 
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
 
 
 
