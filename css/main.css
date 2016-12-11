@@ -47,12 +47,23 @@
 }
 
 .progress-bar-purple {
-      background-color: purple !important;
+	color: inherit;
+    background: purple !important;
 }
 .progress-bar-orange {
-      background-color: orange !important;
+    color: inherit;
+	background-color: orange !important;
 }
 
+.progress-bar-red {
+    color: inherit;
+	background-color: red !important;
+}
+
+.progress-bar-green {
+    color: inherit;
+	background-color: green !important;
+}
 
 
 
