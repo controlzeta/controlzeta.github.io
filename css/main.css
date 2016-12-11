@@ -11,6 +11,22 @@
 	margin:5px;
 }
 
+.profile-bio {
+	width:100%;
+	padding-top:15px;
+}
+
+.img-consultora{
+	width:auto;
+	height:100px;
+	
+}
+
+.resumen {
+	text-align:justify;
+	
+}
+
 .skills {
 	
 }
@@ -25,9 +41,17 @@
     transition: none !important;
 }
 
+.panel-title {
+    font-size: 25px;
+    color: inherit;
+}
 
-
-
+.progress-bar-purple {
+      background-color: purple !important;
+}
+.progress-bar-orange {
+      background-color: orange !important;
+}
 
 
 
