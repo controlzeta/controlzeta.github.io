@@ -20,11 +20,11 @@ $.each( data.experiencia, function( i, val ) {
   
   var conocimientos = "";
    $.each( val.conocimientos, function( i, con ) {
-	conocimientos += '<div class="row" style="padding-top:5px;">'+
-						'<div class="col-md-4 col-sm-4">'+
+	conocimientos += '<div class="row" style="padding-top:0px;">'+
+						'<div class="col-md-3 col-sm-3" style="text-align:right;">'+
 							con.conocimiento +
 						'</div>'+
-						'<div class="col-md-8 col-sm-8">'+
+						'<div class="col-md-9 col-sm-9">'+
 							'<div class="progress">'+
 								'<div class="progress-bar" style="background-color:' + con.color + ' !important;" ' +
 								' role="progressbar" aria-valuenow="' + con.numero + '" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">'+
@@ -51,10 +51,11 @@ $.each( data.experiencia, function( i, val ) {
 							'<img src="' + val.logo + '" class="img-consultora">' +
 							'</div>' +
 							'<div class="col-md-9">' +
-							'</div>' +
+							
 							'<h3>' + val.consultora + '</h3>' +
 							'<h4>Puesto: ' + val.puesto + '</h4>' +
 							'<h5>Periodo: ' + val.fechaInicio + ' - ' + val.fechaFin + '</h5>' +
+							'</div>' +
 							'<p class="resumen">' + val.resumen + '</p>'+
 							'<div class="skills" style="padding:15px; ">' +
 								conocimientos +

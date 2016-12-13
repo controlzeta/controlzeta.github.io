@@ -3,7 +3,20 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+body{
+	font-family: 'Lato', sans-serif ;
+}
 
+h1, h2, h3, h4, h5, h6 { 
+font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+	font-size: 28px;
+	
+}
+   
 .principal-activities {
 	background : rgba(51, 122, 183, 0.75);
 	padding : 15px;
@@ -17,8 +30,8 @@
 }
 
 .img-consultora{
-	width:auto;
-	height:100px;
+	width:100%;
+	height:auto;
 	
 }
 
