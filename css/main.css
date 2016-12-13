@@ -13,8 +13,20 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 h1{
-	font-size: 28px;
-	
+	font-size: 28px;	
+}
+
+.progress {
+    margin-bottom: 5px !important;
+}
+
+.progress-bar-purple {
+    background-image: -webkit-linear-gradient(top,#a54fd9  0,#a54fd9  100%);
+    background-image: -o-linear-gradient(top,#a54fd9  0,#a54fd9  100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#a54fd9 ),to(#a54fd9 ));
+    background-image: linear-gradient(to bottom,#a54fd9  0,#a54fd9  100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#a54fd9 ', GradientType=0);
+    background-repeat: repeat-x;
 }
    
 .principal-activities {
@@ -60,7 +72,6 @@ h1{
 }
 
 .progress-bar-purple {
-	color: inherit;
     background: purple !important;
 }
 .progress-bar-orange {

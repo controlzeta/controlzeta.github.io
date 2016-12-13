@@ -72,29 +72,15 @@
       			<img src="img/bio.jpg" class="profile-bio">
       		</div>
       		<div class="col-md-8">
-      			<h1>Hola! mi nombre es: <span id="nombre"></span></h1>
-      			<h2>y soy un: <span id="titulo"></span></h2>
-      			<h3>estudie en: <span id="escuela"></span></h2>
+      			<h1><span id="nombre"></span></h1>
+      			<h2><span id="titulo"></span></h2>
+      			<h3><span id="escuela"></span></h2>
       			<h4>Empleo Actual: <span id="empleoActual"></span></h4>
       			<h4>Empleo Anterior: <span id="empleoAnterior"></span></h4>
       		</div>
       	</div>
       	<div id="timeline">
 			<h2>Línea del Tiempo</h2>
-			 <div class="progress">
-				<div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
-				  Primer Trabajo
-				</div>
-				<div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
-				  Segundo Trabajo
-				</div>
-				<div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
-				  Tercer Trabajo
-				</div>
-				<div class="progress-bar progress-bar-info" role="progressbar" style="width:30%">
-				  Cuarto Trabajo
-				</div>
-			  </div>
       	</div>
       	<div>
       		<h2>Experiencia Profesional</h2>
@@ -105,29 +91,47 @@
 		<div id="professionalExperience">
 			<div class="profesional-exp col-sm-12">
 			</div>
-			<div class="col-md-12">
+			<div class="row">
 				<div class="btn-group btn-group-justified" role="group" aria-label="...">
 				  <div class="btn-group" role="group">
-					<button type="button" class="btn btn-default">Programación</button>
+					<button type="button" class="btn btn-default" onclick="toggleChart('progChartDiv');">Programación</button>
 				  </div>
 				  <div class="btn-group" role="group">
-					<button type="button" class="btn btn-default">Base de Datos</button>
+					<button type="button" class="btn btn-default" onclick="toggleChart('dbChartDiv');">Base de Datos</button>
 				  </div>
 				  <div class="btn-group" role="group">
-					<button type="button" class="btn btn-default">Pasatiempos</button>
+					<button type="button" class="btn btn-default" onclick="toggleChart('hobbyChartDiv');">Pasatiempos</button>
 				  </div>
+				</div>
+				<div id="charts" class="col-md-12" style="display:block;">
+				<div id="progChartDiv" class="row" style="padding:25px; display:none;">
+					<h2>Programación</h2>
+					<div class="col-md-6">
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</div>
+					<div class="col-md-6" style="">
+						<canvas id="progChart" width="200" height="400"></canvas>
+					</div>
+				</div>
+				<div id="dbChartDiv" class="row"  style="padding:25px; display:none;">
+					<h2>Bases de Datos</h2>
+					<div class="col-md-6">
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</div>
+					<div class="col-md-6">
+						<canvas id="dbChart" width="200" height="400"></canvas>
+					</div>
+				</div>
+				<div id="hobbyChartDiv" class="row"  style="padding:25px; display:none;">
+					<h2>Hobbies</h2>
+					<div class="col-md-6">
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</div>
+					<div class="col-md-6">
+						<canvas id="hobbyChart" width="200" height="400"></canvas>
+					</div>
 				</div>
 			</div>
-			<div id="charts" class="col-md-12" style="display:block;">
-				<div class="col-md-4 col-sm-4">
-					<canvas id="progChart" width="200" height="400"></canvas>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<canvas id="dbChart" width="200" height="400"></canvas>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<canvas id="hobbyChart" width="200" height="400"></canvas>
-				</div>
 			</div>
 		</div>
 		<div style="display:block; padding-top:35px;">
@@ -150,7 +154,7 @@
       </div>
       <hr>
       <footer>
-        <p style="text-align:center;">Francisco Arroyo | &copy; Control Zeta <span id="spanYear">2016</span></p>
+        <p style="text-align:center;">Francisco Arroyo |<a href="http://controlzeta.com.mx" target="_blank"> &copy; Control Zeta <span id="spanYear">2016</span></a></p>
       </footer>
     </div> <!-- /container -->        
 <!-- 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
@@ -176,6 +180,24 @@
 			});
 				
 			});
+			
+			function toggleChart( id ){
+				$('#' + id).show();
+				switch(id) {
+					case 'progChartDiv':
+						$('#dbChartDiv').hide();
+						$('#hobbyChartDiv').hide();
+						break;
+					case 'dbChartDiv':
+						$('#progChartDiv').hide();
+						$('#hobbyChartDiv').hide();
+						break;
+					case 'hobbyChartDiv':
+						$('#dbChartDiv').hide();
+						$('#progChartDiv').hide();
+						break;
+				}
+			}
 			
 			var ctx1 = document.getElementById("progChart");
 			var ctx2 = document.getElementById("dbChart");

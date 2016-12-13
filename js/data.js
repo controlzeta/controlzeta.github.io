@@ -27,7 +27,7 @@ var data = {
 		{ "ramo" : "Programación", "nivel" : "avanzado", "utilerias" : "C#, ASP, ASP.Net, PHP, Visual Basic, Html5" },
 		{ "ramo" : "Bases de Datos", "nivel" : "avanzado", "utilerias" : "SQL Server 2014, Postgres, MySQL, Oracle 11g" },
 		{ "ramo" : "IDE", "nivel" : "avanzado", "utilerias" : "Visual Studio 2012, Visual Studio 2013" },
-		{ "ramo" : "Lenguajes de Modelado", "nivel" : "medio	", "utilerias" : "UML" },
+		{ "ramo" : "Lenguajes de Modelado", "nivel" : "medio", "utilerias" : "UML" },
 		{ "ramo" : "Patrones de Diseño", "nivel" : "avanzado", "utilerias" : "MVC, MVP, N Tier" },
 		{ "ramo" : "Metodologías", "nivel" : "medio", "utilerias" : "SCRUM, MAAGTIC, CMMI" },
 		{ "ramo" : "CMS, LCMS y eCommerce", "nivel" : "avanzado", "utilerias" : "Wordpress, Joomla, Moodle, Magento" },
@@ -51,6 +51,7 @@ var data = {
 		"consultora": "Freelance",
 		"fechaInicio" : "Junio 2011",
 		"fechaFin" : "Actualidad",
+		"fechas" : [{ "inicio": "01/06/2011", "fin": "Today" }],
 		"resumen": "Diseño, Desarrollo, Implementación y mantenimiento de páginas web para clientes finales, en CMS o HTML5 desde cero ",
 		"actividades": [
 			{ "actividad": "Levantamiento  y Analísis de requerimientos" },
@@ -74,6 +75,7 @@ var data = {
 		"consultora": "CAMEBRA",
 		"fechaInicio" : "Abril 2011",
 		"fechaFin" : "Febrero 2013",
+		"fechas" : [{ "inicio": "01/04/2011", "fin": "01/02/2013" }],
 		"resumen": "Colabore en la realización de un sistema web para ventas de productos tecnológicos en ASP.NET 4, Hojas de Estilo CSS 2.1, Jquery y Motor de Base de Datos SQL Server 2008 R2 con objetos sqlclient. También di soporte a otras aplicaciones las cuales contaban con tecnologías como: Entity Framework, Webservices y RIA Services WCF, Silverlight.",
 		"actividades": [
 			{ "actividad": "Desarrollador Web" },
@@ -81,7 +83,7 @@ var data = {
 			{ "actividad": "Diseño Web"},
 			{ "actividad": "Soporte de Aplicaciones"}
 			],
-		"conocimientos" : [
+		"conocimientos" : 	[
 			{ "conocimiento" : "ASP.NET 4", "color" : "purple", "numero":"60" },
 			{ "conocimiento" : "CSS 2.1", "color" : "red", "numero":"65" },
 			{ "conocimiento" : "WCF", "color" : "red", "numero":"65" },
@@ -95,6 +97,7 @@ var data = {
 		"consultora": "INAI - Indra",
 		"fechaInicio" : "Marzo 2013",
 		"fechaFin" : "Enero 2014",
+		"fechas" : [{ "inicio": "01/03/2013", "fin": "01/01/2014" }],
 		"resumen": "Colabore en la realización de un Portal para la recepción de denuncias que incluía las tecnologías NHibernate Fluent con SQL Server 2008, en Framework ASP .NET 4.0, CSS, Ajax y JQuery, conectado a varios sistemas SAP CRM, BW-BI de SAP y Open Text como repositorio de documentos por medio de Web Service",
 		"actividades": [
 			{ "actividad": "Desarrollo Web con ASP .NET" },
@@ -119,6 +122,7 @@ var data = {
 		"consultora": "Unifin Financiera",
 		"fechaInicio" : "Marzo 2014",
 		"fechaFin" : "Julio 2014",
+		"fechas" : [{ "inicio": "01/03/2014", "fin": "01/07/2014" }],
 		"resumen": "Colabore en la migración de la migración de un Sistema Financiero de Escritorio en Visual Basic 6.0 y 2010 a Plataforma Web con Diseño Responsivo, en arquitectura MVC en lenguaje C# que incluía las tecnologías SQL Server 2008, en Framework ASP .NET 4.0, CSS3, JSON, Bootstrap, Ajax y JQuery. Con funciones como: Cálculos financieros, lectura de archivos, empaquetado de Crystal Reports y comunicación con Dynamics.",
 		"actividades": [
 			{ "actividad": "Migración VB .Net 6.0 a Web MVC C# Framework 4.0" },
@@ -139,8 +143,9 @@ var data = {
 		"puesto": "Desarrollador .Net Front End",
 		"logo": "img/consolid-logo.png",
 		"consultora": "Gonet - Consolid",
-		"fechaInicio" : "Marzo 2013",
-		"fechaFin" : "Enero 2014",
+		"fechaInicio" : "Agosto 2014",
+		"fechaFin" : "Junio 2015",
+		"fechas" : [{ "inicio": "01/08/2014", "fin": "01/06/2015" }],
 		"resumen": "Diseño e implementación de Administrador de Usuarios, Seguridad, Motor de Búsqueda de Vuelos (Sabre, Navitaire, Volaris), Cambio de Diseño a Responsive Design (Bootstrap), Consumo de Web Services (SOAP, WCF), Arquitectura de 3 Capas, SQL Server 2012 con Entity Framework, CSS3, jQuery.",
 		"actividades": [
 			{ "actividad": "Diseño e Implementación de administrador de Usuarios" },
@@ -161,8 +166,9 @@ var data = {
 		"puesto": "Full Stack Web Developer",
 		"logo": "img/x1mexico-logo.png",
 		"consultora": "X1 México",
-		"fechaInicio" : "Marzo 2013",
-		"fechaFin" : "Enero 2014",
+		"fechaInicio" : "Junio 2015",
+		"fechaFin" : "Diciembre 2016",
+		"fechas" : [{ "inicio": "01/06/2015", "fin": "01/12/2016" }],
 		"resumen": "Programación en Lenguaje C# (Framework 4), PHP para plataforma Web, Maquetado de HTML5, MVC, Capas, Web API, especializado en Front End y Responsive Design, Bases de Datos SQL Server 2014, 2012, 2008 R2, MySQL y Postres 9.4, administración de servidores Azure y CentOS. Implementación, Integración y Configuración de CMS (WordPress y Joomla), desarrollo de funcionalidad en sistema existente en AngularJS, Configuración y reparación de LCMS (Learning Content Management System) Moodle",
 		"actividades": [
 			{ "actividad": "Integración de Joomla con .NET" },
@@ -183,9 +189,9 @@ var data = {
 	],
 	"perfiles" : [
 		{"perfil": "Linkedin", "link" : "https://www.linkedin.com/in/francisco-arroyo-83351727", "logo" : "img/logo-linkedin.png" },
-		{"perfil": "Linkedin", "link" : "https://www.linkedin.com/in/francisco-arroyo-83351727", "logo" : "img/logo-linkedin.png" },
-		{"perfil": "Linkedin", "link" : "https://www.linkedin.com/in/francisco-arroyo-83351727", "logo" : "img/logo-linkedin.png" },
-		{"perfil": "Linkedin", "link" : "https://www.linkedin.com/in/francisco-arroyo-83351727", "logo" : "img/logo-linkedin.png" }
+		{"perfil": "Behance", "link" : "https://www.behance.net/pakoarroyo", "logo" : "img/logo-behance.png" },
+		{"perfil": "Github", "link" : "https://github.com/controlzeta/", "logo" : "img/logo-github.png" },
+		{"perfil": "Portafolio", "link" : "http://pakoarroyo.controlzeta.com.mx/portfolio.html", "logo" : "img/logo-portafolio.png" }
 	],
 	"proyectos" : [
 		{
