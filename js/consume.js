@@ -41,6 +41,8 @@ function getColor(num){
 						return 'success';
 					case 4:
 						return 'purple';
+					case 5:
+						return 'orange';
 				}
 }
 
@@ -141,8 +143,4 @@ $.each( data.experiencia, function( i, val ) {
   $('#generateHTML').append(html);
   // console.log(val);
   
-  // $( "#" + val ).text( "Mine is " + val + "." );
- 
-  // Will stop running after "three"
-  // return ( val !== "three" );
 });

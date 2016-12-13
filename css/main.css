@@ -28,7 +28,16 @@ h1{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#a54fd9 ', GradientType=0);
     background-repeat: repeat-x;
 }
-   
+
+.progress-bar-orange {
+    background-image: -webkit-linear-gradient(top,#f96d16   0,#bd8300  100%);
+    background-image: -o-linear-gradient(top,#f96d16   0,#bd8300  100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f96d16  ),to(#bd8300 ));
+    background-image: linear-gradient(to bottom,#f96d16   0,#bd8300  100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f96d16', endColorstr='#bd8300 ', GradientType=0);
+    background-repeat: repeat-x;
+}   
+
 .principal-activities {
 	background : rgba(51, 122, 183, 0.75);
 	padding : 15px;
@@ -70,25 +79,6 @@ h1{
     font-size: 25px;
     color: inherit;
 }
-
-.progress-bar-purple {
-    background: purple !important;
-}
-.progress-bar-orange {
-    color: inherit;
-	background-color: orange !important;
-}
-
-.progress-bar-red {
-    color: inherit;
-	background-color: red !important;
-}
-
-.progress-bar-green {
-    color: inherit;
-	background-color: green !important;
-}
-
 
 
 
