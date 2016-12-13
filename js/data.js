@@ -100,6 +100,7 @@ var data = {
 			{ "actividad": "Desarrollo Web con ASP .NET" },
 			{ "actividad": "Participación en Análisis e Implementación"},
 			{ "actividad": "Diseño Web"},
+			{ "actividad": "OWASP"},
 			{ "actividad": "Integración de Sistemas mediante Web Services (SOAP y WCF)"},
 			{ "actividad": "Soporte de Aplicaciones existentes"},
 			{ "actividad": "Documentación MAAGTIC"}
@@ -115,44 +116,67 @@ var data = {
 		"id" : "04",
 		"puesto": "Desarrollador MVC .Net",
 		"logo": "img/unifin-logo.png",
-		"consultora": "Unifin",
+		"consultora": "Unifin Financiera",
 		"fechaInicio" : "Marzo 2014",
 		"fechaFin" : "Julio 2014",
 		"resumen": "Colabore en la migración de la migración de un Sistema Financiero de Escritorio en Visual Basic 6.0 y 2010 a Plataforma Web con Diseño Responsivo, en arquitectura MVC en lenguaje C# que incluía las tecnologías SQL Server 2008, en Framework ASP .NET 4.0, CSS3, JSON, Bootstrap, Ajax y JQuery. Con funciones como: Cálculos financieros, lectura de archivos, empaquetado de Crystal Reports y comunicación con Dynamics.",
 		"actividades": [
-			{ "actividad": "Desarrollo Web con ASP .NET" },
+			{ "actividad": "Migración VB .Net 6.0 a Web MVC C# Framework 4.0" },
 			{ "actividad": "Participación en Análisis e Implementación"},
-			{ "actividad": "Diseño Web"},
-			{ "actividad": "Integración de Sistemas mediante Web Services (SOAP y WCF)"},
-			{ "actividad": "Soporte de Aplicaciones existentes"},
-			{ "actividad": "Documentación MAAGTIC"}
+			{ "actividad": "Maquetado en Responsive Design (Bootstrap)"},
+			{ "actividad": "jQuery, JSON, Ajax y CSS3 "},
+			{ "actividad": "Crystal Reports"}
 			],
 		"conocimientos" : [
-			{ "conocimiento" : ".Net Framework 4.5", "color" : "purple", "numero":"95" },
+			{ "conocimiento" : ".Net Framework 4.0", "color" : "purple", "numero":"95" },
 			{ "conocimiento" : "Jquery", "color" : "red", "numero":"95" },
-			{ "conocimiento" : "WebAPI", "color" : "green", "numero":"95" }
+			{ "conocimiento" : "AJAX y Json", "color" : "red", "numero":"80" },
+			{ "conocimiento" : "Responsive Design", "color" : "green", "numero":"80" }
 		]
 		},
 		{
 		"id" : "05",
-		"puesto": "Desarrollador .Net",
-		"logo": "img/logo-unifin.png",
-		"consultora": "Unifin Financiera",
+		"puesto": "Desarrollador .Net Front End",
+		"logo": "img/consolid-logo.png",
+		"consultora": "Gonet - Consolid",
 		"fechaInicio" : "Marzo 2013",
 		"fechaFin" : "Enero 2014",
-		"resumen": "Programación en Lenguaje C# (Framework 4), PHP para plataforma Web, Maquetado de HTML5, MVC, Capas,	Web API, especializado en Front End y Responsive Design, Bases de Datos SQL Server 2014, 2012, 2008 R2, MySQL y Postres 9.4, administración de servidores Azure y CentOS.Implementación, Configuración y reparación de LCMS(Learning Content Management System) Moodle",
+		"resumen": "Diseño e implementación de Administrador de Usuarios, Seguridad, Motor de Búsqueda de Vuelos (Sabre, Navitaire, Volaris), Cambio de Diseño a Responsive Design (Bootstrap), Consumo de Web Services (SOAP, WCF), Arquitectura de 3 Capas, SQL Server 2012 con Entity Framework, CSS3, jQuery.",
 		"actividades": [
-			{ "actividad": "Desarrollo Web con ASP .NET" },
+			{ "actividad": "Diseño e Implementación de administrador de Usuarios" },
 			{ "actividad": "Participación en Análisis e Implementación"},
-			{ "actividad": "Diseño Web"},
-			{ "actividad": "Integración de Sistemas mediante Web Services (SOAP y WCF)"},
-			{ "actividad": "Soporte de Aplicaciones existentes"},
-			{ "actividad": "Documentación MAAGTIC"}
+			{ "actividad": "Implementación de Seguridad (Simple Membership)"},
+			{ "actividad": "Consumo de Webservices ( Sabre, Navitaire 3.0 y 4.0 )"},
+			{ "actividad": "Maquetado de Responsive Design Bootstrap"},
+			{ "actividad": "jQuery, JSON, Ajax y CSS3 "}
 			],
 		"conocimientos" : [
-			{ "conocimiento" : ".Net Framework 4.5", "color" : "purple", "numero":"95" },
-			{ "conocimiento" : "Jquery", "color" : "red", "numero":"95" },
-			{ "conocimiento" : "WebAPI", "color" : "green", "numero":"95" }
+			{ "conocimiento" : "Web Services", "color" : "purple", "numero":"95" },
+			{ "conocimiento" : "Seguridad", "color" : "red", "numero":"95" },
+			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
+		]
+		},
+				{
+		"id" : "06",
+		"puesto": "Full Stack Web Developer",
+		"logo": "img/x1mexico-logo.png",
+		"consultora": "X1 México",
+		"fechaInicio" : "Marzo 2013",
+		"fechaFin" : "Enero 2014",
+		"resumen": "Programación en Lenguaje C# (Framework 4), PHP para plataforma Web, Maquetado de HTML5, MVC, Capas, Web API, especializado en Front End y Responsive Design, Bases de Datos SQL Server 2014, 2012, 2008 R2, MySQL y Postres 9.4, administración de servidores Azure y CentOS. Implementación, Integración y Configuración de CMS (WordPress y Joomla), desarrollo de funcionalidad en sistema existente en AngularJS, Configuración y reparación de LCMS (Learning Content Management System) Moodle",
+		"actividades": [
+			{ "actividad": "Integración de Joomla con .NET" },
+			{ "actividad": "Implementación de CMS (Joomla, Wordpress) y LCMS (Moodle)"},
+			{ "actividad": "Consumo de WebAPI"},
+			{ "actividad": "Maquetado usando Bootstrap y MaterializeCSS"},
+			{ "actividad": "Manejo de servers: Azure y CenOs"},
+			{ "actividad": "jQuery, JSON, Ajax y CSS3 "}
+			],
+		"conocimientos" : [
+			{ "conocimiento" : "WebAPI", "color" : "purple", "numero":"80" },
+			{ "conocimiento" : "Configuración y puesta punto de CMS", "color" : "purple", "numero":"90" },
+			{ "conocimiento" : "Manejo de Servidores", "color" : "red", "numero":"80" },
+			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
 		]
 		}
 	
