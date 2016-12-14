@@ -24,7 +24,7 @@ function getReferences(){
 						'<div class="cargo"><span>' + cliente.cargo + '</span></div>' +
 					'</div>' +
 				'</div>' ;
-		console.log("cargo: "+ cliente.cargo + " nombre: "+ cliente.nombre + " testimonio: " + cliente.testimonio);
+		// console.log("cargo: "+ cliente.cargo + " nombre: "+ cliente.nombre + " testimonio: " + cliente.testimonio);
 	});
 	html += '</div>';
 	$('#testimonialsDiv').append(html);

@@ -24,6 +24,11 @@ h1{
 	font-size: large;
 }
 
+.skill .fa{
+	font-size:larger;
+	color:green;
+}
+
 .empleo{
 	font-weight:bolder;	
 }
@@ -32,6 +37,8 @@ h1{
 	background: rgba(0, 100, 130, 0.67);
 	border-radius: 25px;
 	height: auto;
+	margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .testimonial img{
@@ -98,8 +105,11 @@ h1{
 }
 
 .profile-bio {
-	width:100%;
+	width:95%;
 	padding-top:15px;
+	border-radius:55px;
+	margin-right: 25px;
+    
 }
 
 .img-consultora{
@@ -131,6 +141,12 @@ h1{
 .panel-title {
     font-size: 25px;
     color: inherit;
+}
+
+#btnBarDiv {
+	display:block; 
+	padding-top:35px;
+	padding-bottom:35px;
 }
 
 .parallax {
