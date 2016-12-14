@@ -10,15 +10,32 @@ $( document ).ready(function() {
 	TimeLine();
 	getSkills();
 	getProfiles();
+	getReferences();
 });
 
+function getReferences(){
+	var html ='<div class="row">';
+	$.each( data.clientes, function( i, cliente ) {
+		html += '<div class="col-sm-4 "> ' +
+					'<div class="col-md-12m testimonial"> ' +
+						'<img src="img/bio.jpg"><br>' +
+						'<div  class="quotes"><span>"' + cliente.testimonio + '"</span></div>' +
+						'<div  class="author"><span>' + cliente.nombre + '</span></div>' +
+						'<div class="cargo"><span>' + cliente.cargo + '</span></div>' +
+					'</div>' +
+				'</div>' ;
+		console.log("cargo: "+ cliente.cargo + " nombre: "+ cliente.nombre + " testimonio: " + cliente.testimonio);
+	});
+	html += '</div>';
+	$('#testimonialsDiv').append(html);
+}
 
 function getProfiles(){
 	var html = '<ul class="nav navbar-nav">';
 	$.each( data.perfiles, function( i, profile ) {
 		html += '<li><a href="' + profile.link + '" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-'+ profile.font +' fa-stack-1x"></i></span>'+ 
 							profile.perfil +'</a></li>';
-		console.log("link: "+ profile.link + " logo: "+ profile.logo + " perfil: " + profile.perfil);
+		// console.log("link: "+ profile.link + " logo: "+ profile.logo + " perfil: " + profile.perfil);
 	});
 		html += '</ul>';
 	$('#profilesDiv').append(html);
@@ -48,7 +65,7 @@ function getSkills(){
 			}
 			
 		}
-		console.log("nivel: "+ skill.nivel + " ramo: "+ skill.ramo + " utilerias: " + skill.utilerias);
+		// console.log("nivel: "+ skill.nivel + " ramo: "+ skill.ramo + " utilerias: " + skill.utilerias);
 	});
 	avanzadas += '</div>';	
 	medias += '</div>';	
@@ -101,7 +118,7 @@ function TimeLine(){
 	var total = monthDiff( InitDate, EndDate);
 	var freelance = false;
 	// console.log("Total meses : "+ total)
-	var html = '<div class="progress"> ';
+	var html = '<div class="progress"> '; var frelancehtml ="";
 	$.each( data.experiencia, function( i, exp ) {
 		var meses = monthDiff(ConvertStringToDate(exp.fechas[0].inicio),ConvertStringToDate(exp.fechas[0].fin));
 		// console.log('meses: ' + meses +' trabajos: ' + trabajos + ' total meses: ' + total);
@@ -114,15 +131,15 @@ function TimeLine(){
 					'</div> ' ;
 		}else{
 			freelance = true;
-		}
-	});
-	html += '</div>';
-	html += '<div class="progress">' +
+			frelancehtml += '<div class="progress">' +
 					'<div class="progress-bar progress-bar-success" role="progressbar" style="width: 100%;">  ' +
 						'<a data-toggle="collapse" href="#collapse0" style="color:white;">Freelance</a>' +
 					'</div> ' +
 				'</div>' ;
-	$('#timeline').append(html);
+		}
+	});
+	html += '</div>'; 
+	$('#timeline').append(frelancehtml  + html);
 }
 
 $.each( data.experiencia, function( i, val ) {

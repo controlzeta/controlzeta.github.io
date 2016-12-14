@@ -3,7 +3,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+ 
 body{
 	font-family: 'Lato', sans-serif ;
 }
@@ -29,28 +29,43 @@ h1{
 }
 
 .testimonial{
-	background:gray;
- 	
-	
+	background: rgba(0, 100, 130, 0.67);
 	border-radius: 25px;
+	height: auto;
 }
 
 .testimonial img{
 	width:80%;
 	text-align: center;
+	display:block; 
+	margin:auto;
+	padding-top:20px;
+	padding-left:18px;
+	padding-right:18px;
 }
 
 .quotes{
+	padding:18px;
 	font-size:larger;
 	font-weight: regular;
 	color:white;
+	display:block; 
+}
+
+.cargo {
+	padding-right:18px;
+	padding-bottom:15px;
+	font-size:small;
+	display:block; 
+	color:white;	
+	text-align: right;
 }
 
 .author {
-    float: right;
-	line-height:22px;
-	padding-bottom:12px;
+	padding-right:18px;
+    display:block; 
 	color:white;
+	text-align: right;
 }
 
 .navbar-nav>li {
@@ -118,7 +133,21 @@ h1{
     color: inherit;
 }
 
+.parallax {
+	padding-left:-100px;
+	width:350%;
+    /* The image used */
+    background-image: url("../img/img_parallax.jpg");
 
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 

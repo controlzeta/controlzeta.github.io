@@ -25,8 +25,8 @@ var data = {
 	],
 		"clientes" : [
 		{	"nombre" : "Octavio Rivas", "cargo":"Analist & QA Leader at X1 México", "testimonio" : "Gran líder de equipos de trabajos, excelente comunicador e innovador de nuevas ideas. Trabajas excelente en equipo, con mucho compromiso por sacar adelante todos los proyectos.", "imagen": ""	},
-		{	"nombre" : "Hugo Lugo Perez", "cargo":"Business Partner en Global Hitss", "testimonio" : "Francisco es una persona comprometida, profesional y proactivo, siempre dedicado y a la altura se los retos que se le presenten.", "imagen": ""	},
-		{	"nombre" : "Hiriam Eduardo Perez Vidal", "cargo":"Subdirector de Sistemas (INAI)", "testimonio" : "Francisco fue un gran colaborador a mi cargo para distintos proyectos de desarrollo de software, consultoría tecnológica e inteligencia de negocio.", "imagen": ""	}
+		{	"nombre" : "Hugo Lugo", "cargo":"Business Partner en Global Hitss", "testimonio" : "Francisco es una persona comprometida, profesional y proactivo, siempre dedicado y a la altura se los retos que se le presenten.", "imagen": ""	},
+		{	"nombre" : "Hiriam Eduardo Perez", "cargo":"Subdirector de Sistemas (INAI)", "testimonio" : "Francisco fue un gran colaborador a mi cargo para distintos proyectos de desarrollo de software, consultoría tecnológica e inteligencia de negocio.", "imagen": ""	}
 	],
 	"skills" : [
 		{ "ramo" : "Programación", "nivel" : "avanzado", "utilerias" : "C#, ASP, ASP.Net, Visual Basic, Html5" },
