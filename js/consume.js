@@ -11,7 +11,35 @@ $( document ).ready(function() {
 	getSkills();
 	getProfiles();
 	getReferences();
+	getCourses();
+	getCerts();
 });
+
+function getCerts(){
+	var html = '<div class="list-group">';
+	$.each( data.certificaciones, function( i, cert ) {
+		
+		html += '<a class="list-group-item" href="#"> ' +
+						'<i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>&nbsp; ' +
+						 cert.certificacion + ' </a>' ;
+		console.log("cert: " + cert.certificacion);
+	});
+	html += '</div>';
+	// $('#certsDiv').append(html);
+}
+
+function getCourses(){
+	var html = '<div class="list-group">';
+	$.each( data.cursos, function( i, curso ) {
+		
+		html += '<a class="list-group-item" href="#"> ' +
+						'<i class="' + curso.icon+ ' fa-fw" aria-hidden="true"></i>&nbsp; ' +
+						 curso.curso + ' </a>' ;
+		// console.log("cargo: " + curso.curso);
+	});
+	html += '</div>';
+	$('#cursosDiv').append(html);
+}
 
 function getReferences(){
 	var html ='<div class="row">';

@@ -16,12 +16,12 @@ var data = {
 		"certificacion" : "Scrum Fundamentals Certified (SFC)"
 	}],
 	"cursos" : [
-		{	"curso" : "Curso Cisco CCNA 3" 	},
-		{	"curso" : "Curso Cisco CCNA 2" 	},
-		{	"curso" : "Curso Cisco CCNA 1" 	},
-		{	"curso" : "Curso Flash CS3" 	},
-		{	"curso" : "Curso Dreamweaver CS3" 	},
-		{	"curso" : "Curso de Ensamble para Desktop PC's AMD e Intel" 	}
+		{	"curso" : "Curso Cisco CCNA 3", "icon" : "fa fa-wifi"	},
+		{	"curso" : "Curso Cisco CCNA 2", "icon" : "fa fa-wifi"	},
+		{	"curso" : "Curso Cisco CCNA 1", "icon" : "fa fa-wifi"	},
+		{	"curso" : "Curso Flash CS3", "icon" : "fa fa-code"	},
+		{	"curso" : "Curso Dreamweaver CS3",  "icon" : "fa fa-code"	},
+		{	"curso" : "Curso de Ensamble para Desktop PC's AMD e Intel",  "icon" : "fa fa-wrench"	},
 	],
 		"clientes" : [
 		{	"nombre" : "Octavio Rivas", "cargo":"Analist & QA Leader at X1 México", "testimonio" : "Gran líder de equipos de trabajos, excelente comunicador e innovador de nuevas ideas. Trabajas excelente en equipo, con mucho compromiso por sacar adelante todos los proyectos.", "imagen": ""	},
