@@ -13,12 +13,12 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 		<script src="js/data.js" ></script>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
+<!--         <style>
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
-        </style>
+        </style> -->
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700|Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
@@ -61,16 +61,18 @@
       <!-- Example row of columns -->
       <div class="row">
       	<div class="row" style="padding-top:25px; padding-bottom:15px;">
-      		<div class="col-md-4">
-      			<img src="img/bio.jpg" class="profile-bio">
-      		</div>
-      		<div class="col-md-8">
-      			<h1><span id="nombre"></span></h1>
-      			<h2><span id="titulo"></span></h2>
-      			<h3><span id="escuela"></span></h2>
-      			<h4>Empleo Actual: <span id="empleoActual" class="empleo"></span></h4>
-      			<h4>Empleo Anterior: <span id="empleoAnterior"  class="empleo"></span></h4>
-      		</div>
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<img src="img/bio.jpg" class="profile-bio">
+				</div>
+				<div class="col-md-8">
+					<h1><span id="nombre"></span></h1>
+					<h2><span id="titulo"></span></h2>
+					<h3><span id="escuela"></span></h2>
+					<h4>Empleo Actual: <span id="empleoActual" class="empleo"></span></h4>
+					<h4>Empleo Anterior: <span id="empleoAnterior"  class="empleo"></span></h4>
+				</div>
+			</div>
 			<div id="aboutMeDiv" class="col-md-12">
 					<h2>Acerca de mi:</h2>
 					<p><span id="aboutMe"></span></p>
@@ -201,21 +203,21 @@
 			});
 			
 			function toggleChart( id ){
-				$('#' + id).slideDown();
 				switch(id) {
 					case 'progChartDiv':
-						$('#dbChartDiv').hide();
-						$('#hobbyChartDiv').hide();
+						$('#dbChartDiv').slideUp();
+						$('#hobbyChartDiv').slideUp();
 						break;
 					case 'dbChartDiv':
-						$('#progChartDiv').hide();
-						$('#hobbyChartDiv').hide();
+						$('#progChartDiv').slideUp();
+						$('#hobbyChartDiv').slideUp();
 						break;
 					case 'hobbyChartDiv':
-						$('#dbChartDiv').hide();
-						$('#progChartDiv').hide();
+						$('#dbChartDiv').slideUp();
+						$('#progChartDiv').slideUp();
 						break;
 				}
+				$('#' + id).slideDown();
 			}
 			
 			var ctx1 = document.getElementById("progChart");
