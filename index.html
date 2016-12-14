@@ -23,6 +23,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:700|Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -182,7 +183,7 @@
 			});
 			
 			function toggleChart( id ){
-				$('#' + id).show();
+				$('#' + id).slideDown();
 				switch(id) {
 					case 'progChartDiv':
 						$('#dbChartDiv').hide();
@@ -202,8 +203,8 @@
 			var ctx1 = document.getElementById("progChart");
 			var ctx2 = document.getElementById("dbChart");
 			var ctx3 = document.getElementById("hobbyChart");
-			var ctx3 = document.getElementById("hobbyChart");
 
+			//Programming Doughnut Chart 
 			var progChart = new Chart(ctx1, {
 				type: 'doughnut',
 				gridLines: false,
@@ -211,23 +212,32 @@
 					animateScale:true
 				},
 				data: {
-					labels: [
+					labels: [    //C#, ASP, ASP.Net, PHP, Visual Basic, Html5
 						"C#",
+						"ASP.Net",
 						"PHP",
-						"CMS"
+						"Visual Basic",
+						"Html5",
+						"Javascript"
 					],
 					datasets: [
 						{
-							data: [300, 50, 100],
+							data: [29, 07, 15, 9, 16, 22],
 							backgroundColor: [
-								"#FF6384",
+								"#12669e",
 								"#36A2EB",
-								"#FFCE56"
+								"#eaa600",
+								"#FFCE56",
+								"#0ab50a",
+								"#ce1b1b"
 							],
 							hoverBackgroundColor: [
-								"#FF6384",
+								"#12669e",
 								"#36A2EB",
-								"#FFCE56"
+								"#eaa600",
+								"#FFCE56",
+								"#0ab50a",
+								"#ab1e1e"
 							]
 						}]
 				},
@@ -253,7 +263,8 @@
 				}
 			});
 			
-			var dbChart = new Chart(ctx3, {
+			// Hobby  chart
+			var hobbyChart = new Chart(ctx3, {
 				type: 'line',
 				gridLines: false,
 				animation:{
@@ -263,11 +274,12 @@
 					labels: [
 						"C#",
 						"PHP",
-						"CMS"
+						"CMS",
+						"Javascript"
 					],
 					datasets: [
 						{
-							data: [300, 50, 100],
+							data: [300, 50, 100, 50],
 							backgroundColor: [
 								"#FF6384",
 								"#36A2EB",
@@ -283,6 +295,10 @@
 				options: {
 					display: {
 						gridLines: false
+					},
+					title: {
+						display: true,
+						text: 'Radar Chart'
 					},
 					scales: {
 						yAxes: [{
@@ -302,32 +318,36 @@
 				}
 			});
 		     
-			var progChart = new Chart(ctx2, {
+			 //Database Chart
+			var dbChart = new Chart(ctx2, {
 				type: 'radar',
 				gridLines: false,
 				animation:{
 					animateScale:true
 				},
 				data: {
-					labels: [
-						"C#",
-						"PHP",
-						"CMS"
-					],
+					labels: ["SQL Server 2008", "SQL Server 2012", "SQL Server 2014",  "MySQL","PostgreSQL","Oracle"],
 					datasets: [
 						{
-							data: [300, 50, 100],
+							label: "Uso de Base de datos",
+							data: [220, 250,210, 190, 100,120],
 							backgroundColor: [
-								"#FF6384",
-								"#36A2EB",
-								"#FFCE56"
+								"rgba(255, 99, 132, .5)"
 							],
 							hoverBackgroundColor: [
-								"#FF6384",
-								"#36A2EB",
-								"#FFCE56"
+								"rgba(255, 99, 132, .9)"
 							]
-						}]
+						},{
+							label: "Uso de Base de datos 2",
+							data: [190, 100,120, 220, 250,210],
+							backgroundColor: [
+								"rgba(255, 222, 132, .5)"
+							],
+							hoverBackgroundColor: [
+								"rgba(255, 99, 132, .9)"
+							]
+						}
+						]
 				},
 				options: {
 					display: {
