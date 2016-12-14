@@ -188,10 +188,10 @@ var data = {
 	
 	],
 	"perfiles" : [
-		{"perfil": "Linkedin", "link" : "https://www.linkedin.com/in/francisco-arroyo-83351727", "logo" : "img/logo-linkedin.png" },
-		{"perfil": "Behance", "link" : "https://www.behance.net/pakoarroyo", "logo" : "img/logo-behance.png" },
-		{"perfil": "Github", "link" : "https://github.com/controlzeta/", "logo" : "img/logo-github.png" },
-		{"perfil": "Portafolio", "link" : "http://pakoarroyo.controlzeta.com.mx/portfolio.html", "logo" : "img/logo-portafolio.png" }
+		{"perfil": "Linkedin", "link" : "https://www.linkedin.com/in/francisco-arroyo-83351727", "logo" : "img/logo-linkedin.png", "font" : "linkedin" },
+		{"perfil": "Behance", "link" : "https://www.behance.net/pakoarroyo", "logo" : "img/logo-behance.png", "font" : "behance" },
+		{"perfil": "Github", "link" : "https://github.com/controlzeta/", "logo" : "img/logo-github.png", "font" : "github" },
+		{"perfil": "Portafolio", "link" : "http://pakoarroyo.controlzeta.com.mx/portfolio.html", "logo" : "img/logo-portafolio.png", "font" : "briefcase" }
 	],
 	"proyectos" : [
 		{
