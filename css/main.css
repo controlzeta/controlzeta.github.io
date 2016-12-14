@@ -24,6 +24,39 @@ h1{
 	font-size: large;
 }
 
+.empleo{
+	font-weight:bolder;	
+}
+
+.testimonial{
+	background:gray;
+ 	
+	
+	border-radius: 25px;
+}
+
+.testimonial img{
+	width:80%;
+	text-align: center;
+}
+
+.quotes{
+	font-size:larger;
+	font-weight: regular;
+	color:white;
+}
+
+.author {
+    float: right;
+	line-height:22px;
+	padding-bottom:12px;
+	color:white;
+}
+
+.navbar-nav>li {
+    font-size: smaller !important;
+}
+
 .progress-bar-purple {
     background-image: -webkit-linear-gradient(top,#a54fd9  0,#a54fd9  100%);
     background-image: -o-linear-gradient(top,#a54fd9  0,#a54fd9  100%);

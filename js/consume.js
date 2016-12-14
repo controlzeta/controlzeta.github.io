@@ -6,10 +6,12 @@ $( document ).ready(function() {
 	$('#empleoAnterior').text(data.empleoAnterior);
 	$('#titulo').text(data.titulo);
 	$("#escuela").text(data.escuela);
+	$("#aboutMe").text(data.aboutMe);
 	TimeLine();
 	getSkills();
 	getProfiles();
 });
+
 
 function getProfiles(){
 	var html = '<ul class="nav navbar-nav">';
@@ -24,22 +26,34 @@ function getProfiles(){
 
 function getSkills(){
 	var avanzadas = '<div class="col-md-6"><h3>Avanzadas</h3>'; 
-	var medias = '<div class="col-md-6"><h3>Medias</h3>'; var html = "";
+	var medias = '<div class="col-md-6"><h3>Medias</h3>'; 
+	var principiante = '<div class="col-md-6"><h3>Principiante</h3>'; 
+	var html = "";
 	$.each( data.skills, function( i, skill ) {
 		if(skill.nivel == "avanzado"){
 			avanzadas += '<div class="skill"> ' +
 									'<span class="skill-ramo"><i class="fa fa-check-circle-o" aria-hidden="true"></i> ' + skill.ramo + ' </span><br> [' + skill.utilerias +']' +
 								  '</div>';
 		}else{
+			if(skill.nivel == "medio"){
 			medias += '<div class="skill"> ' +
 									'<span class="skill-ramo"><i class="fa fa-check-circle-o" aria-hidden="true"></i> ' + skill.ramo + ' </span><br>  [' + skill.utilerias +']' +
 								  '</div>';
+			}
+			else{
+				principiante += '<div class="skill"> ' +
+						'<span class="skill-ramo"><i class="fa fa-check-circle-o" aria-hidden="true"></i> ' + skill.ramo + ' </span><br>  [' + skill.utilerias +']' +
+					  '</div>';
+				
+			}
+			
 		}
-		// console.log("nivel: "+ skill.nivel + " ramo: "+ skill.ramo + " utilerias: " + skill.utilerias);
+		console.log("nivel: "+ skill.nivel + " ramo: "+ skill.ramo + " utilerias: " + skill.utilerias);
 	});
 	avanzadas += '</div>';	
 	medias += '</div>';	
-	html = avanzadas + medias;
+	principiante += '</div>';	
+	html = avanzadas + medias + principiante;
 	$('#skillsDiv').append(html);
 }
 

@@ -5,7 +5,7 @@ var data = {
 	"titulo": "Lic. en Informática",
 	"escuela": "Instituto Tecnológico de Puebla",
 	"estadoCivil":"Soltero",
-	"empleoActual":"Front End Developer CHUBB",
+	"empleoActual":"MVC .Net Developer CHUBB",
 	"empleoAnterior":"Senior Front End Web Developer X1",
 	"aboutMe" : "Hola Soy Francisco Arroyo un desarrollador web Front End mexicano enfocado a C# por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular JS y VB realizando mejoras, migraciones y reparaciones de sistemas existentes. Puedo trabajar en modo freelance o por consultora.",
 	"idiomas" :[
@@ -23,16 +23,24 @@ var data = {
 		{	"curso" : "Curso Dreamweaver CS3" 	},
 		{	"curso" : "Curso de Ensamble para Desktop PC's AMD e Intel" 	}
 	],
+		"clientes" : [
+		{	"nombre" : "Octavio Rivas", "cargo":"Analist & QA Leader at X1 México", "testimonio" : "Gran líder de equipos de trabajos, excelente comunicador e innovador de nuevas ideas. Trabajas excelente en equipo, con mucho compromiso por sacar adelante todos los proyectos.", "imagen": ""	},
+		{	"nombre" : "Hugo Lugo Perez", "cargo":"Business Partner en Global Hitss", "testimonio" : "Francisco es una persona comprometida, profesional y proactivo, siempre dedicado y a la altura se los retos que se le presenten.", "imagen": ""	},
+		{	"nombre" : "Hiriam Eduardo Perez Vidal", "cargo":"Subdirector de Sistemas (INAI)", "testimonio" : "Francisco fue un gran colaborador a mi cargo para distintos proyectos de desarrollo de software, consultoría tecnológica e inteligencia de negocio.", "imagen": ""	}
+	],
 	"skills" : [
-		{ "ramo" : "Programación", "nivel" : "avanzado", "utilerias" : "C#, ASP, ASP.Net, PHP, Visual Basic, Html5" },
+		{ "ramo" : "Programación", "nivel" : "avanzado", "utilerias" : "C#, ASP, ASP.Net, Visual Basic, Html5" },
 		{ "ramo" : "Bases de Datos", "nivel" : "avanzado", "utilerias" : "SQL Server 2014, Postgres, MySQL, Oracle 11g" },
 		{ "ramo" : "IDE", "nivel" : "avanzado", "utilerias" : "Visual Studio 2012, Visual Studio 2013" },
+		{ "ramo" : "Programación", "nivel" : "medio", "utilerias" : "PHP" },
 		{ "ramo" : "Lenguajes de Modelado", "nivel" : "medio", "utilerias" : "UML" },
 		{ "ramo" : "Patrones de Diseño", "nivel" : "avanzado", "utilerias" : "MVC, MVP, N Tier" },
 		{ "ramo" : "Metodologías", "nivel" : "medio", "utilerias" : "SCRUM, MAAGTIC, CMMI" },
 		{ "ramo" : "CMS, LCMS y eCommerce", "nivel" : "avanzado", "utilerias" : "Wordpress, Joomla, Moodle, Magento" },
 		{ "ramo" : "Diseño Web", "nivel" : "avanzado", "utilerias" : "Bootstrap, Adobe Photoshop, Dreamweaver" },
-		{ "ramo" : "Social Media", "nivel" : "avanzado", "utilerias" : "Twitter, Facebook, Youtube" },
+		{ "ramo" : "Programación", "nivel" : "principiante", "utilerias" : "Xamarin, NodeJS, Python" },
+		{ "ramo" : "IDE", "nivel" : "principiante", "utilerias" : "Eclipse, NetBeans" },
+		{ "ramo" : "CMS", "nivel" : "principiante", "utilerias" : "Drupal" },
 		{ "ramo" : "SEO en Google", "nivel" : "avanzado", "utilerias" : "Analytics, Google My Business" }
 	],
 	"intereses" :[
