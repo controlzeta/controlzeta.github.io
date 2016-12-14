@@ -8,7 +8,6 @@ $( document ).ready(function() {
 	$("#escuela").text(data.escuela);
 	$("#aboutMe").text(data.aboutMe);
 	TimeLine();
-	getExperience();
 	getSkills();
 	getProfiles();
 	getReferences();
@@ -16,6 +15,9 @@ $( document ).ready(function() {
 	getCerts();
 	getLanguages();
 });
+
+	getExperience();
+
 
 function getLanguages(){
 	var html = '<div class="list-group">';
