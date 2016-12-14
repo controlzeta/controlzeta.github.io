@@ -20,6 +20,10 @@ h1{
     margin-bottom: 5px !important;
 }
 
+.skill-ramo{
+	font-size: large;
+}
+
 .progress-bar-purple {
     background-image: -webkit-linear-gradient(top,#a54fd9  0,#a54fd9  100%);
     background-image: -o-linear-gradient(top,#a54fd9  0,#a54fd9  100%);
@@ -61,7 +65,8 @@ h1{
 	
 }
 
-.skills {
+.skill {
+	padding-bottom:5px;
 	
 }
 
