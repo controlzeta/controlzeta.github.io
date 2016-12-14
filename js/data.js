@@ -10,7 +10,8 @@ var data = {
 	"aboutMe" : "Hola Soy Francisco Arroyo un desarrollador web Front End mexicano enfocado a C# por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular JS y VB realizando mejoras, migraciones y reparaciones de sistemas existentes. Puedo trabajar en modo freelance o por consultora.",
 	"idiomas" :[
 		{ "idioma" : "Español", "dominio" : "Nativo", "progreso" : 100	},
-		{ "idioma" : "Ingles", "dominio" : "Avanzado", "progreso" : 90	}
+		{ "idioma" : "Ingles", "dominio" : "Avanzado", "progreso" : 90	},
+		{ "idioma" : "Alemán", "dominio" : "Principiante", "progreso" : 10	},
 		],	
 	"certificaciones" : [{
 		"certificacion" : "Scrum Fundamentals Certified (SFC)"

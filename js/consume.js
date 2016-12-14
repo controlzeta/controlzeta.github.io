@@ -8,12 +8,27 @@ $( document ).ready(function() {
 	$("#escuela").text(data.escuela);
 	$("#aboutMe").text(data.aboutMe);
 	TimeLine();
+	getExperience();
 	getSkills();
 	getProfiles();
 	getReferences();
 	getCourses();
 	getCerts();
+	getLanguages();
 });
+
+function getLanguages(){
+	var html = '<div class="list-group">';
+	$.each( data.idiomas, function( i, idioma ) {
+		
+		html += '<a class="list-group-item" href="#"> ' +
+						'<i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>&nbsp; ' +
+	idioma.idioma + ' | Dominio: ' + idioma.dominio + ' ' + idioma.progreso  + ' %</a>' ;
+		// console.log("cert: " + cert.certificacion);
+	});
+	html += '</div>';
+	$('#idiomasDiv').append(html);
+}
 
 function getCerts(){
 	var html = '<div class="list-group">';
@@ -22,10 +37,10 @@ function getCerts(){
 		html += '<a class="list-group-item" href="#"> ' +
 						'<i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>&nbsp; ' +
 						 cert.certificacion + ' </a>' ;
-		console.log("cert: " + cert.certificacion);
+		// console.log("cert: " + cert.certificacion);
 	});
 	html += '</div>';
-	// $('#certsDiv').append(html);
+	$('#certsDiv').append(html);
 }
 
 function getCourses(){
@@ -170,6 +185,7 @@ function TimeLine(){
 	$('#timeline').append(frelancehtml  + html);
 }
 
+function getExperience(){
 $.each( data.experiencia, function( i, val ) {
   var actividades = '<ul class="list-group">';
   $.each( val.actividades, function( i, act ) {
@@ -234,6 +250,6 @@ $.each( data.experiencia, function( i, val ) {
 				'</div>' +
 			'</div>';
   $('#generateHTML').append(html);
-  // console.log(val);
-  
+    
 });
+}
