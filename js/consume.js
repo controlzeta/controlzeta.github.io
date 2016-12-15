@@ -78,7 +78,7 @@ function getReferences(){
 function getProfiles(){
 	var html = '<ul class="nav navbar-nav">';
 	$.each( data.perfiles, function( i, profile ) {
-		html += '<li><a href="' + profile.link + '" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-'+ profile.font +' fa-stack-1x"></i></span>'+ 
+		html += '<li><a href="' + profile.link + '" target="_blank" onclick="handleOutboundLinkClicks(' + profile.perfil + ')"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-'+ profile.font +' fa-stack-1x"></i></span>'+ 
 							profile.perfil +'</a></li>';
 		// console.log("link: "+ profile.link + " logo: "+ profile.logo + " perfil: " + profile.perfil);
 	});
