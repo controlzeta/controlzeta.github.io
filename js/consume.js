@@ -263,9 +263,9 @@ function getInterest(){
 	var pro = '<div class="col-md-6"><h3>Profesionales</h3>';
 	$.each( data.intereses, function( i, interes ) {
 		if(interes.tipo == "hobby"){
-			hobby += '<div data-type="' + interes.tipo + '">' + interes.nombre + '</div>';		
+			hobby += '<div data-type="' + interes.tipo + '"><i class="fa fa-gamepad" aria-hidden="true"></i> ' + interes.nombre + '</div>';		
 		}else{
-			pro += '<div data-type="' + interes.tipo + '">' + interes.nombre + '</div>';					
+			pro += '<div data-type="' + interes.tipo + '"><i class="fa fa-book" aria-hidden="true"></i> ' + interes.nombre + '</div>';					
 		}
 		console.log("nombre: " + interes.nombre + " tipo: " + interes.tipo);
 	});

@@ -216,7 +216,7 @@ font-size:18px;
 }
 
 .skills .jq {
-background:#97BE0D;
+background:#0d64be;
 }
 
 .skills .css {
@@ -224,15 +224,18 @@ background:#D84F5F;
 }
 
 .skills .html {
-background:#88B8E6;
+background:#2592c5;
 }
 
 .skills .php {
-background:#BEDBE9;
+background:#f0db4f;
 }
 
 .skills .sql {
-background:#EDEBEE;
+background:#611388;
+}
+.skills .tfs {
+background:#f78900;
 }
 
 .footer {
