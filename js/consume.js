@@ -14,6 +14,7 @@ $( document ).ready(function() {
 	getCourses();
 	getCerts();
 	getLanguages();
+	getInterest();
 });
 
 	getExperience();
@@ -254,4 +255,22 @@ $.each( data.experiencia, function( i, val ) {
   $('#generateHTML').append(html);
     
 });
+}
+
+function getInterest(){
+	var html = '<div class="row">';
+	var hobby = '<div class="col-md-6"><h3>Hobbies</h3>';
+	var pro = '<div class="col-md-6"><h3>Profesionales</h3>';
+	$.each( data.intereses, function( i, interes ) {
+		if(interes.tipo == "hobby"){
+			hobby += '<div data-type="' + interes.tipo + '">' + interes.nombre + '</div>';		
+		}else{
+			pro += '<div data-type="' + interes.tipo + '">' + interes.nombre + '</div>';					
+		}
+		console.log("nombre: " + interes.nombre + " tipo: " + interes.tipo);
+	});
+	hobby += '</div>';
+	pro += '</div>';
+	html += hobby + pro +'</div>';
+	$('#InterestDiv').append(html);	
 }
