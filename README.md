@@ -1,2 +1,7 @@
 # controlzeta.github.io
-Professional page
+Professional Bio page
+Using 
+<ul>
+  <li>Bootrap</li>
+  <li>Chart.js</li>
+</ul>
