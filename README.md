@@ -2,6 +2,6 @@
 Professional Bio page
 Using 
 <ul>
-  <li>Bootrap</li>
+  <li>Bootstrap</li>
   <li>Chart.js</li>
 </ul>
