@@ -15,11 +15,17 @@ $( document ).ready(function() {
 	getCerts();
 	getLanguages();
 	getInterest();
+	getChartText();
 });
 
 	getExperience();
 
-
+function getChartText(){
+	$('#programmingChoro').text(data.code);
+	$('#databaseChoro').text(data.database);
+	$('#hobbiesChoro').text(data.hobbies);
+}
+	
 function getLanguages(){
 	var html = '<div class="list-group">';
 	$.each( data.idiomas, function( i, idioma ) {
