@@ -264,9 +264,10 @@ text-align:center;
 
 
 #diagram {
-float:right;
-width:600px;
-height:600px;
+    float: right;
+    width: 600px;
+    height: 600px;
+    padding-left: 110px;
 }
 
 .get {
