@@ -51,6 +51,8 @@ var data = {
 		{	"tipo" : "profesional", "nombre" : "Web Apps"	},
 		{	"tipo" : "profesional", "nombre" : "HTML5"	},
 		{	"tipo" : "profesional", "nombre" : "Agile"	},
+		{	"tipo" : "profesional", "nombre" : "Social Engineering"	},
+		{	"tipo" : "profesional", "nombre" : "OWASP"	},
 		{	"tipo" : "profesional", "nombre" : "Bots"	},
 		{	"tipo" : "hobby", "nombre" : "Fotografía"	},
 		{	"tipo" : "hobby", "nombre" : "Tecnología"	},
