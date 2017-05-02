@@ -169,14 +169,14 @@ function TimeLine(){
 	var EndDate = ConvertStringToDate(data.experiencia[trabajos-1].fechas[0].fin);
 	var total = monthDiff( InitDate, EndDate);
 	var freelance = false;
-	 console.log("Total meses : "+ total)
+	 // console.log("Total meses : "+ total)
 	var html = '<div class="progress"> '; var frelancehtml ="";
 	$.each( data.experiencia, function( i, exp ) {
 		var meses = monthDiff(ConvertStringToDate(exp.fechas[0].inicio),ConvertStringToDate(exp.fechas[0].fin));
-		console.log('meses: ' + meses +' trabajos: ' + trabajos + ' total meses: ' + total);
-		console.log(exp.fechas[0].inicio + " - " + exp.fechas[0].fin);
+		// console.log('meses: ' + meses +' trabajos: ' + trabajos + ' total meses: ' + total);
+		// console.log(exp.fechas[0].inicio + " - " + exp.fechas[0].fin);
 		var porcentaje = ((parseFloat(meses) /parseFloat(total))*100); 
-		console.log('porcentaje :' + porcentaje);
+		// console.log('porcentaje :' + porcentaje);
 		if(exp.consultora != 'Freelance'){
 		if(meses != total){
 		html += '<div class="progress-bar progress-bar-' + getColor(i) +'" role="progressbar" style="width: ' +Math.floor(porcentaje) + '%;"> ' +
@@ -196,7 +196,7 @@ function TimeLine(){
 		}
 	});
 	html += '</div>'; 
-	console.log(html);
+	// console.log(html);
 	$('#timeline').append( frelancehtml + '</br>' + html);
 }
 
@@ -279,7 +279,7 @@ function getInterest(){
 		}else{
 			pro += '<div data-type="' + interes.tipo + '"><i class="fa fa-book" aria-hidden="true"></i> ' + interes.nombre + '</div>';					
 		}
-		console.log("nombre: " + interes.nombre + " tipo: " + interes.tipo);
+		// console.log("nombre: " + interes.nombre + " tipo: " + interes.tipo);
 	});
 	hobby += '</div>';
 	pro += '</div>';
