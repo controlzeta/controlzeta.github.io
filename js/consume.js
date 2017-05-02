@@ -70,7 +70,7 @@ function getReferences(){
 	$.each( data.clientes, function( i, cliente ) {
 		html += '<div class="col-sm-4 "> ' +
 					'<div class="col-md-12m testimonial"> ' +
-						'<img src="img/bio.jpg"><br>' +
+						'<img src="' + cliente.imagen + '"><br>' +
 						'<div  class="quotes"><span>"' + cliente.testimonio + '"</span></div>' +
 						'<div  class="author"><span>' + cliente.nombre + '</span></div>' +
 						'<div class="cargo"><span>' + cliente.cargo + '</span></div>' +

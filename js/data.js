@@ -6,7 +6,7 @@ var data = {
 	"escuela": "Instituto Tecnológico de Puebla",
 	"estadoCivil":"Soltero",
 	"empleoActual":"MVC .Net Developer CHUBB",
-	"empleoAnterior":"Senior Front End Web Developer X1",
+	"empleoAnterior":"Full Stack Web Developer X1",
 	"aboutMe" : "Hola Soy Francisco Arroyo un desarrollador web Front End mexicano enfocado a C# por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular JS y VB realizando mejoras, migraciones y reparaciones de sistemas existentes. Puedo trabajar en modo freelance o por consultora.",
 	"database" : "Todo desarrollo dinámico necesita una base de datos para funcionar, mi experiencia en este ambito consiste en creación de bases de datos, scripts, restauraciones, store procedures, optimización de consultas y administración de backups.",
 	"code" : "Mi core de programación es C# con SQL Server, sí lo sé soy un chico Microsoft, pero también me interesan lenguajes de código abierto, algunos de los lenguajes que manejo y me encuentro en proceso de adopción son: Javascript, PHP, NodeJS y Python.",
@@ -28,14 +28,14 @@ var data = {
 		{	"curso" : "Curso de Ensamble para Desktop PC's AMD e Intel",  "icon" : "fa fa-wrench"	},
 	],
 		"clientes" : [
-		{	"nombre" : "Octavio Rivas", "cargo":"Analist & QA Leader at X1 México", "testimonio" : "Gran líder de equipos de trabajos, excelente comunicador e innovador de nuevas ideas. Trabajas excelente en equipo, con mucho compromiso por sacar adelante todos los proyectos.", "imagen": ""	},
-		{	"nombre" : "Hugo Lugo", "cargo":"Business Partner en Global Hitss", "testimonio" : "Francisco es una persona comprometida, profesional y proactivo, siempre dedicado y a la altura se los retos que se le presenten.", "imagen": ""	},
-		{	"nombre" : "Hiriam Eduardo Perez", "cargo":"Subdirector de Sistemas (INAI)", "testimonio" : "Francisco fue un gran colaborador a mi cargo para distintos proyectos de desarrollo de software, consultoría tecnológica e inteligencia de negocio.", "imagen": ""	}
+		{	"nombre" : "Octavio Rivas", "cargo":"Analist & QA Leader at X1 México", "testimonio" : "Gran líder de equipos de trabajo, excelente comunicador e innovador. Trabaja excelente en equipo, con mucho compromiso por sacar adelante todos los proyectos.", "imagen": "img/x1mexico-logo.png"	},
+		{	"nombre" : "Hugo Lugo", "cargo":"Business Partner en Global Hitss", "testimonio" : "Francisco es una persona comprometida, profesional y proactivo, siempre dedicado y a la altura se los retos que se le presenten.", "imagen": "img/consolid-logo.png"	},
+		{	"nombre" : "Hiriam Eduardo Perez", "cargo":"Subdirector de Sistemas (INAI)", "testimonio" : "Francisco fue un gran colaborador a mi cargo para distintos proyectos de desarrollo de software, consultoría tecnológica e inteligencia de negocio.", "imagen": "img/inai-logo.jpg"	}
 	],
 	"skills" : [
 		{ "ramo" : "Programación", "nivel" : "avanzado", "utilerias" : "C#, ASP, ASP.Net, Visual Basic, Html5" },
 		{ "ramo" : "Bases de Datos", "nivel" : "avanzado", "utilerias" : "SQL Server 2014, Postgres, MySQL, Oracle 11g" },
-		{ "ramo" : "IDE", "nivel" : "avanzado", "utilerias" : "Visual Studio 2012, Visual Studio 2013" },
+		{ "ramo" : "IDE", "nivel" : "avanzado", "utilerias" : "Visual Studio 2012, Visual Studio 2013, Visual Studio 2015" },
 		{ "ramo" : "Programación", "nivel" : "medio", "utilerias" : "PHP" },
 		{ "ramo" : "Lenguajes de Modelado", "nivel" : "medio", "utilerias" : "UML" },
 		{ "ramo" : "Patrones de Diseño", "nivel" : "avanzado", "utilerias" : "MVC, MVP, N Tier" },
@@ -59,7 +59,7 @@ var data = {
 	"experiencia": [{
 		"id" : "01",
 		"puesto": "Diseño Web y Webmaster",
-		"logo": "img/logo-consultora.jpg",
+		"logo": "img/logo-controlzeta.jpg",
 		"consultora": "Freelance",
 		"fechaInicio" : "Junio 2011",
 		"fechaFin" : "Actualidad",
