@@ -199,7 +199,6 @@ var data = {
 			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
 		]
 		},
-		,
 		{
 		"id" : "07",
 		"puesto": "Full Stack Web Developer",
