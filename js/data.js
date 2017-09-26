@@ -202,8 +202,8 @@ var data = {
 		{
 		"id" : "07",
 		"puesto": "Full Stack Web Developer",
-		"logo": "img/x1mexico-logo.png",
-		"consultora": "Gonet",
+		"logo": "img/logo-chubb.png",
+		"consultora": "Gonet - CHUBB",
 		"fechaInicio" : "Diciembre 2016",
 		"fechaFin" : "Actualmente",
 		"fechas" : [{ "inicio": "15/12/2016", "fin": "29/09/2017" }],
