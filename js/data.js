@@ -175,7 +175,7 @@ var data = {
 			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
 		]
 		},
-				{
+		{
 		"id" : "06",
 		"puesto": "Full Stack Web Developer",
 		"logo": "img/x1mexico-logo.png",
@@ -189,13 +189,39 @@ var data = {
 			{ "actividad": "Implementación de CMS (Joomla, Wordpress) y LCMS (Moodle)"},
 			{ "actividad": "Consumo de WebAPI"},
 			{ "actividad": "Maquetado usando Bootstrap y MaterializeCSS"},
-			{ "actividad": "Manejo de servers: Azure y CenOs"},
+			{ "actividad": "Manejo de servers: Azure y CentOs"},
 			{ "actividad": "jQuery, JSON, Ajax y CSS3 "}
 			],
 		"conocimientos" : [
 			{ "conocimiento" : "WebAPI", "color" : "purple", "numero":"80" },
 			{ "conocimiento" : "Configuración y puesta punto de CMS", "color" : "purple", "numero":"90" },
 			{ "conocimiento" : "Manejo de Servidores", "color" : "red", "numero":"80" },
+			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
+		]
+		},
+		,
+		{
+		"id" : "07",
+		"puesto": "Full Stack Web Developer",
+		"logo": "img/x1mexico-logo.png",
+		"consultora": "Gonet",
+		"fechaInicio" : "Diciembre 2016",
+		"fechaFin" : "Actualmente",
+		"fechas" : [{ "inicio": "15/12/2016", "fin": "29/09/2017" }],
+		"resumen": "Mantenimiento de Sistemas Financieros y Creación de nuevos módulos, Repositorio de Documentos, tecnologías C# Framework 4 - 4.5 MVC, Angular JS, ASPX, Oracle (Store Procedures), SQL Server 2014, Llamadas Ajax, Jquery, CSS 3.0, Internacionalización.",
+		"actividades": [
+			{ "actividad": "Cración de modulos nuevos" },
+			{ "actividad": "Repositorio de Documentos"},
+			{ "actividad": "Reparación y Mantenimiento de Core Financiero"},
+			{ "actividad": "Consumo de Web Services SOAP, WCF y REST"},
+			{ "actividad": "Creación y Uso de Funciones y Store Procedures SQL Server y Oracle"},
+			{ "actividad": "Manejo de versionamiento TFS"},
+			{ "actividad": "Kendo, Angular JS,jQuery, JSON, Ajax y CSS3 "}
+			],
+		"conocimientos" : [
+			{ "conocimiento" : "Web Services", "color" : "purple", "numero":"80" },
+			{ "conocimiento" : "Mantenimiento", "color" : "purple", "numero":"90" },
+			{ "conocimiento" : "Versionamiento", "color" : "red", "numero":"80" },
 			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
 		]
 		}
