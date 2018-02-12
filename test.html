@@ -102,9 +102,22 @@
       <!-- Example row of columns -->
       <div class="row">
       	<div class="row" style="padding-top:25px; padding-bottom:15px;">
-			<div class="col-md-12">
-				
+			<div class="col-md-12 text-center">
+				<h2>Quiz</h2>
 			</div>
+      	</div>
+      	<div class="col-md-12" id="divQuestions">
+      		<!-- <div class="question-div">
+	      		<div class="col-md-1 number">
+	      			1.-
+	      		</div>
+	      		<div class="col-md-11">
+	      			<div class="">Pregunta preguntadora</div>
+	      			<div class="answer">a) Answer</div>
+		      		<div class="answer">b) Answer</div>
+		      		<div class="answer">c) Answer</div>      	
+	      		</div>
+      		</div>	 -->
       	</div>
       	<div id="timeline">
       	</div>
@@ -138,20 +151,10 @@
         <script>
 			$( document ).ready(function() {
 				console.log( "ready!" );
-				var today = new Date();
-				$('#spanYear').text(today.getFullYear());
-
-				//Initialize progress bars
-				$.each( $(".progress-bar"), function( key, value ) {
-					$(value).animate({
-						width: $(value).attr('aria-valuenow') + "%"
-					}, 2500);
-			});
-				
 			});
 				
         </script>
-        <script src="js/consume.js"></script>
+        <script src="js/test-consume.js"></script>
 		<script type="application/ld+json">
 			{ "@context" : "http://schema.org",
 			"@type" : "Organization",
