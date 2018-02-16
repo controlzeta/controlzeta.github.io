@@ -14,7 +14,7 @@ function getQuestions(){
 					'<div class="question"> ' + question.question + ' </div> ' ;
 					if(question.answers){
 					$.each( question.answers, function( i, answer ) {
-							html += '<div class="answer"> ' + answer.answer + ' </div> ' ;
+							html += '<div class="answer" > ' + i++ + ".- " +answer.answer + ' </div> ' ;
 						});
 					}
 		 	html += '</div> ' ;
