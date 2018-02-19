@@ -32,37 +32,10 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 		<script src="js/test-data.js" ></script>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-			
-			.number{
-			
-			}
-			
-			.question{
-				font-weight:bold;
-				padding-bottom: 12px;
-			}
-			
-			.answer{
-				padding-bottom: 20px;
-				cursor:pointer;
-			}
-			
-			.answer:hover{
-				font-size:16px;
-			}
-			
-			.question-div{
-				padding-bottom: 15px;
-			}
-        </style> 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700|Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/test.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<script>
@@ -126,6 +99,14 @@
       	<div class="row" style="padding-top:25px; padding-bottom:15px;">
 			<div class="col-md-12 text-center">
 				<h2>Quiz</h2>
+			</div>
+			<div class="row">
+				<div class="col-xs-6"></div>
+				<div class="col-xs-6 pull-right" style="text-align: right;">
+					<div style="padding: 30px;" >
+						<span id="spAnswered">0</span> de <span id="spTotal">0</span>
+					</div>
+				</div>
 			</div>
       	</div>
       	<div class="col-md-12" id="divQuestions">
