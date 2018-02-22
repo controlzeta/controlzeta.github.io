@@ -73,20 +73,38 @@ var data = {
 			}
 			]
 		},
-		{ "question" : "How would you explain Encapsulation?", 
+		{ "question" : "What is AJAX?", 
 		  "id" : 5,
 		  "Subject" : "OOP",
 		"answers" : [
 			{
-				"answer" : "A language mechanism for restricting direct access to some of the object's components",
+				"answer" : "Asynchronous JavaScript And XML",
 				"realAnswer" : true
 			},
 			{
-				"answer" : "A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data",
+				"answer" : "A browser built-in XMLHttpRequest object (to request data from a web server)",
 				"realAnswer" : false
 			},
 			{
-				"answer" : "The features of encapsulation are supported using classes in most object-oriented programming languages, although other alternatives also exist.",
+				"answer" : "AJAX is a programming language",
+				"realAnswer" : false
+			}
+			]
+		},
+		{ "question" : "What is CSS?", 
+		  "id" : 6,
+		  "Subject" : "Front-End",
+		"answers" : [
+			{
+				"answer" : "CSS stands for Cascading Style Sheets",
+				"realAnswer" : true
+			},
+			{
+				"answer" : "CSS describes how HTML elements are to be displayed on screen, paper, or in other media",
+				"realAnswer" : false
+			},
+			{
+				"answer" : "CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.",
 				"realAnswer" : false
 			}
 			]
