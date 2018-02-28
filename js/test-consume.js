@@ -1,5 +1,5 @@
 var questionsAnswered = 0;
-
+var answersArray = []; 
 $( document ).ready(function() {
 	console.log( "consume!" );
 	getQuestions();

@@ -108,6 +108,42 @@ var data = {
 				"realAnswer" : false
 			}
 			]
+		},
+		{ "question" : "What are Directives?", 
+		  "id" : 7,
+		  "Subject" : "Angular JS",
+		"answers" : [
+			{
+				"answer" : "Directives is the way to import a funcionality to a AngularJS app",
+				"realAnswer" : false 
+			},
+			{
+				"answer" : "Directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children",
+				"realAnswer" : true
+			},
+			{
+				"answer" : "Directives are a design pattern that is used to separate modification or decoration of a class without modifying the original source code. In AngularJS",
+				"realAnswer" : false
+			}
+			]
+		},
+		{ "question" : "What is Two Way Data Binding ?", 
+		  "id" : 8,
+		  "Subject" : "Angular JS",
+		"answers" : [
+			{
+				"answer" : "Any changes that the user makes to the view are not reflected in the model",
+				"realAnswer" : false 
+			},
+			{
+				"answer" : "The model is the single-source-of-truth for the application state",
+				"realAnswer" : false
+			},
+			{
+				"answer" : "Any changes to the view are immediately reflected in the model, and any changes in the model are propagated to the view.",
+				"realAnswer" : true
+			}
+			]
 		}
 	]
 };
