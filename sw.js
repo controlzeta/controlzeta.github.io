@@ -27,10 +27,10 @@ self.addEventListener('install', e => {
       return cache.addAll([
         `/`,
         `/index.html?timestamp=${timeStamp}`,
-        `/styles/main.css?timestamp=${timeStamp}`,
-        `/scripts/main.min.js?timestamp=${timeStamp}`,
-        `/scripts/comlink.global.js?timestamp=${timeStamp}`,
-        `/scripts/messagechanneladapter.global.js?timestamp=${timeStamp}`,
+        `/css/main-app.css?timestamp=${timeStamp}`,
+        `/js/main.min.js?timestamp=${timeStamp}`,
+        `/js/comlink.global.js?timestamp=${timeStamp}`,
+        `/js/messagechanneladapter.global.js?timestamp=${timeStamp}`,
         `/sounds/airhorn.mp3?timestamp=${timeStamp}`
       ])
       .then(() => self.skipWaiting());
