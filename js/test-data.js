@@ -1,5 +1,7 @@
 
 var data = {
+	"quizname" : "Object Oriented Programming Test",
+	"instructions" : "Select the right option for every question",
 	"questions" :[
 		{ "question" : "How would you explain OOP?", 
 		  "id" : 1,
@@ -11,6 +13,10 @@ var data = {
 			},
 			{
 				"answer" : "Variables that can store information formatted in a small number of built-in data types like integers and alphanumeric characters.",
+				"realAnswer" : false
+			},
+			{
+				"answer" : "The great OOP means: Oriented objects for Programming languages.",
 				"realAnswer" : false
 			},
 			{

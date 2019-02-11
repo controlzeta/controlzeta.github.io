@@ -7,6 +7,8 @@ $( document ).ready(function() {
 	
 function getQuestions(){
 	var questionNumber = 0;
+	$("#spTestName").text(data.quizname);
+	$("#spInstructions").text(data.instructions);
 	$("#spTotal").text(data.questions.length);
 	var html = '<div class="col-md-12"> ' ;
 		$.each( data.questions, function( i, question ) {
@@ -39,6 +41,14 @@ $(document).on('click', '.answer', function (e) {
 	questionsAnswered = $(".answered").length;
 	$("#spAnswered").text(questionsAnswered);
 });
+
+function gradeAnswers(){
+	if($(".question-div").length > $(".answered").length){
+		alert("You need to answer all the questions");		
+	}
+	$.each( data.questions, function( i, question ) {
+	}); 
+}
 
 
 //on this div question-div
