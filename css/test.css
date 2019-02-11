@@ -20,11 +20,16 @@ body {
 }
 
 .answer:hover{
-	font-size:16px;
+	//font-size:16px;
+	font-weight: bold;
 }
 
 .question-div{
-	padding-bottom: 15px;
+	padding: 15px;
+    border: solid 1px;
+    color: black;
+    border-radius: 27px;
+    margin: 14px 0px;
 }
 
 .answered{
@@ -32,4 +37,8 @@ body {
 	font-weight: bold;	
 	font-size: 18px;
 	background-color: rgba(105, 148, 226, 0.5);
+}
+
+.answered:hover{
+	font-weight: bold;	
 }

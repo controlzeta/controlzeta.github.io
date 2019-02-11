@@ -10,7 +10,7 @@ function getQuestions(){
 	$("#spTotal").text(data.questions.length);
 	var html = '<div class="col-md-12"> ' ;
 		$.each( data.questions, function( i, question ) {
-				html +='<div class="question-div" id="question-' + i + '" >' +
+				html +='<div class="question-div row" id="question-' + i + '" >' +
 					'<div class="col-md-1 number"> ' +(i+1) + '.- </div> ' + 
 					'<div class="col-md-11">' +
 					'<div class="question"  data-subject="' + question.Subject + '" > ' + question.question + ' </div> ' ;
