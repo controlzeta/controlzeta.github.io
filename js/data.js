@@ -7,7 +7,7 @@ var data = {
 	"estadoCivil":"Soltero",
 	"empleoActual":"MVC .Net Developer CHUBB",
 	"empleoAnterior":"Full Stack Web Developer X1",
-	"aboutMe" : "Hola Soy Francisco Arroyo un desarrollador web Front End mexicano enfocado a C# por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular JS y VB realizando mejoras, migraciones y reparaciones de sistemas existentes. Puedo trabajar en modo freelance o por consultora.",
+	"aboutMe" : "Hola Soy Francisco Arroyo un desarrollador web Full Stack mexicano enfocado a C# por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular JS y VB realizando mejoras, migraciones y reparaciones de sistemas existentes. Puedo trabajar en modo freelance o por consultora.",
 	"database" : "Todo desarrollo dinámico necesita una base de datos para funcionar, mi experiencia en este ambito consiste en creación de bases de datos, scripts, restauraciones, store procedures, optimización de consultas y administración de backups.",
 	"code" : "Mi core de programación es C# con SQL Server, sí lo sé soy un chico Microsoft, pero también me interesan lenguajes de código abierto, algunos de los lenguajes que manejo y me encuentro en proceso de adopción son: Javascript, PHP, NodeJS y Python.",
 	"hobbies" : ".",
@@ -207,7 +207,7 @@ var data = {
 		"fechaInicio" : "Diciembre 2016",
 		"fechaFin" : "Actualmente",
 		"fechas" : [{ "inicio": "15/12/2016", "fin": "29/09/2017" }],
-		"resumen": "Mantenimiento de Sistemas Financieros y Creación de nuevos módulos, Repositorio de Documentos, tecnologías C# Framework 4 - 4.5 MVC, Angular JS, ASPX, Oracle (Store Procedures), SQL Server 2014, Llamadas Ajax, Jquery, CSS 3.0, Internacionalización.",
+		"resumen": "Mantenimiento de Sistemas Financieros y Creación de nuevos módulos, Repositorio de Documentos, Implementación de Wiki para soportar documentación y lecciones aprendidas, tecnologías C# Framework 4 - 4.5 MVC, Angular JS, ASPX, Oracle (Store Procedures), SQL Server 2014, Ajax, Bootstrap, Jquery, CSS 3.0, Internacionalización.",
 		"actividades": [
 			{ "actividad": "Cración de modulos nuevos" },
 			{ "actividad": "Repositorio de Documentos"},
@@ -215,10 +215,11 @@ var data = {
 			{ "actividad": "Consumo de Web Services SOAP, WCF y REST"},
 			{ "actividad": "Creación y Uso de Funciones y Store Procedures SQL Server y Oracle"},
 			{ "actividad": "Manejo de versionamiento TFS"},
+			{ "actividad": "Creación de Reportes Dinámicos con ChartJS, Typeahead y Web API"},
 			{ "actividad": "Kendo, Angular JS,jQuery, JSON, Ajax y CSS3 "}
 			],
 		"conocimientos" : [
-			{ "conocimiento" : "Web Services", "color" : "purple", "numero":"80" },
+			{ "conocimiento" : "Web Services y Web API", "color" : "purple", "numero":"80" },
 			{ "conocimiento" : "Mantenimiento", "color" : "purple", "numero":"90" },
 			{ "conocimiento" : "Versionamiento", "color" : "red", "numero":"80" },
 			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
