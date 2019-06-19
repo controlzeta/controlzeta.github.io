@@ -5,7 +5,7 @@ var data = {
 	"titulo": "Lic. en Informática",
 	"escuela": "Instituto Tecnológico de Puebla",
 	"estadoCivil":"Soltero",
-	"empleoActual":"MVC .Net Developer CHUBB",
+	"empleoActual":"Full Stack .Net Developer CHUBB",
 	"empleoAnterior":"Full Stack Web Developer X1",
 	"aboutMe" : "Hola Soy Francisco Arroyo un desarrollador web Full Stack mexicano enfocado a C# por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular JS y VB realizando mejoras, migraciones y reparaciones de sistemas existentes. Puedo trabajar en modo freelance o por consultora.",
 	"database" : "Todo desarrollo dinámico necesita una base de datos para funcionar, mi experiencia en este ambito consiste en creación de bases de datos, scripts, restauraciones, store procedures, optimización de consultas y administración de backups.",
@@ -201,7 +201,7 @@ var data = {
 		},
 		{
 		"id" : "07",
-		"puesto": "Full Stack Web Developer",
+		"puesto": "Full Stack .Net Web Developer",
 		"logo": "img/logo-chubb.png",
 		"consultora": "Gonet - CHUBB",
 		"fechaInicio" : "Diciembre 2016",
