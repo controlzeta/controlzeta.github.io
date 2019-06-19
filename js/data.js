@@ -1,6 +1,6 @@
 
 var data = {
-	"nombre": "Francisco Arroyo Ortega",
+	"nombre": "Francisco Arroyo",
 	"fecNac": "02/06/1987",
 	"titulo": "Lic. en Informática",
 	"escuela": "Instituto Tecnológico de Puebla",
