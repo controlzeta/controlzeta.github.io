@@ -30,7 +30,8 @@ var data = {
 		"clientes" : [
 		{	"nombre" : "Octavio Rivas", "cargo":"Analist & QA Leader at X1 México", "testimonio" : "Gran líder de equipos de trabajo, excelente comunicador e innovador. Trabaja excelente en equipo, con mucho compromiso por sacar adelante todos los proyectos.", "imagen": "img/x1mexico-logo.png"	},
 		{	"nombre" : "Hugo Lugo", "cargo":"Business Partner en Global Hitss", "testimonio" : "Francisco es una persona comprometida, profesional y proactivo, siempre dedicado y a la altura se los retos que se le presenten.", "imagen": "img/consolid-logo.png"	},
-		{	"nombre" : "Hiriam Eduardo Perez", "cargo":"Subdirector de Sistemas (INAI)", "testimonio" : "Francisco fue un gran colaborador a mi cargo para distintos proyectos de desarrollo de software, consultoría tecnológica e inteligencia de negocio.", "imagen": "img/inai-logo.jpg"	}
+		{	"nombre" : "Hiriam Eduardo Perez", "cargo":"Subdirector de Sistemas (INAI)", "testimonio" : "Francisco fue un gran colaborador a mi cargo para distintos proyectos de desarrollo de software, consultoría tecnológica e inteligencia de negocio.", "imagen": "img/inai-logo.jpg"	},
+		{	"nombre" : "Salvador Alvarado Tabuyo", "cargo":"IT Manager", "testimonio" : "Un excelente elemento y con una capacidad sobre el promedio.", "imagen": "img/logo-chubb-2.png"	}
 	],
 	"skills" : [
 		{ "ramo" : "Programación", "nivel" : "avanzado", "utilerias" : "C#, ASP, ASP.Net, Visual Basic, Html5" },
