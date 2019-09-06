@@ -129,25 +129,23 @@
 	<script src="js/swiper.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75947233-1"></script>
 	<script>
-		(function (b, o, i, l, e, r) {
-			b.GoogleAnalyticsObject = l; b[l] || (b[l] =
-				function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
-			e = o.createElement(i); r = o.getElementsByTagName(i)[0];
-			e.src = 'https://www.google-analytics.com/analytics.js';
-			r.parentNode.insertBefore(e, r)
-		}(window, document, 'script', 'ga'));
-		ga('create', 'UA-75947233-1', 'https://controlzeta.github.io');
-		ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-75947233-1');
 
 		function handleOutboundLinkClicks(event) {
-			ga(function (tracker) {
+			gtag(function (tracker) {
 				tracker.send('event', 'Outbound Link', 'click', event);
 			});
 		}
 
 		function handleButtonClick(event) {
-			ga(function (tracker) {
+			gtag(function (tracker) {
 				tracker.send('event', 'Button', 'click', event);
 			});
 		}
