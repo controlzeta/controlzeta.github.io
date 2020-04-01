@@ -20,6 +20,9 @@ var data = {
 		"certificacion" : "Scrum Fundamentals Certified (SFC)"
 	}],
 	"cursos" : [
+		{	"curso" : "Diseño de Interfaces", "icon" : "fa fa-code"	},
+		{	"curso" : "Usabilidad", "icon" : "fa fa-code"	},
+		{	"curso" : "Inglés Técnico para Profesionales", "icon" : "fa fa-user"	},
 		{	"curso" : "Curso Cisco CCNA 3", "icon" : "fa fa-wifi"	},
 		{	"curso" : "Curso Cisco CCNA 2", "icon" : "fa fa-wifi"	},
 		{	"curso" : "Curso Cisco CCNA 1", "icon" : "fa fa-wifi"	},
@@ -43,7 +46,7 @@ var data = {
 		{ "ramo" : "Metodologías", "nivel" : "medio", "utilerias" : "SCRUM, MAAGTIC, CMMI" },
 		{ "ramo" : "CMS, LCMS y eCommerce", "nivel" : "avanzado", "utilerias" : "Wordpress, Joomla, Moodle, Magento" },
 		{ "ramo" : "Diseño Web", "nivel" : "avanzado", "utilerias" : "Bootstrap, Adobe Photoshop, Dreamweaver" },
-		{ "ramo" : "Programación", "nivel" : "principiante", "utilerias" : "Xamarin, NodeJS, Python" },
+		{ "ramo" : "Programación", "nivel" : "principiante", "utilerias" : "Xamarin, NodeJS, Python, React JS" },
 		{ "ramo" : "IDE", "nivel" : "principiante", "utilerias" : "Eclipse, NetBeans" },
 		{ "ramo" : "CMS", "nivel" : "principiante", "utilerias" : "Drupal" },
 		{ "ramo" : "SEO en Google", "nivel" : "avanzado", "utilerias" : "Analytics, Google My Business" }
@@ -204,13 +207,17 @@ var data = {
 		"id" : "07",
 		"puesto": "Full Stack .Net Web Developer",
 		"logo": "img/logo-chubb.png",
-		"consultora": "Gonet - CHUBB",
+		"consultora": "Gonet - CHUBB Actualidad",
 		"fechaInicio" : "Diciembre 2016",
 		"fechaFin" : "Actualmente",
 		"fechas" : [{ "inicio": "15/12/2016", "fin": "29/09/2017" }],
 		"resumen": "Mantenimiento de Sistemas Financieros y Creación de nuevos módulos, Repositorio de Documentos, Implementación de Wiki para soportar documentación y lecciones aprendidas, tecnologías C# Framework 4 - 4.5 MVC, Angular JS, ASPX, Oracle (Store Procedures), SQL Server 2014, Ajax, Bootstrap, Jquery, CSS 3.0, Internacionalización.",
 		"actividades": [
-			{ "actividad": "Cración de modulos nuevos" },
+			{ "actividad": "Creación de modulos nuevos" },
+			{ "actividad": "Implementación de servicios de calificadora financiera Moody's" },
+			{ "actividad": "Implementación de servicios de Identificación de riesgos (World Check, ICC Compliance Link)" },
+			{ "actividad": "Implementación de Pruebas de Usabilidad con Hotjar" },
+			{ "actividad": "Implementación de recopilador de documentación WikiMedia" },
 			{ "actividad": "Repositorio de Documentos"},
 			{ "actividad": "Reparación y Mantenimiento de Core Financiero"},
 			{ "actividad": "Consumo de Web Services SOAP, WCF y REST"},
@@ -222,6 +229,7 @@ var data = {
 		"conocimientos" : [
 			{ "conocimiento" : "Web Services y Web API", "color" : "purple", "numero":"80" },
 			{ "conocimiento" : "Mantenimiento", "color" : "purple", "numero":"90" },
+			{ "conocimiento" : "Rebranding", "color" : "purple", "numero":"90" },
 			{ "conocimiento" : "Versionamiento", "color" : "red", "numero":"80" },
 			{ "conocimiento" : "Diseño Web", "color" : "green", "numero":"95" }
 		]
