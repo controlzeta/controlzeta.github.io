@@ -23,7 +23,7 @@
 	<meta property="og:description"
 		content="I'm a Fullstack .Net Developer focused on C# for its hardiness, scalability and interoperability with other systems, I have also worked with PHP, Angular JS and VB making improvements, migrations and repairs of existing systems. I'm able to work in teams, remotely or on site." />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://controlzeta.github.io" />
+	<meta property="og:url" content="https://controlzeta.github.io/cv" />
 	<meta property="og:image" content="https://controlzeta.github.io/img/om-image2.png" />
 	<!--             Open Graph              -->
 	<!-- Twitter Card  -->
@@ -41,10 +41,13 @@
 	<script src="js/data.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<style>
-		/* body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            } */
+		body > div.container-fluid > div.row > div.col-lg-3.col-md-4.col-sm-6.col-xs-12 > div.row.text-center > picture > img {
+			padding:20px;
+		}
+
+		.modal-open .modal {
+    		padding: 5% 10% impo !important;
+		}
 
 		.timeline {
 			margin: 50px 0;
@@ -75,6 +78,7 @@
 			border-top: 4px solid #3e70ff;
 			position: relative;
 			transition: all 200ms ease-in;
+			cursor:pointer;
 		}
 
 		.status span {
@@ -210,10 +214,8 @@
 								Angular JS and VB making improvements, migrations and repairs of existing systems. I'm
 								able to work in teams, remotely or on site.<br><br>
 								I love to keep me updated on new hardware and software solutions, either through online
-								courses,
-								lectures, attend to webinars, read blogs or classroom courses is always better to know
-								what new
-								technologies you can take for your work.
+								courses, lectures, attend to webinars, read blogs or classroom courses is always better to know
+								what new technologies you can take for your work.
 							</p>
 						</div>
 					</div>
@@ -236,6 +238,15 @@
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-github fa-stack-1x fa-inverse"></i>
 								</span> github.com/controlzeta
+							</a>
+						</div>
+						<div class="col-md-12" style="margin-left:12px;">
+							<!-- <i class="fa fa-github" aria-hidden="true"></i> -->
+							<a target="_blank" href="https://pakoarroyo.controlzeta.com.mx/portfolio.html" style="color:red;">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+								</span> Portfolio
 							</a>
 						</div>
 					</div>
@@ -300,6 +311,10 @@
 									<img src="img/bootstrap.jpg" style="width:100%;" data-toggle="tooltip"
 										data-placement="top" title="Bootstrap">
 								</div>
+								<div class="col-lg-3 col-md-4 col-xs-6" style="padding-top:12px;">
+									<img src="img/azure-devops.png" style="width:100%;" data-toggle="tooltip"
+										data-placement="top" title="Azure DevOps">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -309,8 +324,10 @@
 						<h3 class="text-center">Courses and Certifications</h3>
 						<div class="container">
 							<div class="col-lg-4 col-md-3 col-xs-6" style="padding-top:12px;">
+								<a href="https://platzi.com/p/pakito555/" target="_blank"">
 								<img src="img/logo-platzi.jpg" style="width:100%;" data-toggle="tooltip"
 									data-placement="top" title="Platzi">
+								</a>
 							</div>
 							<div class="col-lg-4 col-md-3 col-xs-6" style="padding-top:12px;">
 								<img src="img/logo-cisco.jpg" style="width:100%;" data-toggle="tooltip"
@@ -340,32 +357,13 @@
 									<button type="button" class="btn btn-default btn-sm next-slide">Next</button>
 								</p>
 								<div class="swiper-wrapper timeline">
-									<div onclick="showExpertise('CAMEBRA')" class="swiper-slide swiper-slide-active"
+									<div onclick="showExpertise('CHUBB')" class="swiper-slide swiper-slide-next"
 										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">Camebra<span></div>
-										<div class="status"><span>.Net Developer</span></div>
-										<div class=""><span>April 2011</span></div>
-									</div>
-									<div onclick="showExpertise('INAI')" class="swiper-slide swiper-slide-next"
-										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">IFAI<span>
+										<div class="timestamp"><span class="date">CHUBB<span>
 										</div>
-										<div class="status"><span>.Net Developer</span></div>
-										<div class=""><span>March 2013</span></div>
-									</div>
-									<div onclick="showExpertise('UNIFIN')" class="swiper-slide swiper-slide-next"
-										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">Unifin<span>
+										<div class="status"><span>Full Stack Web Developer</spaLislin>
 										</div>
-										<div class="status"><span>MVC .Net Developer</span></div>
-										<div class=""><span>March 2014</span></div>
-									</div>
-									<div onclick="showExpertise('CONSOLID')" class="swiper-slide swiper-slide-next"
-										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">Consolid<span>
-										</div>
-										<div class="status"><span>.Net Developer</span></div>
-										<div class=""><span>August 2014</span></div>
+										<div class=""><span>December 2016</span></div>
 									</div>
 									<div onclick="showExpertise('X1')" class="swiper-slide swiper-slide-next"
 										style="width: 282.5px;">
@@ -374,13 +372,32 @@
 										<div class="status"><span>Full Stack Web Developer</span></div>
 										<div class=""><span>June 2015</span></div>
 									</div>
-									<div onclick="showExpertise('CHUBB')" class="swiper-slide swiper-slide-next"
+									<div onclick="showExpertise('CONSOLID')" class="swiper-slide swiper-slide-next"
 										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">CHUBB<span>
+										<div class="timestamp"><span class="date">Consolid<span>
 										</div>
-										<div class="status"><span>Full Stack Web Developer</spaLislin>
+										<div class="status"><span>.Net Developer</span></div>
+										<div class=""><span>August 2014</span></div>
+									</div>
+									<div onclick="showExpertise('UNIFIN')" class="swiper-slide swiper-slide-next"
+										style="width: 282.5px;">
+										<div class="timestamp"><span class="date">Unifin<span>
 										</div>
-										<div class=""><span>December 2016</span></div>
+										<div class="status"><span>MVC .Net Developer</span></div>
+										<div class=""><span>March 2014</span></div>
+									</div>
+									<div onclick="showExpertise('INAI')" class="swiper-slide swiper-slide-next"
+										style="width: 282.5px;">
+										<div class="timestamp"><span class="date">IFAI<span>
+										</div>
+										<div class="status"><span>.Net Developer</span></div>
+										<div class=""><span>March 2013</span></div>
+									</div>
+									<div onclick="showExpertise('CAMEBRA')" class="swiper-slide swiper-slide-active"
+										style="width: 282.5px;">
+										<div class="timestamp"><span class="date">Camebra<span></div>
+										<div class="status"><span>.Net Developer</span></div>
+										<div class=""><span>April 2011</span></div>
 									</div>
 								</div>
 								<!-- Add Pagination -->
@@ -428,6 +445,10 @@
 									<img src="img/movies.png" style="width:100%;" data-toggle="tooltip"
 										data-placement="top" title="Movies">
 								</div>
+								<div class="col-md-4 col-xs-6" style="padding-top:12px;">
+									<img src="img/social-engineering.png" style="width:100%;" data-toggle="tooltip"
+										data-placement="top" title="Social Engineering">
+								</div>
 							</div>
 							<div class="col-md-12">
 								<h2>Languages</h2>
@@ -447,17 +468,24 @@
 							<div class="col-sm-12 ">
 								<h2>Projects</h2>
 							</div>
-
 							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
-								<img src="img/portafolio-prodatos.jpg" style="width:100%;" data-toggle="tooltip"
-									data-placement="top" title="ProDatos IFAI">
+								<img src="img/portafolio-iConfianza2020.png" onclick="showExpertise('CHUBB')"  style="width:100%;" data-toggle="tooltip"
+									data-placement="top" title="iConfianza - Chubb">
 							</div>
 							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
+								<img src="img/portafolio-c3-c3llpoint.png" onclick="showExpertise('C3')"  style="width:100%;" data-toggle="tooltip"
+									data-placement="top" title="C3 C3llpoint">
+							</div>
+							<!-- <div class="col-md-4 col-sm-6" style="padding-top:12px;">
+								<img src="img/portafolio-prodatos.jpg" onclick="showExpertise('INAI')" style="width:100%;" data-toggle="tooltip"
+									data-placement="top" title="ProDatos IFAI">
+							</div> -->
+							<!-- <div class="col-md-4 col-sm-6" style="padding-top:12px;">
 								<img src="img/portafolio-the-geek-shop.jpg" style="width:100%;" data-toggle="tooltip"
 									data-placement="top" title="The Geek Shop">
-							</div>
+							</div> -->
 							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
-								<img src="img/portafolio-procadist.jpg" style="width:100%;" data-toggle="tooltip"
+								<img src="img/portafolio-procadist.jpg" onclick="showExpertise('X1')"  style="width:100%;" data-toggle="tooltip"
 									data-placement="top" title="Procadist">
 							</div>
 						</div>
@@ -482,311 +510,22 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<div id="CAMEBRA" class="row shop" style="display:none;">
+						<div id="C3" class="row shop" style="display:none;">
 							<div class="col-md-6 col-sm-12">
-								<div class="col-md-3"><img src="img/camebra-logo.png" class="img-consultora"></div>
+								<div class="col-md-3"><img src="img/portafolio-c3-c3llpoint.png" class="img-consultora"></div>
 								<div class="col-md-9">
-									<h3>CAMEBRA</h3>
-									<h4>Job Position: .Net Developer</h4>
-									<h5>Time span: Abril 2011 - February 2013</h5>
+									<h3>Freelance Project</h3>
+									<h4>Job Position: Full Stack .Net Web Developer</h4>
+									<h5>Time span: 2020 - 2021</h5>
 								</div>
-								<p class="resumen">Assist in making a web for technology products sales ASP.NET 4 2.1 Style Sheets CSS3, JQuery and Database Engine SQL Server 2008 R2 with SqlClient objects.
-									This system can manage an online store inventory handling products with their respective details: brands, categories and descriptions. It has several modules including Register and authenticate clients by membership (authentication form) for make purchases with a connection with ADO .Net objects with a 3-tier architecture and a shopping section, with credit card payment integration or via paypal.
-									Client side validations and error log using the event viewer server. Among my duties also gave support to other applications which had technologies as Entity Framework, WCF Web Services and RIA Services, Silverlight.</p>
-								<div class="skills" style="padding:15px; ">
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">ASP.NET 4</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: purple !important; width: 60%;"
-													role="progressbar" aria-valuenow="60" aria-valuemin="0"
-													aria-valuemax="100">60%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">CSS 2.1</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: red !important; width: 65%;"
-													role="progressbar" aria-valuenow="65" aria-valuemin="0"
-													aria-valuemax="100">65%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">WCF</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: red !important; width: 65%;"
-													role="progressbar" aria-valuenow="65" aria-valuemin="0"
-													aria-valuemax="100">65%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;"> Entity Framework</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: green !important; width: 65%;"
-													role="progressbar" aria-valuenow="65" aria-valuemin="0"
-													aria-valuemax="100">65%</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<h4>Main Activities</h4>
-								<div>
-									<ul class="list-group">
-										<li class="list-group-item">Web Developer</li>
-										<li class="list-group-item">Analysis and Implementation</li>
-										<li class="list-group-item">Web Design</li>
-										<li class="list-group-item">Application Maintenence</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div id="INAI" class="row shop" style="display:none;">
-							<div class="col-md-6 col-sm-12">
-								<div class="col-md-3"><img src="img/inai-logo.jpg" class="img-consultora"></div>
-								<div class="col-md-9">
-									<h3>INAI - Indra</h3>
-									<h4>Job Position: .Net C# Developer</h4>
-									<h5>Time span: March 2013 - January 2014</h5>
-								</div>
-								<p class="resumen">Programming a Web Site to receive complaints of data privacy for INAI (National Institute of Transparency and Access Information, Protection of Personal Data) in ASP .NET Framework 4.0 in C # and SQL Server 2008 - using NHibernate Framework
-									web services
-									Interaction with:
-									- SAP CRM
-									- SAP BO-BW-BI
-									- Open Text</p>
-								<div class="skills" style="padding:15px; ">
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">.Net Framework 4.0
-										</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: purple !important; width: 80%;"
-													role="progressbar" aria-valuenow="80" aria-valuemin="0"
-													aria-valuemax="100">80%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">nHibernate</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: red !important; width: 68%;"
-													role="progressbar" aria-valuenow="68" aria-valuemin="0"
-													aria-valuemax="100">68%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Services</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: red !important; width: 95%;"
-													role="progressbar" aria-valuenow="95" aria-valuemin="0"
-													aria-valuemax="100">95%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">MAAGTIC</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: green !important; width: 80%;"
-													role="progressbar" aria-valuenow="80" aria-valuemin="0"
-													aria-valuemax="100">80%</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<h4>Main Activities</h4>
-								<div>
-									<ul class="list-group">
-										<li class="list-group-item">Web Development with ASP .NET</li>
-										<li class="list-group-item">Analysis and Implementation</li>
-										<li class="list-group-item">Web Design</li>
-										<li class="list-group-item">OWASP</li>
-										<li class="list-group-item">System Integration through Web Services (SOAP and WCF)</li>
-										<li class="list-group-item">Application Maintenence</li>
-										<li class="list-group-item">MAAGTIC Documentation</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div id="UNIFIN" class="row shop" style="display:none;">
-							<div class="col-md-6 col-sm-12">
-								<div class="col-md-3"><img src="img/unifin-logo.png" class="img-consultora"></div>
-								<div class="col-md-9">
-									<h3>Unifin Financiera</h3>
-									<h4>Job Position: MVC .Net Developer</h4>
-									<h5>Time span: March 2014 - July 2014</h5>
-								</div>
-								<p class="resumen">Financial Applications Migration Visual Basic 6.0 and 2010 to C # ASP .NET MVC 4 Using Responsive Design (Bootstrap), CSS3, Ajax Calls, jQuery and JSON, Database Engine SQL Server 2008, Entity Framework and Linq
+								<p class="resumen">
+									Creation of system for a Cellphone Insurance Company, built in Core .NET 3.1 and MVC with SQL Server Databases,
+									 with KnoackoutJs Framework, Bootstrap, Reporting Services. Web API implementation to integrate with B2B partners
+									  and customers.
 								</p>
 								<div class="skills" style="padding:15px; ">
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">.Net Framework 4.0
-										</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: purple !important; width: 95%;"
-													role="progressbar" aria-valuenow="95" aria-valuemin="0"
-													aria-valuemax="100">95%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Jquery</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: red !important; width: 95%;"
-													role="progressbar" aria-valuenow="95" aria-valuemin="0"
-													aria-valuemax="100">95%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">AJAX y Json</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: red !important; width: 80%;"
-													role="progressbar" aria-valuenow="80" aria-valuemin="0"
-													aria-valuemax="100">80%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Responsive Design</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: green !important; width: 80%;"
-													role="progressbar" aria-valuenow="80" aria-valuemin="0"
-													aria-valuemax="100">80%</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<h4>Main Activities</h4>
-								<div>
-									<ul class="list-group">
-										<li class="list-group-item">VB .Net 6.0 to Web MVC C# Framework 4.0 Migration
-										</li>
-										<li class="list-group-item">Analysis and Implementation</li>
-										<li class="list-group-item">Responsive Design (Bootstrap)</li>
-										<li class="list-group-item">jQuery, JSON, Ajax and CSS3 </li>
-										<li class="list-group-item">Crystal Reports</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div id="CONSOLID" class="row shop" style="display:none;">
-							<div class="col-md-6 col-sm-12">
-								<div class="col-md-3"><img src="img/consolid-logo.png" class="img-consultora"></div>
-								<div class="col-md-9">
-									<h3>Gonet - Consolid</h3>
-									<h4>Job Position: .Net Front End Developer</h4>
-									<h5>Time span: August 2014 - June 2015</h5>
-								</div>
-								<p class="resumen">Design and implementation of User Manager, Security, GDS Flight Search Engine (Sabre, Navitaire, Volaris) Change design to Responsive Design (Bootstrap), Web Services (SOAP, WCF), 3-tier architecture, SQL Server 2012 with Entity Framework, CSS3, jQuery.
-								</p>
-								<div class="skills" style="padding:15px; ">
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Services</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: purple !important; width: 95%;"
-													role="progressbar" aria-valuenow="95" aria-valuemin="0"
-													aria-valuemax="100">95%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Membership Implementation</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: red !important; width: 95%;"
-													role="progressbar" aria-valuenow="95" aria-valuemin="0"
-													aria-valuemax="100">95%</div>
-											</div>
-										</div>
-									</div>
 									<div class="row" style="padding-top:0px;">
 										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Design</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: green !important; width: 95%;"
-													role="progressbar" aria-valuenow="95" aria-valuemin="0"
-													aria-valuemax="100">95%</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<h4>Main Activities</h4>
-								<div>
-									<ul class="list-group">
-										<li class="list-group-item">Design and Implementation of a User Administrator
-										</li>
-										<li class="list-group-item">Analysis and Implementation</li>
-										<li class="list-group-item">Security implementation (Simple Membership)</li>
-										<li class="list-group-item">Webservices Integration ( Sabre, Navitaire 3.0 y 4.0
-											)</li>
-										<li class="list-group-item">Responsive Design Bootstrap</li>
-										<li class="list-group-item">jQuery, JSON, Ajax y CSS3 </li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div id="X1" class="row shop" style="display:none;">
-							<div class="col-md-6 col-sm-12">
-								<div class="col-md-3"><img src="img/x1mexico-logo.png" class="img-consultora"></div>
-								<div class="col-md-9">
-									<h3>X1 México</h3>
-									<h4>Job Position: Full Stack Web Developer</h4>
-									<h5>Time span: June 2015 - December 2016</h5>
-								</div>
-								<p class="resumen">C# Programming (Framework 4), PHP for Web Platforms, MVC, n Tiers, Web API, Front End Specialist and Responsive Design, Data Base: SQL Server 2014, 2012, 2008 R2 y MySQL, Azure servers administration. CMS Setup and Customization (WordPress and Joomla)
-								</p>
-								<div class="skills" style="padding:15px; ">
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">WebAPI</div>
-										<div class="col-md-9 col-sm-9">
-											<div class="progress">
-												<div class="progress-bar"
-													style="background-color: purple !important; width: 80%;"
-													role="progressbar" aria-valuenow="80" aria-valuemin="0"
-													aria-valuemax="100">80%</div>
-											</div>
-										</div>
-									</div>
-									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Configuration and implementation of CMS</div>
 										<div class="col-md-9 col-sm-9">
 											<div class="progress">
 												<div class="progress-bar"
@@ -797,8 +536,30 @@
 										</div>
 									</div>
 									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Servers Configuration
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Web API
 										</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">SQL Server for XML</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 90%;"
+													role="progressbar" aria-valuenow="90" aria-valuemin="0"
+													aria-valuemax="100">90%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Versioning</div>
 										<div class="col-md-9 col-sm-9">
 											<div class="progress">
 												<div class="progress-bar"
@@ -809,7 +570,7 @@
 										</div>
 									</div>
 									<div class="row" style="padding-top:0px;">
-										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Design</div>
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Deployment</div>
 										<div class="col-md-9 col-sm-9">
 											<div class="progress">
 												<div class="progress-bar"
@@ -825,13 +586,15 @@
 								<h4>Main Activities</h4>
 								<div>
 									<ul class="list-group">
-										<li class="list-group-item">Joomla - .NET Integration</li>
-										<li class="list-group-item">CMS implementation (Joomla, Wordpress) and LCMS
-											(Moodle)</li>
-										<li class="list-group-item">WebAPI</li>
-										<li class="list-group-item">Bootstrap and MaterializeCSS</li>
-										<li class="list-group-item">Server Configuration: Azure and CentOs</li>
-										<li class="list-group-item">jQuery, JSON, Ajax and CSS3 </li>
+										<li class="list-group-item">Requirements Definition</li>
+										<li class="list-group-item">Web Design</li>
+										<li class="list-group-item">User and permits Administration</li>
+										<li class="list-group-item">Deployment</li>
+										<li class="list-group-item">KnoackoutJs Framework</li>
+										<li class="list-group-item">Chart JS for Data Visualization</li>
+										<li class="list-group-item">Reporting Services</li>
+										<li class="list-group-item">Creation and use of Function and Store Procedures of SQL Server</li>
+										<li class="list-group-item">DevOps</li>
 									</ul>
 								</div>
 							</div>
@@ -927,6 +690,360 @@
 								</div>
 							</div>
 						</div>
+						<div id="X1" class="row shop" style="display:none;">
+							<div class="col-md-6 col-sm-12">
+								<div class="col-md-3"><img src="img/x1mexico-logo.png" class="img-consultora"></div>
+								<div class="col-md-9">
+									<h3>X1 México</h3>
+									<h4>Job Position: Full Stack Web Developer</h4>
+									<h5>Time span: June 2015 - December 2016</h5>
+								</div>
+								<p class="resumen">C# Programming (Framework 4), PHP for Web Platforms, MVC, n Tiers, Web API, Front End Specialist and Responsive Design, Data Base: SQL Server 2014, 2012, 2008 R2 y MySQL, Azure servers administration. CMS Setup and Customization (WordPress and Joomla)
+								</p>
+								<div class="skills" style="padding:15px; ">
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">WebAPI</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Configuration and implementation of CMS</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 90%;"
+													role="progressbar" aria-valuenow="90" aria-valuemin="0"
+													aria-valuemax="100">90%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Servers Configuration
+										</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Design</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: green !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<h4>Main Activities</h4>
+								<div>
+									<ul class="list-group">
+										<li class="list-group-item">Joomla - .NET Integration</li>
+										<li class="list-group-item">CMS implementation (Joomla, Wordpress) and LCMS
+											(Moodle)</li>
+										<li class="list-group-item">WebAPI</li>
+										<li class="list-group-item">Bootstrap and MaterializeCSS</li>
+										<li class="list-group-item">Server Configuration: Azure and CentOs</li>
+										<li class="list-group-item">jQuery, JSON, Ajax and CSS3 </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="CONSOLID" class="row shop" style="display:none;">
+							<div class="col-md-6 col-sm-12">
+								<div class="col-md-3"><img src="img/consolid-logo.png" class="img-consultora"></div>
+								<div class="col-md-9">
+									<h3>Gonet - Consolid</h3>
+									<h4>Job Position: .Net Front End Developer</h4>
+									<h5>Time span: August 2014 - June 2015</h5>
+								</div>
+								<p class="resumen">Design and implementation of User Manager, Security, GDS Flight Search Engine (Sabre, Navitaire, Volaris) Change design to Responsive Design (Bootstrap), Web Services (SOAP, WCF), 3-tier architecture, SQL Server 2012 with Entity Framework, CSS3, jQuery.
+								</p>
+								<div class="skills" style="padding:15px; ">
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Services</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Membership Implementation</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Design</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: green !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<h4>Main Activities</h4>
+								<div>
+									<ul class="list-group">
+										<li class="list-group-item">Design and Implementation of a User Administrator
+										</li>
+										<li class="list-group-item">Analysis and Implementation</li>
+										<li class="list-group-item">Security implementation (Simple Membership)</li>
+										<li class="list-group-item">Webservices Integration ( Sabre, Navitaire 3.0 y 4.0
+											)</li>
+										<li class="list-group-item">Responsive Design Bootstrap</li>
+										<li class="list-group-item">jQuery, JSON, Ajax y CSS3 </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="UNIFIN" class="row shop" style="display:none;">
+							<div class="col-md-6 col-sm-12">
+								<div class="col-md-3"><img src="img/unifin-logo.png" class="img-consultora"></div>
+								<div class="col-md-9">
+									<h3>Unifin Financiera</h3>
+									<h4>Job Position: MVC .Net Developer</h4>
+									<h5>Time span: March 2014 - July 2014</h5>
+								</div>
+								<p class="resumen">Financial Applications Migration Visual Basic 6.0 and 2010 to C # ASP .NET MVC 4 Using Responsive Design (Bootstrap), CSS3, Ajax Calls, jQuery and JSON, Database Engine SQL Server 2008, Entity Framework and Linq
+								</p>
+								<div class="skills" style="padding:15px; ">
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">.Net Framework 4.0
+										</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Jquery</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">AJAX y Json</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Responsive Design</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: green !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<h4>Main Activities</h4>
+								<div>
+									<ul class="list-group">
+										<li class="list-group-item">VB .Net 6.0 to Web MVC C# Framework 4.0 Migration
+										</li>
+										<li class="list-group-item">Analysis and Implementation</li>
+										<li class="list-group-item">Responsive Design (Bootstrap)</li>
+										<li class="list-group-item">jQuery, JSON, Ajax and CSS3 </li>
+										<li class="list-group-item">Crystal Reports</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="INAI" class="row shop" style="display:none;">
+							<div class="col-md-6 col-sm-12">
+								<div class="col-md-3"><img src="img/inai-logo.jpg" class="img-consultora"></div>
+								<div class="col-md-9">
+									<h3>INAI - Indra</h3>
+									<h4>Job Position: .Net C# Developer</h4>
+									<h5>Time span: March 2013 - January 2014</h5>
+								</div>
+								<p class="resumen">Programming a Web Site to receive complaints of data privacy for INAI (National Institute of Transparency and Access Information, Protection of Personal Data) in ASP .NET Framework 4.0 in C # and SQL Server 2008 - using NHibernate Framework
+									web services
+									Interaction with:
+									- SAP CRM
+									- SAP BO-BW-BI
+									- Open Text</p>
+								<div class="skills" style="padding:15px; ">
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">.Net Framework 4.0
+										</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">nHibernate</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 68%;"
+													role="progressbar" aria-valuenow="68" aria-valuemin="0"
+													aria-valuemax="100">68%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Services</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">MAAGTIC</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: green !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<h4>Main Activities</h4>
+								<div>
+									<ul class="list-group">
+										<li class="list-group-item">Web Development with ASP .NET</li>
+										<li class="list-group-item">Analysis and Implementation</li>
+										<li class="list-group-item">Web Design</li>
+										<li class="list-group-item">OWASP</li>
+										<li class="list-group-item">System Integration through Web Services (SOAP and WCF)</li>
+										<li class="list-group-item">Application Maintenence</li>
+										<li class="list-group-item">MAAGTIC Documentation</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="CAMEBRA" class="row shop" style="display:none;">
+							<div class="col-md-6 col-sm-12">
+								<div class="col-md-3"><img src="img/camebra-logo.png" class="img-consultora"></div>
+								<div class="col-md-9">
+									<h3>CAMEBRA</h3>
+									<h4>Job Position: .Net Developer</h4>
+									<h5>Time span: Abril 2011 - February 2013</h5>
+								</div>
+								<p class="resumen">Assist in making a web for technology products sales ASP.NET 4 2.1 Style Sheets CSS3, JQuery and Database Engine SQL Server 2008 R2 with SqlClient objects.
+									This system can manage an online store inventory handling products with their respective details: brands, categories and descriptions. It has several modules including Register and authenticate clients by membership (authentication form) for make purchases with a connection with ADO .Net objects with a 3-tier architecture and a shopping section, with credit card payment integration or via paypal.
+									Client side validations and error log using the event viewer server. Among my duties also gave support to other applications which had technologies as Entity Framework, WCF Web Services and RIA Services, Silverlight.</p>
+								<div class="skills" style="padding:15px; ">
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">ASP.NET 4</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 60%;"
+													role="progressbar" aria-valuenow="60" aria-valuemin="0"
+													aria-valuemax="100">60%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">CSS 2.1</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 65%;"
+													role="progressbar" aria-valuenow="65" aria-valuemin="0"
+													aria-valuemax="100">65%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">WCF</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 65%;"
+													role="progressbar" aria-valuenow="65" aria-valuemin="0"
+													aria-valuemax="100">65%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;"> Entity Framework</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: green !important; width: 65%;"
+													role="progressbar" aria-valuenow="65" aria-valuemin="0"
+													aria-valuemax="100">65%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<h4>Main Activities</h4>
+								<div>
+									<ul class="list-group">
+										<li class="list-group-item">Web Developer</li>
+										<li class="list-group-item">Analysis and Implementation</li>
+										<li class="list-group-item">Web Design</li>
+										<li class="list-group-item">Application Maintenence</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -1014,13 +1131,14 @@
 			data: {
 				labels: [    //C#, ASP, ASP.Net, PHP, Visual Basic, Html5
 					"C#",
-					"ASP.Net",
+					"ASP.Net & Core .Net",
 					"Html5 & CSS",
+					"UX",
 					"Javascript"
 				],
 				datasets: [
 					{
-						data: [33, 29, 16, 22],
+						data: [20, 20, 20, 20, 20],
 						backgroundColor: [
 							"#12669e",
 							"#36A2EB",
@@ -1181,26 +1299,21 @@
 	</script>
 	<script src="js/consume.js"></script>
 	<script type="application/ld+json">
-		{ "@context" : "http://schema.org",
-		"@type" : "Person",
-		"name" : "Francisco Arroyo",
-		"givenName" : "Pako Arroyo",
-		"nationality" : "Mexican",
-		"url" : "https://controlzeta.github.io",
-		"brand" : "Control Zeta",
-		"image" : "https://controlzeta.github.io/img/bio.jpg",
-		"jobTitle": {
-			"@type": "DefinedTerm",
-			"name": "Web Developer"
-		},
-		"address": {
-		"@type": "PostalAddress",
-		"addressRegion": "Ciudad de México"
-		},
-		"sameAs" : [ "https://mx.linkedin.com/in/francisco-arroyo-83351727",
-		"http://github.com/controlzeta",
-		"http://behance.net/pakoarroyo"]
-		}
+			{ "@context" : "http://schema.org",
+			"@type" : "Organization",
+			"name" : "Control Zeta",
+			"founder" : "Francisco Arroyo",
+			"url" : "https://controlzeta.github.io",
+			"logo": "http://pakoarroyo.controlzeta.com.mx/img/control-zeta-logo.png",
+			"brand" : "Control Zeta",
+			"address": {
+			"@type": "PostalAddress",
+			"addressRegion": "Ciudad de México"
+			},
+			"sameAs" : [ "https://mx.linkedin.com/in/francisco-arroyo-83351727",
+			"http://github.com/controlzeta",
+			"http://behance.net/pakoarroyo"]
+			}
 		</script>
 </body>
 
