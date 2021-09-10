@@ -46,10 +46,6 @@
                 padding-bottom: 20px;
             } */
 
-			body > div > div.row > div.col-lg-3.col-md-4.col-sm-6.col-xs-12 > div.row.text-center > picture > img{
-				padding: 25px;
-			}
-
 		.timeline {
 			margin: 50px 0;
 			list-style-type: none;
@@ -358,32 +354,13 @@
 									<button type="button" class="btn btn-default btn-sm next-slide">Next</button>
 								</p>
 								<div class="swiper-wrapper timeline">
-									<div onclick="showExpertise('CAMEBRA')" class="swiper-slide swiper-slide-active"
+									<div onclick="showExpertise('CHUBB')" class="swiper-slide swiper-slide-next"
 										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">Camebra<span></div>
-										<div class="status"><span>.Net Developer</span></div>
-										<div class=""><span>April 2011</span></div>
-									</div>
-									<div onclick="showExpertise('INAI')" class="swiper-slide swiper-slide-next"
-										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">IFAI<span>
+										<div class="timestamp"><span class="date">CHUBB<span>
 										</div>
-										<div class="status"><span>.Net Developer</span></div>
-										<div class=""><span>March 2013</span></div>
-									</div>
-									<div onclick="showExpertise('UNIFIN')" class="swiper-slide swiper-slide-next"
-										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">Unifin<span>
+										<div class="status"><span>Full Stack Web Developer</spaLislin>
 										</div>
-										<div class="status"><span>MVC .Net Developer</span></div>
-										<div class=""><span>March 2014</span></div>
-									</div>
-									<div onclick="showExpertise('CONSOLID')" class="swiper-slide swiper-slide-next"
-										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">Consolid<span>
-										</div>
-										<div class="status"><span>.Net Developer</span></div>
-										<div class=""><span>August 2014</span></div>
+										<div class=""><span>December 2016</span></div>
 									</div>
 									<div onclick="showExpertise('X1')" class="swiper-slide swiper-slide-next"
 										style="width: 282.5px;">
@@ -392,13 +369,32 @@
 										<div class="status"><span>Full Stack Web Developer</span></div>
 										<div class=""><span>June 2015</span></div>
 									</div>
-									<div onclick="showExpertise('CHUBB')" class="swiper-slide swiper-slide-next"
+									<div onclick="showExpertise('CONSOLID')" class="swiper-slide swiper-slide-next"
 										style="width: 282.5px;">
-										<div class="timestamp"><span class="date">CHUBB<span>
+										<div class="timestamp"><span class="date">Consolid<span>
 										</div>
-										<div class="status"><span>Full Stack Web Developer</spaLislin>
+										<div class="status"><span>.Net Developer</span></div>
+										<div class=""><span>August 2014</span></div>
+									</div>
+									<div onclick="showExpertise('UNIFIN')" class="swiper-slide swiper-slide-next"
+										style="width: 282.5px;">
+										<div class="timestamp"><span class="date">Unifin<span>
 										</div>
-										<div class=""><span>December 2016</span></div>
+										<div class="status"><span>MVC .Net Developer</span></div>
+										<div class=""><span>March 2014</span></div>
+									</div>
+									<div onclick="showExpertise('INAI')" class="swiper-slide swiper-slide-next"
+										style="width: 282.5px;">
+										<div class="timestamp"><span class="date">IFAI<span>
+										</div>
+										<div class="status"><span>.Net Developer</span></div>
+										<div class=""><span>March 2013</span></div>
+									</div>
+									<div onclick="showExpertise('CAMEBRA')" class="swiper-slide swiper-slide-active"
+										style="width: 282.5px;">
+										<div class="timestamp"><span class="date">Camebra<span></div>
+										<div class="status"><span>.Net Developer</span></div>
+										<div class=""><span>April 2011</span></div>
 									</div>
 								</div>
 								<!-- Add Pagination -->
@@ -469,11 +465,18 @@
 							<div class="col-sm-12 ">
 								<h2>Projects</h2>
 							</div>
-
 							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
+								<img src="img/portafolio-iConfianza2020.png" onclick="showExpertise('CHUBB')"  style="width:100%;" data-toggle="tooltip"
+									data-placement="top" title="iConfianza - Chubb">
+							</div>
+							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
+								<img src="img/portafolio-c3-c3llpoint.png" onclick="showExpertise('C3')"  style="width:100%;" data-toggle="tooltip"
+									data-placement="top" title="C3 C3llpoint">
+							</div>
+							<!-- <div class="col-md-4 col-sm-6" style="padding-top:12px;">
 								<img src="img/portafolio-prodatos.jpg" onclick="showExpertise('INAI')" style="width:100%;" data-toggle="tooltip"
 									data-placement="top" title="ProDatos IFAI">
-							</div>
+							</div> -->
 							<!-- <div class="col-md-4 col-sm-6" style="padding-top:12px;">
 								<img src="img/portafolio-the-geek-shop.jpg" style="width:100%;" data-toggle="tooltip"
 									data-placement="top" title="The Geek Shop">
@@ -481,14 +484,6 @@
 							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
 								<img src="img/portafolio-procadist.jpg" onclick="showExpertise('X1')"  style="width:100%;" data-toggle="tooltip"
 									data-placement="top" title="Procadist">
-							</div>
-							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
-								<img src="img/portafolio-c3-c3llpoint.png"  style="width:100%;" data-toggle="tooltip"
-									data-placement="top" title="C3 C3llpoint">
-							</div>
-							<div class="col-md-4 col-sm-6" style="padding-top:12px;">
-								<img src="img/portafolio-iConfianza.png" onclick="showExpertise('CHUBB')"  style="width:100%;" data-toggle="tooltip"
-									data-placement="top" title="iConfianza - Chubb">
 							</div>
 						</div>
 					</div>
@@ -512,6 +507,95 @@
 						</button>
 					</div>
 					<div class="modal-body">
+						<div id="C3" class="row shop" style="display:none;">
+							<div class="col-md-6 col-sm-12">
+								<div class="col-md-3"><img src="img/portafolio-c3-c3llpoint.png" class="img-consultora"></div>
+								<div class="col-md-9">
+									<h3>Freelance Project</h3>
+									<h4>Job Position: Full Stack .Net Web Developer</h4>
+									<h5>Time span: 2020 - 2021</h5>
+								</div>
+								<p class="resumen">
+									Creation of system for a Cellphone Insurance Company, built in Core .NET 3.1 and MVC with SQL Server Databases,
+									 with KnoackoutJs Framework, Bootstrap, Reporting Services. Web API implementation to integrate with B2B partners
+									  and customers.
+								</p>
+								<div class="skills" style="padding:15px; ">
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Web Design</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 90%;"
+													role="progressbar" aria-valuenow="90" aria-valuemin="0"
+													aria-valuemax="100">90%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Web API
+										</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">SQL Server for XML</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: purple !important; width: 90%;"
+													role="progressbar" aria-valuenow="90" aria-valuemin="0"
+													aria-valuemax="100">90%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Versioning</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: red !important; width: 80%;"
+													role="progressbar" aria-valuenow="80" aria-valuemin="0"
+													aria-valuemax="100">80%</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="padding-top:0px;">
+										<div class="col-md-3 col-sm-3" style="text-align:right;">Deployment</div>
+										<div class="col-md-9 col-sm-9">
+											<div class="progress">
+												<div class="progress-bar"
+													style="background-color: green !important; width: 95%;"
+													role="progressbar" aria-valuenow="95" aria-valuemin="0"
+													aria-valuemax="100">95%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<h4>Main Activities</h4>
+								<div>
+									<ul class="list-group">
+										<li class="list-group-item">Requirements Definition</li>
+										<li class="list-group-item">Web Design</li>
+										<li class="list-group-item">User and permits Administration</li>
+										<li class="list-group-item">Deployment</li>
+										<li class="list-group-item">KnoackoutJs Framework</li>
+										<li class="list-group-item">Chart JS for Data Visualization</li>
+										<li class="list-group-item">Reporting Services</li>
+										<li class="list-group-item">Creation and use of Function and Store Procedures of SQL Server</li>
+										<li class="list-group-item">DevOps</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 						<div id="CHUBB" class="row shop" style="display:none;">
 							<div class="col-md-6 col-sm-12">
 								<div class="col-md-3"><img src="img/logo-chubb.png" class="img-consultora"></div>
