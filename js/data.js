@@ -211,7 +211,7 @@ var data = {
 		"fechaInicio" : "Diciembre 2016",
 		"fechaFin" : "Actualmente",
 		"fechas" : [{ "inicio": "15/12/2016", "fin": "29/09/2017" }],
-		"resumen": "Mantenimiento de Sistemas Financieros y Creación de nuevos módulos, Repositorio de Documentos, Implementación de Wiki para soportar documentación y lecciones aprendidas, tecnologías C# Framework 4 - 4.8 MVC, Net Core, Angular JS, ASPX, Oracle (Store Procedures), SQL Server 2014, Ajax, Bootstrap, Jquery, CSS 3.0, Internacionalización.",
+		"resumen": "Mantenimiento de Sistemas Financieros y Creación de nuevos módulos, Repositorio de Documentos, Implementación de Wiki para soportar documentación y lecciones aprendidas, tecnologías C# Framework 2.0 - 4.8 MVC, Net Core, Angular JS, ASPX, Oracle (Store Procedures), SQL Server 2014, Ajax, Bootstrap, Jquery, CSS 3.0, Internacionalización.",
 		"actividades": [
 			{ "actividad": "Creación de modulos nuevos" },
 			{ "actividad": "Implementación de servicios de calificadora financiera Moody's" },
