@@ -1,5 +1,9 @@
-function showExpertise(shop){
+function showExpertise(shop) {
     $("#modalProject").modal();
     $(".shop").hide();
-    $("#"+ shop).show();
+    $("#" + shop).show();
+}
+
+function showStack() {
+    $("#modalStack").modal();
 }
