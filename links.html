@@ -66,32 +66,40 @@
 		}
 		
 		function filterCategory(category){
+			$("li").removeClass("active");
 			switch(category){
 				case "all":
 					$(".col-md-2").show();
+					$("#all").parent().addClass("active");
 					break;
 				case "social":
 					$(".col-md-2").hide();
+					$("#social").parent().addClass("active");
 					$(".social").parent().show();
 					break;
 				case "pagos":
 					$(".col-md-2").hide();
+					$("#pagos").parent().addClass("active");
 					$(".pagos").parent().show();
 					break;
 				case "streaming":
 					$(".col-md-2").hide();
+					$("#streaming").parent().addClass("active");
 					$(".streaming").parent().show();
 					break;
 				case "compras":
 					$(".col-md-2").hide();
+					$("#compras").parent().addClass("active");
 					$(".compras").parent().show();
 					break;
 				case "financiero":
 					$(".col-md-2").hide();
+					$("#financiero").parent().addClass("active");
 					$(".financiero").parent().show();
 					break;
 				case "recursos":
 					$(".col-md-2").hide();
+					$("#recursos").parent().addClass("active");
 					$(".recursos").parent().show();
 					break;
 			}
