@@ -64,6 +64,38 @@
 				tracker.send('event', 'Button', 'click', event);
 			});
 		}
+		
+		function filterCategory(category){
+			switch(category){
+				case "social":
+					$(".col-sm-2").show();
+					break;
+				case "social":
+					$(".col-sm-2").hide();
+					$(".social").parent().show();
+					break;
+				case "pagos":
+					$(".col-sm-2").hide();
+					$(".pagos").parent().show();
+					break;
+				case "streaming":
+					$(".col-sm-2").hide();
+					$(".streaming").parent().show();
+					break;
+				case "compras":
+					$(".col-sm-2").hide();
+					$(".compras").parent().show();
+					break;
+				case "financiero":
+					$(".col-sm-2").hide();
+					$(".financiero").parent().show();
+					break;
+				case "recursos":
+					$(".col-sm-2").hide();
+					$(".recursos").parent().show();
+					break;
+			}
+		}
 
 	</script>
 	<style>
@@ -106,13 +138,13 @@
 			<a class="navbar-brand" href="#">Useful Links</a>
 		  </div>
 		  <ul class="nav navbar-nav">
-			<li class="active"><a href="#">All</a></li>
-			<li><a href="#">Recursos</a></li>
-			<li><a href="#">Financieros</a></li>
-			<li><a href="#">Social</a></li>
-			<li><a href="#">Compras</a></li>
-			<li><a href="#">Streaming</a></li>
-			<li><a href="#">Pagos</a></li>
+			<li class="active"><a onclick="filterCategory('all');>All</a></li>
+			<li><a onclick="filterCategory('recursos');">Recursos</a></li>
+			<li><a onclick="filterCategory('financiero');">Financieros</a></li>
+			<li><a onclick="filterCategory('social');">Social</a></li>
+			<li><a onclick="filterCategory('compras');">Compras</a></li>
+			<li><a onclick="filterCategory('streaming');">Streaming</a></li>
+			<li><a onclick="filterCategory('pagos');">Pagos</a></li>
 		  </ul>
 		</div>
 	  </nav>
