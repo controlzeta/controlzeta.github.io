@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/netResume/node_modules
+/netResume/obj/Debug
+/netResume/.angular/cache/16.2.16
+/netResume/.vscode
+/netResume/.vs/netResume
