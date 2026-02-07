@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/controlzeta.github.io/v17
+/netResume/.angular/cache/18.2.21
+/netResume/node_modules
+/netResume/.vs/netResume
+/netResume/obj/Debug
