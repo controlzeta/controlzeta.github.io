@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { ExperienceComponent } from './features/experience/experience.component';
+import { SkillsComponent } from './features/skills/skills.component';
+import { ProjectsComponent } from './features/projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ExperienceComponent
+    ExperienceComponent,
   ],
   imports: [
-    BrowserModule
+      BrowserModule,
+      SkillsComponent,
+      ProjectsComponent
   ],
   providers: [
     provideAnimations()

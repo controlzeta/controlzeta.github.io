@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+        screens: {
+            'uw': '2000px', // UltraWide Breakpoint
+        },
       colors: {
         // Colores inspirados en el ecosistema .NET y Angular
         brand: {

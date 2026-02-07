@@ -11,6 +11,10 @@
   h1, h2, h3 {
     @apply font-bold text-white tracking-tight;
   }
+
+    footer {
+        @apply text-center text-sm text-slate-500 py-4;
+    }
 }
 
 @layer components {
@@ -28,4 +32,8 @@
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-400 to-brand-dotnet;
   }
+
+    .links {
+        @apply px-3 font-sans hover:transition-all;
+    }
 }

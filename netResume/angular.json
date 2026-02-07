@@ -17,7 +17,8 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -52,6 +53,12 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "es": {
+              "localize": [ "es" ]
+            },
+            "en": {
+              "localize": [ "en" ]
             }
           },
           "defaultConfiguration": "production"
@@ -64,6 +71,12 @@
             },
             "development": {
               "buildTarget": "netResume:build:development"
+            },
+            "es": {
+              "buildTarget": "netResume:build:es"
+            },
+            "en": {
+              "buildTarget": "netResume:build:en"
             }
           },
           "defaultConfiguration": "development",
@@ -74,7 +87,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "netResume:build"
+            "buildTarget": "netResume:build"
           }
         },
         "test": {
@@ -82,7 +95,8 @@
           "options": {
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
@@ -94,6 +108,19 @@
             ],
             "scripts": [],
             "karmaConfig": "karma.conf.js"
+          }
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es": {
+            "translation": "messages.es.xlf",
+            "baseHref": "/es/"
+          },
+          "en": {
+            "translation": "messages.xlf",
+            "baseHref": "/en/"
           }
         }
       }

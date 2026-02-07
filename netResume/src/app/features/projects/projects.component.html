@@ -1,0 +1,75 @@
+<section class="py-20 bg-slate-950 text-white overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-mono font-bold mb-12 flex items-center gap-4">
+            <span class="text-brand-dotnet">03.</span> FEATURED PROJECTS
+        </h2>
+
+        <div class="relative group">
+            @for (project of [projects[currentIndex]]; track project.title) {
+            <div [@slideAnimation] class="grid md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800 p-8 md:p-12 rounded-3xl backdrop-blur-sm">
+
+                <div class="space-y-6">
+                    <div>
+                        <span class="text-brand-dotnet font-mono text-xs uppercase tracking-widest">{{ project.category }}</span>
+                        <h3 class="text-4xl font-bold mt-2">{{ project.title }}</h3>
+                    </div>
+
+                    <p class="text-slate-400 leading-relaxed text-lg">
+                        {{ project.description }}
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-2 text-green-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                            <span class="text-sm font-bold uppercase">Business Impact:</span>
+                        </div>
+                        <p class="text-slate-200 font-medium pl-7 border-l-2 border-brand-dotnet/30 italic">
+                            "{{ project.impact }}"
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2 pt-4">
+                        @for (t of project.tech; track t) {
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 text-[10px] font-mono rounded-full border border-slate-700">
+                            {{ t }}
+                        </span>
+                        }
+                    </div>
+                </div>
+
+                <div class="hidden md:flex justify-center items-center">
+                    <div class="w-full h-64 bg-gradient-to-br from-brand-dotnet/20 to-purple-900/20 rounded-2xl border border-brand-dotnet/30 flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+                        <i class="devicon-dotnetcore-plain text-[120px] text-brand-dotnet opacity-40"></i>
+                    </div>
+                </div>
+            </div>
+            }
+
+            <div class="flex justify-between items-center mt-12">
+                <div class="flex gap-4">
+                    <button (click)="prev()" class="p-3 border border-slate-800 rounded-full hover:bg-brand-dotnet hover:border-brand-dotnet transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button (click)="next()" class="p-3 border border-slate-800 rounded-full hover:bg-brand-dotnet hover:border-brand-dotnet transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="flex gap-2">
+                    @for (p of projects; track p.title; let i = $index) {
+                    <div [class.bg-brand-dotnet]="i === currentIndex"
+                         class="w-8 h-1 bg-slate-800 rounded-full transition-all duration-300">
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
