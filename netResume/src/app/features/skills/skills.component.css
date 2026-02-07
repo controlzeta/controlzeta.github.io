@@ -1,0 +1,27 @@
+.skill-card {
+    /* Efecto de perspectiva para que el movimiento del mouse se vea 3D */
+    transform-style: preserve-3d;
+    perspective: 1000px;
+
+}
+
+i {
+    /* Filtro de brillo suave para los iconos al hacer hover */
+    filter: drop-shadow(0 0 0px transparent);
+    transition: all 0.3s ease;
+    font-size: 3rem; /* Tamaño grande para destacar los iconos de habilidades */
+}
+
+.skill-card:hover i {
+    filter: drop-shadow(0 0 10px rgba(120, 50, 190, 0.4));
+}
+
+span {
+    font-size: 1.2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Roboto, sans-serif;
+}

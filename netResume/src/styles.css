@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-slate-300 font-sans antialiased;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3 {
+    @apply font-bold text-white tracking-tight;
+  }
+
+    footer {
+        @apply text-center text-sm text-slate-500 py-4;
+    }
+}
+
+@layer components {
+  /* Clase para las tarjetas de experiencia - Efecto Glassmorphism */
+  .job-card {
+    @apply p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-brand-dotnet transition-all duration-300 backdrop-blur-sm shadow-xl;
+  }
+
+  /* Los badges de tecnologías que usas en tu sitio actual */
+  .tech-badge {
+    @apply px-3 py-1 text-xs font-mono rounded-full border border-slate-700 bg-slate-800 text-slate-400 hover:text-brand-accent hover:border-brand-accent;
+  }
+
+  /* Gradiente para el nombre (Efecto Moderno) */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-400 to-brand-dotnet;
+  }
+
+    .links {
+        @apply px-3 font-sans hover:transition-all;
+    }
+}

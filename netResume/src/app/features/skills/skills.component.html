@@ -1,0 +1,32 @@
+<section id="stack" class="py-20 px-4 max-w-6xl mx-auto">
+    <h2 i18n>Tech Stack</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 p-8">
+        @for (skill of skills; track skill.name) {
+        <div class="skill-card group relative flex flex-col items-center p-6 bg-slate-900/40 border border-slate-800 rounded-2xl transition-all duration-300 hover:border-brand-dotnet hover:bg-slate-800/60"
+             (mouseenter)="showTooltip(skill.name)"
+             (mouseleave)="hideTooltip()">
+
+            <i [class]="skill.icon" class="text-5xl mb-4 text-slate-500 group-hover:text-brand-dotnet transition-colors duration-300"></i>
+
+            <span class="text-sm font-mono font-bold text-slate-400 group-hover:text-white">
+                {{ skill.name }}
+            </span>
+            <div class="w-full h-1.5 bg-slate-800 rounded-full mt-4 overflow-hidden">
+                <div class="h-full bg-gradient-to-r from-brand-dotnet to-purple-400 transition-all duration-1000 ease-out"
+                     [style.width.%]="skill.level">
+                </div>
+            </div>
+            @if (activeTooltip === skill.name) {
+            <div [@tooltipScale]
+                 class="absolute -top-20 left-1/2 -translate-x-1/2 w-48 z-50 pointer-events-none">
+                <div class="bg-slate-950 border border-brand-dotnet/50 p-3 rounded-xl shadow-2xl backdrop-blur-md">
+                    <p class="text-[12px] text-brand-dotnet font-bold uppercase mb-1">Tech Lead Focus</p>
+                    <p class="text-[14px] text-slate-300 leading-tight">{{ skill.leadFocus }}</p>
+                    <div class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-slate-950 border-r border-b border-brand-dotnet/50 rotate-45"></div>
+                </div>
+            </div>
+            }
+        </div>
+        }
+    </div>
+</section>

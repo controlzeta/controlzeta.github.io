@@ -1,0 +1,45 @@
+{
+  "name": "net-resume",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --host=127.0.0.1",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "deploy": "ng build --configuration production --localize && npx ngh --dir dist/netResume/browser"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.2.14",
+    "@angular/common": "^18.2.14",
+    "@angular/compiler": "^18.2.14",
+    "@angular/core": "^18.2.0",
+    "@angular/forms": "^18.2.14",
+    "@angular/platform-browser": "^18.2.14",
+    "@angular/platform-browser-dynamic": "^18.2.14",
+    "@angular/router": "^18.2.14",
+    "jest-editor-support": "*",
+    "lucide-angular": "^0.563.0",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "18.2.21",
+    "@angular/cli": "~18.2.21",
+    "@angular/compiler-cli": "^18.2.14",
+    "@angular/localize": "^18.2.14",
+    "@types/jasmine": "~4.3.0",
+    "autoprefixer": "^10.4.24",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "5.5.4"
+  }
+}
