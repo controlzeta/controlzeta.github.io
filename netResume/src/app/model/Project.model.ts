@@ -3,6 +3,7 @@ export interface Project {
     category: string;
     description: string;
     tech: string[];
-    impact: string; // Dato clave para Tech Lead
+    impact: string;
     link?: string;
+    image?: string;
 }

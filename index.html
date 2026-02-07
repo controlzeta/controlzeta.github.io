@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        var userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith('es')) {
+            window.location.href = "./es/";
+        } else {
+            window.location.href = "./en/";
+        }
+    </script>
+</head>
+<body>
+    Redirigiendo... / Redirecting...
+</body>
+</html>
