@@ -6,6 +6,7 @@ import { ExperienceComponent } from './features/experience/experience.component'
 import { SkillsComponent } from './features/skills/skills.component';
 import { ProjectsComponent } from './features/projects/projects.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { ToastComponent } from './core/toast.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
       BrowserModule,
       SkillsComponent,
       ProjectsComponent,
+      ToastComponent,
       ServiceWorkerModule.register('ngsw-worker.js', {
         enabled: !isDevMode(),
         registrationStrategy: 'registerWhenStable:30000'
