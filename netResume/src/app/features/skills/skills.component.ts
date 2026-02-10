@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+﻿import { Component } from '@angular/core';
 import { trigger, transition, style, animate, query, stagger } from '@angular/animations';
 import { Skill } from '../../model/Skill.model'; 
 import { HostListener } from '@angular/core';

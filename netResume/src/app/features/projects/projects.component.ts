@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+﻿import { Component } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Project } from '../../model/Project.model'; 
 
