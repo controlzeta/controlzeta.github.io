@@ -31,7 +31,7 @@ export class ProjectsComponent {
             tech: ['C#', 'Selenium', 'Chrome Driver', 'SQL Server', 'Chart.js'],
             impact: 'Automated 100% of market research tasks, providing real-time competitive pricing analytics through interactive dashboards.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
-            image: '../assets/images/projects/crawler.png'
+            image: 'assets/images/projects/crawler.png'
         },
         {
             title: 'Automated Social Engagement Engine',
@@ -40,7 +40,7 @@ export class ProjectsComponent {
             tech: ['C#', '.NET', 'Twitter API', 'Task Scheduling', 'JSON'],
             impact: 'Boosted organic traffic to digital assets by automating consistent social presence and engagement patterns.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
-            image: '../assets/images/projects/twitbot.png'
+            image: 'assets/images/projects/twitbot.png'
         },
         {
             title: 'Financial Compliance Microservices',
@@ -49,7 +49,7 @@ export class ProjectsComponent {
             tech: ['.NET Core', 'WCF', 'Oracle', 'Web API', 'SOAP'],
             impact: 'Strengthened international compliance standards and reduced technical debt by 30% through service modernization.',
             link: 'https://controlzeta.github.io/',
-            image: '../assets/images/projects/compliance.png'
+            image: 'assets/images/projects/compliance.png'
         },
         {
             title: 'Safe-Cloud Document Repository',
@@ -58,7 +58,7 @@ export class ProjectsComponent {
             tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Encryption Standards'],
             impact: 'Eliminated manual document handling errors and improved data retrieval speed for thousands of legal records.',
             link: 'https://controlzeta.github.io/',
-            image: '../assets/images/projects/documentStorage.png'
+            image: 'assets/images/projects/documentStorage.png'
         }
     ];
 
