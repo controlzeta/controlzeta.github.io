@@ -30,7 +30,7 @@ import { HostListener } from '@angular/core';
 })
 export class SkillsComponent {
     activeTooltip: string | null = null;
-    skills: Skill[] =  [
+    skillsEn: Skill[] =  [
         // BACKEND & SYSTEMS ARCHITECTURE
         {
             name: '.NET 8 / C#',
@@ -109,6 +109,88 @@ export class SkillsComponent {
             leadFocus: 'Containerization strategies for seamless deployment and orchestration in production.'
         }
     ];
+
+    skillsEs: Skill[] = [
+        // ARQUITECTURA DE BACKEND Y SISTEMAS
+        {
+            name: '.NET 8 / C#',
+            icon: 'devicon-dotnetcore-plain',
+            level: 98,
+            category: 'backend',
+            leadFocus: 'Arquitectura de sistemas distribuidos de alta disponibilidad y estrategia de migración de legacy a moderno.'
+        },
+        {
+            name: 'Apache Camel / Spring Boot',
+            icon: 'devicon-apachecamel-plain',
+            level: 85,
+            category: 'backend',
+            leadFocus: 'Orquestación de patrones complejos de integración empresarial (EIP) para sistemas heterogéneos.'
+        },
+        {
+            name: 'Microservicios y API Gateway',
+            icon: 'devicon-azuresqldatabase-plain',
+            level: 92,
+            category: 'backend',
+            leadFocus: 'Diseño de mallas de servicios escalables y ecosistemas de API seguros para Fintech e Insurtech.'
+        },
+
+        // ESTRATEGIA DE FRONTEND
+        {
+            name: 'Angular 18 / TypeScript',
+            icon: 'devicon-angularjs-plain',
+            level: 94,
+            category: 'frontend',
+            leadFocus: 'Liderazgo en modernización de frontend mediante Signals, arquitectura Standalone y SSR optimizado.'
+        },
+        {
+            name: 'Tailwind CSS / Material',
+            icon: 'devicon-tailwindcss-plain',
+            level: 90,
+            category: 'frontend',
+            leadFocus: 'Estandarización de sistemas de diseño y consistencia de UI a través de células multidisciplinarias.'
+        },
+
+        // GOBERNANZA DE DATOS Y BASES DE DATOS
+        {
+            name: 'SQL Server / Oracle',
+            icon: 'devicon-microsoftsqlserver-plain',
+            level: 95,
+            category: 'database',
+            leadFocus: 'Optimización de rendimiento y diseño de esquemas avanzados para bases de datos financieras a gran escala.'
+        },
+        {
+            name: 'Entity Framework Core',
+            icon: 'devicon-dotnetcore-plain',
+            level: 96,
+            category: 'database',
+            leadFocus: 'Optimización de capas de acceso a datos y garantía de cumplimiento ACID en transacciones complejas.'
+        },
+
+        // NUBE, DEVOPS Y MENTORÍA
+        {
+            name: 'Azure / Estrategia Cloud',
+            icon: 'devicon-azure-plain',
+            level: 88,
+            category: 'cloud',
+            leadFocus: 'Liderazgo en iniciativas de Infraestructura como Código (IaC) e impulso de la adopción de Cloud-Native.'
+        },
+        {
+            name: 'CI/CD y Azure DevOps',
+            icon: 'devicon-azure-plain',
+            level: 90,
+            category: 'cloud',
+            leadFocus: 'Establecimiento de pipelines de entrega robustos y mentoría a equipos en mejores prácticas de DevOps.'
+        },
+        {
+            name: 'Docker / Kubernetes',
+            icon: 'devicon-docker-plain',
+            level: 82,
+            category: 'cloud',
+            leadFocus: 'Estrategias de contenerización para el despliegue sin fisuras y orquestación en entornos de producción.'
+        }
+    ];
+
+    skills: Skill[] = window.location.pathname.includes('/es/') ? this.skillsEs : this.skillsEn;
 
     selectedCategory: string = 'all';
 

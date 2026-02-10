@@ -23,7 +23,7 @@ import { Project } from '../../model/Project.model';
 export class ProjectsComponent {
     currentIndex = 0;
 
-    projects: Project[] = [
+    projectsEn: Project[] = [
         {
             title: 'Enterprise Price Intelligence Crawler',
             category: 'Data Mining & Automation',
@@ -61,6 +61,47 @@ export class ProjectsComponent {
             image: '../assets/images/projects/documentStorage.png'
         }
     ];
+
+    projectsEs: Project[] = [
+        {
+            title: 'Enterprise Price Intelligence Crawler',
+            category: 'Minería de Datos y Automatización',
+            description: 'Diseño e implementación de un motor de web scraping de alto rendimiento (PriceCrawler) para monitorear tendencias del mercado de hardware. Arquitecturé un pipeline de datos robusto que automatiza la extracción, normalización y predicción visual de precios.',
+            tech: ['C#', 'Selenium', 'Chrome Driver', 'SQL Server', 'Chart.js'],
+            impact: 'Automatización del 100% de las tareas de investigación de mercado, proporcionando analíticas de precios competitivos en tiempo real mediante dashboards interactivos.',
+            link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
+            image: 'assets/images/projects/crawler.png'
+        },
+        {
+            title: 'Automated Social Engagement Engine',
+            category: 'Desarrollo de Bots y APIs Sociales',
+            description: 'Desarrollo de un sistema automatizado de distribución de contenido (TweetBooty) para Twitter. Implementación de algoritmos de publicación programada y estrategias de atracción de tráfico mediante integraciones fluidas con APIs.',
+            tech: ['C#', '.NET', 'Twitter API', 'Task Scheduling', 'JSON'],
+            impact: 'Impulso del tráfico orgánico hacia activos digitales mediante la automatización de presencia social constante y patrones de interacción estratégicos.',
+            link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
+            image: 'assets/images/projects/twitbot.png'
+        },
+        {
+            title: 'Microservicios de Cumplimiento Financiero',
+            category: 'Fintech / Cumplimiento',
+            description: 'Liderazgo en la transición arquitectónica de módulos financieros legacy a .NET Core en CHUBB. Integración de servicios de cumplimiento global como World Check y calificadores financieros de Moody\'s en el flujo de trabajo core de seguros.',
+            tech: ['.NET Core', 'WCF', 'Oracle', 'Web API', 'SOAP'],
+            impact: 'Fortalecimiento de los estándares internacionales de cumplimiento y reducción de la deuda técnica en un 30% mediante la modernización de servicios.',
+            link: 'https://controlzeta.github.io/',
+            image: 'assets/images/projects/compliance.png'
+        },
+        {
+            title: 'Safe-Cloud Document Repository',
+            category: 'Almacenamiento en la Nube y Seguridad',
+            description: 'Ingeniería de un sistema seguro de almacenamiento y recuperación de documentos para instituciones financieras. Implementación de lógica de permisos personalizada y manejo de datos cifrados para socios de Scotiabank.',
+            tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Estándares de Cifrado'],
+            impact: 'Eliminación de errores manuales en el manejo de documentos y optimización de la velocidad de recuperación de miles de registros legales.',
+            link: 'https://controlzeta.github.io/',
+            image: 'assets/images/projects/documentStorage.png'
+        }
+    ];
+
+    projects: Project[] = window.location.pathname.includes('/es/') ? this.projectsEs : this.projectsEn;
 
     next() {
         this.currentIndex = (this.currentIndex + 1) % this.projects.length;

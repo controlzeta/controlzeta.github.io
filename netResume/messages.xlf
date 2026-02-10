@@ -45,7 +45,9 @@
         </context-group>
       </trans-unit>
       <trans-unit id="3924682128132308099" datatype="html">
-        <source> Especialista en arquitectura <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>.NET 8<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> y ecosistemas modernos de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>Angular<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Transformando sistemas legacy en soluciones escalables. </source>
+        <source>
+          Specialist in <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>.NET 8<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> architecture and modern <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>Angular<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ecosystems. Transforming legacy systems into scalable solutions.
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">40,44</context>
