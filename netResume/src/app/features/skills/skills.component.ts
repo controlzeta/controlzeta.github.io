@@ -117,21 +117,21 @@ export class SkillsComponent {
             icon: 'devicon-dotnetcore-plain',
             level: 98,
             category: 'backend',
-            leadFocus: 'Arquitectura de sistemas distribuidos de alta disponibilidad y estrategia de migraci�n de legacy a moderno.'
+            leadFocus: 'Arquitectura de sistemas distribuidos de alta disponibilidad y estrategia de migración de legacy a moderno.'
         },
         {
             name: 'Apache Camel / Spring Boot',
             icon: 'devicon-apachecamel-plain',
             level: 85,
             category: 'backend',
-            leadFocus: 'Orquestaci�n de patrones complejos de integraci�n empresarial (EIP) para sistemas heterog�neos.'
+            leadFocus: 'Orquestación de patrones complejos de integraci�n empresarial (EIP) para sistemas heterogéneos.'
         },
         {
             name: 'Microservicios y API Gateway',
             icon: 'devicon-azuresqldatabase-plain',
             level: 92,
             category: 'backend',
-            leadFocus: 'Dise�o de mallas de servicios escalables y ecosistemas de API seguros para Fintech e Insurtech.'
+            leadFocus: 'Diseño de mallas de servicios escalables y ecosistemas de API seguros para Fintech e Insurtech.'
         },
 
         // ESTRATEGIA DE FRONTEND
@@ -140,14 +140,14 @@ export class SkillsComponent {
             icon: 'devicon-angularjs-plain',
             level: 94,
             category: 'frontend',
-            leadFocus: 'Liderazgo en modernizaci�n de frontend mediante Signals, arquitectura Standalone y SSR optimizado.'
+            leadFocus: 'Liderazgo en modernización de frontend mediante Signals, arquitectura Standalone y SSR optimizado.'
         },
         {
             name: 'Tailwind CSS / Material',
             icon: 'devicon-tailwindcss-plain',
             level: 90,
             category: 'frontend',
-            leadFocus: 'Estandarizaci�n de sistemas de dise�o y consistencia de UI a trav�s de c�lulas multidisciplinarias.'
+            leadFocus: 'Estandarización de sistemas de diseño y consistencia de UI a través de células multidisciplinarias.'
         },
 
         // GOBERNANZA DE DATOS Y BASES DE DATOS
@@ -156,14 +156,14 @@ export class SkillsComponent {
             icon: 'devicon-microsoftsqlserver-plain',
             level: 95,
             category: 'database',
-            leadFocus: 'Optimizaci�n de rendimiento y dise�o de esquemas avanzados para bases de datos financieras a gran escala.'
+            leadFocus: 'Optimización de rendimiento y diseño de esquemas avanzados para bases de datos financieras a gran escala.'
         },
         {
             name: 'Entity Framework Core',
             icon: 'devicon-dotnetcore-plain',
             level: 96,
             category: 'database',
-            leadFocus: 'Optimizaci�n de capas de acceso a datos y garant�a de cumplimiento ACID en transacciones complejas.'
+            leadFocus: 'Optimización de capas de acceso a datos y garantía de cumplimiento ACID en transacciones complejas.'
         },
 
         // NUBE, DEVOPS Y MENTOR�A
@@ -172,21 +172,21 @@ export class SkillsComponent {
             icon: 'devicon-azure-plain',
             level: 88,
             category: 'cloud',
-            leadFocus: 'Liderazgo en iniciativas de Infraestructura como C�digo (IaC) e impulso de la adopci�n de Cloud-Native.'
+            leadFocus: 'Liderazgo en iniciativas de Infraestructura como Código (IaC) e impulso de la adopción de Cloud-Native.'
         },
         {
             name: 'CI/CD y Azure DevOps',
             icon: 'devicon-azure-plain',
             level: 90,
             category: 'cloud',
-            leadFocus: 'Establecimiento de pipelines de entrega robustos y mentor�a a equipos en mejores pr�cticas de DevOps.'
+            leadFocus: 'Establecimiento de pipelines de entrega robustos y mentoría a equipos en mejores prácticas de DevOps.'
         },
         {
             name: 'Docker / Kubernetes',
             icon: 'devicon-docker-plain',
             level: 82,
             category: 'cloud',
-            leadFocus: 'Estrategias de contenerizaci�n para el despliegue sin fisuras y orquestaci�n en entornos de producci�n.'
+            leadFocus: 'Estrategias de contenerización para el despliegue sin fisuras y orquestación en entornos de producción.'
         }
     ];
 
