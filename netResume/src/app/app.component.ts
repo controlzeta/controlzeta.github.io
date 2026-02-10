@@ -14,6 +14,8 @@ export class AppComponent implements OnInit {
     expandedExp: boolean = false;
     currentLanguge: string = 'en';
 
+    private readonly encodedEmail: string = 'ZnJhbmNpc2NvLmEuYXJyb3lvQGdtYWlsLmNvbQ==';
+
     ngOnInit() {
         this.currentLanguge = window.location.pathname.includes('/es/') ? 'es' : 'en';
     }
@@ -35,4 +37,18 @@ export class AppComponent implements OnInit {
 
         window.location.href = newPath;
     }
+
+    contactMe() {
+        try {
+            const email = atob(this.encodedEmail);
+
+            const subject = encodeURIComponent('Contacto desde Github.io');
+            const mailtoUrl = `mailto:${email}?subject=${subject}`;
+
+            window.location.href = mailtoUrl;
+        } catch (e) {
+            console.error('Error al procesar el contacto:', e);
+        }
+    }
+
 }

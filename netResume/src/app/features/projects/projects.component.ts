@@ -65,19 +65,19 @@ export class ProjectsComponent {
     projectsEs: Project[] = [
         {
             title: 'Enterprise Price Intelligence Crawler',
-            category: 'Miner�a de Datos y Automatizaci�n',
-            description: 'Dise�o e implementaci�n de un motor de web scraping de alto rendimiento (PriceCrawler) para monitorear tendencias del mercado de hardware. Arquitectur� un pipeline de datos robusto que automatiza la extracci�n, normalizaci�n y predicci�n visual de precios.',
+            category: 'Minería de Datos y Automatización',
+            description: 'Diseño e implementación de un motor de web scraping de alto rendimiento (PriceCrawler) para monitorear tendencias del mercado de hardware. Arquitectur� un pipeline de datos robusto que automatiza la extracción, normalización y predicción visual de precios.',
             tech: ['C#', 'Selenium', 'Chrome Driver', 'SQL Server', 'Chart.js'],
-            impact: 'Automatizaci�n del 100% de las tareas de investigaci�n de mercado, proporcionando anal�ticas de precios competitivos en tiempo real mediante dashboards interactivos.',
+            impact: 'Automatización del 100% de las tareas de investigación de mercado, proporcionando analíticas de precios competitivos en tiempo real mediante dashboards interactivos.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
             image: 'assets/images/projects/crawler.png'
         },
         {
             title: 'Automated Social Engagement Engine',
             category: 'Desarrollo de Bots y APIs Sociales',
-            description: 'Desarrollo de un sistema automatizado de distribuci�n de contenido (TweetBooty) para Twitter. Implementaci�n de algoritmos de publicaci�n programada y estrategias de atracci�n de tr�fico mediante integraciones fluidas con APIs.',
+            description: 'Desarrollo de un sistema automatizado de distribución de contenido (TweetBooty) para Twitter. Implementación de algoritmos de publicación programada y estrategias de atracción de tráfico mediante integraciones fluidas con APIs.',
             tech: ['C#', '.NET', 'Twitter API', 'Task Scheduling', 'JSON'],
-            impact: 'Impulso del tr�fico org�nico hacia activos digitales mediante la automatizaci�n de presencia social constante y patrones de interacci�n estrat�gicos.',
+            impact: 'Impulso del tráfico orgánico hacia activos digitales mediante la automatización de presencia social constante y patrones de interacción estratégicos.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
             image: 'assets/images/projects/twitbot.png'
         },
@@ -86,16 +86,16 @@ export class ProjectsComponent {
             category: 'Fintech / Cumplimiento',
             description: 'Liderazgo en la transici�n arquitect�nica de m�dulos financieros legacy a .NET Core en CHUBB. Integraci�n de servicios de cumplimiento global como World Check y calificadores financieros de Moody\'s en el flujo de trabajo core de seguros.',
             tech: ['.NET Core', 'WCF', 'Oracle', 'Web API', 'SOAP'],
-            impact: 'Fortalecimiento de los est�ndares internacionales de cumplimiento y reducci�n de la deuda t�cnica en un 30% mediante la modernizaci�n de servicios.',
+            impact: 'Fortalecimiento de los estándares internacionales de cumplimiento y reducción de la deuda técnica en un 30% mediante la modernización de servicios.',
             link: 'https://controlzeta.github.io/',
             image: 'assets/images/projects/compliance.png'
         },
         {
             title: 'Safe-Cloud Document Repository',
             category: 'Almacenamiento en la Nube y Seguridad',
-            description: 'Ingenier�a de un sistema seguro de almacenamiento y recuperaci�n de documentos para instituciones financieras. Implementaci�n de l�gica de permisos personalizada y manejo de datos cifrados para socios de Scotiabank.',
-            tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Est�ndares de Cifrado'],
-            impact: 'Eliminaci�n de errores manuales en el manejo de documentos y optimizaci�n de la velocidad de recuperaci�n de miles de registros legales.',
+            description: 'Ingeniería de un sistema seguro de almacenamiento y recuperaci�n de documentos para instituciones financieras. Implementación de lógica de permisos personalizada y manejo de datos cifrados para socios de Scotiabank.',
+            tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Estándares de Cifrado'],
+            impact: 'Eliminación de errores manuales en el manejo de documentos y optimización de la velocidad de recuperación de miles de registros legales.',
             link: 'https://controlzeta.github.io/',
             image: 'assets/images/projects/documentStorage.png'
         }

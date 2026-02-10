@@ -20,7 +20,7 @@
           <span class="text-slate-700">|</span>
           <button (click)="switchLanguage('es')" [class.text-brand-accent]="currentLanguge === 'es'">ES</button>
       </div>
-      <a href="mailto:tu-correo@ejemplo.com" i18n
+      <a (click)="contactMe()" i18n
          class="px-4 py-2 rounded-md bg-slate-800 text-white text-xs font-bold hover:bg-slate-700 transition-all border border-slate-700">
         CONTACTO
       </a>
@@ -57,7 +57,7 @@
             </div>
         </section>
 
-        <section id="experience" *ngIf="expandedExp">
+        <section id="experience">
             <app-experience></app-experience>
         </section>
 
