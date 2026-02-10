@@ -117,21 +117,21 @@ export class SkillsComponent {
             icon: 'devicon-dotnetcore-plain',
             level: 98,
             category: 'backend',
-            leadFocus: 'Arquitectura de sistemas distribuidos de alta disponibilidad y estrategia de migración de legacy a moderno.'
+            leadFocus: 'Arquitectura de sistemas distribuidos de alta disponibilidad y estrategia de migraciï¿½n de legacy a moderno.'
         },
         {
             name: 'Apache Camel / Spring Boot',
             icon: 'devicon-apachecamel-plain',
             level: 85,
             category: 'backend',
-            leadFocus: 'Orquestación de patrones complejos de integración empresarial (EIP) para sistemas heterogéneos.'
+            leadFocus: 'Orquestaciï¿½n de patrones complejos de integraciï¿½n empresarial (EIP) para sistemas heterogï¿½neos.'
         },
         {
             name: 'Microservicios y API Gateway',
             icon: 'devicon-azuresqldatabase-plain',
             level: 92,
             category: 'backend',
-            leadFocus: 'Diseño de mallas de servicios escalables y ecosistemas de API seguros para Fintech e Insurtech.'
+            leadFocus: 'Diseï¿½o de mallas de servicios escalables y ecosistemas de API seguros para Fintech e Insurtech.'
         },
 
         // ESTRATEGIA DE FRONTEND
@@ -140,14 +140,14 @@ export class SkillsComponent {
             icon: 'devicon-angularjs-plain',
             level: 94,
             category: 'frontend',
-            leadFocus: 'Liderazgo en modernización de frontend mediante Signals, arquitectura Standalone y SSR optimizado.'
+            leadFocus: 'Liderazgo en modernizaciï¿½n de frontend mediante Signals, arquitectura Standalone y SSR optimizado.'
         },
         {
             name: 'Tailwind CSS / Material',
             icon: 'devicon-tailwindcss-plain',
             level: 90,
             category: 'frontend',
-            leadFocus: 'Estandarización de sistemas de diseño y consistencia de UI a través de células multidisciplinarias.'
+            leadFocus: 'Estandarizaciï¿½n de sistemas de diseï¿½o y consistencia de UI a travï¿½s de cï¿½lulas multidisciplinarias.'
         },
 
         // GOBERNANZA DE DATOS Y BASES DE DATOS
@@ -156,37 +156,37 @@ export class SkillsComponent {
             icon: 'devicon-microsoftsqlserver-plain',
             level: 95,
             category: 'database',
-            leadFocus: 'Optimización de rendimiento y diseño de esquemas avanzados para bases de datos financieras a gran escala.'
+            leadFocus: 'Optimizaciï¿½n de rendimiento y diseï¿½o de esquemas avanzados para bases de datos financieras a gran escala.'
         },
         {
             name: 'Entity Framework Core',
             icon: 'devicon-dotnetcore-plain',
             level: 96,
             category: 'database',
-            leadFocus: 'Optimización de capas de acceso a datos y garantía de cumplimiento ACID en transacciones complejas.'
+            leadFocus: 'Optimizaciï¿½n de capas de acceso a datos y garantï¿½a de cumplimiento ACID en transacciones complejas.'
         },
 
-        // NUBE, DEVOPS Y MENTORÍA
+        // NUBE, DEVOPS Y MENTORï¿½A
         {
             name: 'Azure / Estrategia Cloud',
             icon: 'devicon-azure-plain',
             level: 88,
             category: 'cloud',
-            leadFocus: 'Liderazgo en iniciativas de Infraestructura como Código (IaC) e impulso de la adopción de Cloud-Native.'
+            leadFocus: 'Liderazgo en iniciativas de Infraestructura como Cï¿½digo (IaC) e impulso de la adopciï¿½n de Cloud-Native.'
         },
         {
             name: 'CI/CD y Azure DevOps',
             icon: 'devicon-azure-plain',
             level: 90,
             category: 'cloud',
-            leadFocus: 'Establecimiento de pipelines de entrega robustos y mentoría a equipos en mejores prácticas de DevOps.'
+            leadFocus: 'Establecimiento de pipelines de entrega robustos y mentorï¿½a a equipos en mejores prï¿½cticas de DevOps.'
         },
         {
             name: 'Docker / Kubernetes',
             icon: 'devicon-docker-plain',
             level: 82,
             category: 'cloud',
-            leadFocus: 'Estrategias de contenerización para el despliegue sin fisuras y orquestación en entornos de producción.'
+            leadFocus: 'Estrategias de contenerizaciï¿½n para el despliegue sin fisuras y orquestaciï¿½n en entornos de producciï¿½n.'
         }
     ];
 
@@ -208,7 +208,7 @@ export class SkillsComponent {
             const x = event.clientX - rect.left;
             const y = event.clientY - rect.top;
 
-            // Aplicamos una rotación sutil basada en la posición del mouse
+            // Aplicamos una rotaciï¿½n sutil basada en la posiciï¿½n del mouse
             const centerX = rect.width / 2;
             const centerY = rect.height / 2;
             const rotateX = (y - centerY) / 10;
