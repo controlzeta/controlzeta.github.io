@@ -3,7 +3,7 @@
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="1965201638872152312" datatype="html">
-        <source>Sobre mí</source>
+        <source>About me</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">13</context>
@@ -17,21 +17,21 @@
         </context-group>
       </trans-unit>
       <trans-unit id="3839418929735297411" datatype="html">
-        <source>Experiencia</source>
+        <source>Experience</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1872099000671699527" datatype="html">
-        <source>Proyectos</source>
+        <source>Projects</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4610067241336380817" datatype="html">
-        <source> CONTACTO </source>
+        <source> CONTACT </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">24,26</context>
@@ -52,7 +52,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="8143142956128661954" datatype="html">
-        <source> Ver Trayectoria </source>
+        <source> Career </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">47,49</context>
