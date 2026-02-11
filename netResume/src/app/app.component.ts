@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { fadeInAnimation, staggerContainer } from './core/animation';
 import { ToastService } from './core/toast.service';
-
+import { from, zip, timer } from 'rxjs';
+import { map, scan, take } from 'rxjs/operators';
 
 @Component({
     selector: 'app-root',
@@ -12,15 +13,19 @@ import { ToastService } from './core/toast.service';
 export class AppComponent implements OnInit {
     title = 'netResume';
     year = new Date().getFullYear();
+    yearsOfExperience = new Date().getFullYear() - 2011;
     expandedExp: boolean = false;
     currentLanguge: string = 'en';
     private readonly encodedEmail: string = '';
+    fullText: string = '> Senior Fullstack Engineer';
+    typedText: string = '';
     constructor(private toastService: ToastService) {
         this.encodedEmail = 'ZnJhbmNpc2NvLmEuYXJyb3lvQGdtYWlsLmNvbQ==';
     }
 
     ngOnInit() {
         this.currentLanguge = window.location.pathname.includes('/es/') ? 'es' : 'en';
+        this.startTyping();
     }
 
     toggleExp() {
@@ -52,6 +57,19 @@ export class AppComponent implements OnInit {
         } catch (e) {
             console.error('Error al procesar el contacto:', e);
         }
+    }
+
+    startTyping() {
+        const charArray = this.fullText.split('');
+
+        zip(
+            from(charArray),
+            timer(0, 100) // 100ms entre cada letra
+        ).pipe(
+            map(([char]) => char),
+            scan((acc, char) => acc + char, ''),
+            take(charArray.length)
+        ).subscribe(text => this.typedText = text);
     }
 
 }

@@ -33,16 +33,20 @@
         <section class="animate-item max-w-5xl mx-auto px-4 py-20">
             <div class="space-y-4">
                 <span i18n class="text-brand-accent font-mono tracking-widest uppercase text-sm">
-                    > Senior Fullstack Engineer
+                    {{ typedText }}
                 </span>
                 <h1 class="text-6xl md:text-8xl font-black text-gradient">
                     Francisco Arroyo
                 </h1>
                 <p i18n class="max-w-2xl text-lg text-slate-400 leading-relaxed">
-                    Especialista en arquitectura <span class="text-white">.NET 8</span> y
-                    ecosistemas modernos de <span class="text-white">Angular</span>.
-                    Transformando sistemas legacy en soluciones escalables.
-                </p>
+                    <span class="text-white">Technical Lead</span> con {{yearsOfExperience}} años de experiencia en desarrollo <span class="text-white">Full-Stack.NET</span> y arquitectura <span class="text-white">Azure.</span>
+                        Especializado en escalar plataformas empresariales y liderar equipos de alto desempeño hacia la modernización tecnológica.
+                        Impacto cuantificable en la reducción de costos de infraestructura (30%) y optimización de rendimiento de aplicaciones críticas utilizando <span class="text-white"> microservicios y.NET 8.</span>
+                        Experto en comunicación con stakeholders y gestión de proyectos de alta complejidad técnica.
+                        <!--Especialista en arquitectura <span class="text-white">.NET 8</span> y
+    ecosistemas modernos de <span class="text-white">Angular</span>.
+    Transformando sistemas legacy en soluciones escalables.-->
+</p>
 
                 <div class="flex gap-4 pt-6">
                     <button (click)="toggleExp()" class="bg-brand-dotnet text-white px-8 py-3 rounded-lg font-bold hover:opacity-90 transition-all" i18n>
