@@ -124,7 +124,7 @@ export class SkillsComponent {
             icon: 'devicon-apachecamel-plain',
             level: 85,
             category: 'backend',
-            leadFocus: 'Orquestación de patrones complejos de integraci�n empresarial (EIP) para sistemas heterogéneos.'
+            leadFocus: 'Orquestación de patrones complejos de integración empresarial (EIP) para sistemas heterogéneos.'
         },
         {
             name: 'Microservicios y API Gateway',
@@ -166,7 +166,7 @@ export class SkillsComponent {
             leadFocus: 'Optimización de capas de acceso a datos y garantía de cumplimiento ACID en transacciones complejas.'
         },
 
-        // NUBE, DEVOPS Y MENTOR�A
+        // NUBE, DEVOPS Y MENTORÍA
         {
             name: 'Azure / Estrategia Cloud',
             icon: 'devicon-azure-plain',
@@ -208,7 +208,7 @@ export class SkillsComponent {
             const x = event.clientX - rect.left;
             const y = event.clientY - rect.top;
 
-            // Aplicamos una rotaci�n sutil basada en la posici�n del mouse
+            // Aplicamos una rotación sutil basada en la posición del mouse
             const centerX = rect.width / 2;
             const centerY = rect.height / 2;
             const rotateX = (y - centerY) / 10;

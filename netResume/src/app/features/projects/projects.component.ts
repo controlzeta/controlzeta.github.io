@@ -66,7 +66,7 @@ export class ProjectsComponent {
         {
             title: 'Enterprise Price Intelligence Crawler',
             category: 'Minería de Datos y Automatización',
-            description: 'Diseño e implementación de un motor de web scraping de alto rendimiento (PriceCrawler) para monitorear tendencias del mercado de hardware. Arquitectur� un pipeline de datos robusto que automatiza la extracción, normalización y predicción visual de precios.',
+            description: 'Diseño e implementación de un motor de web scraping de alto rendimiento (PriceCrawler) para monitorear tendencias del mercado de hardware. Arquitectura un pipeline de datos robusto que automatiza la extracción, normalización y predicción visual de precios.',
             tech: ['C#', 'Selenium', 'Chrome Driver', 'SQL Server', 'Chart.js'],
             impact: 'Automatización del 100% de las tareas de investigación de mercado, proporcionando analíticas de precios competitivos en tiempo real mediante dashboards interactivos.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
@@ -84,7 +84,7 @@ export class ProjectsComponent {
         {
             title: 'Microservicios de Cumplimiento Financiero',
             category: 'Fintech / Cumplimiento',
-            description: 'Liderazgo en la transici�n arquitect�nica de m�dulos financieros legacy a .NET Core en CHUBB. Integraci�n de servicios de cumplimiento global como World Check y calificadores financieros de Moody\'s en el flujo de trabajo core de seguros.',
+            description: 'Liderazgo en la transición arquitect�nica de módulos financieros legacy a .NET Core en CHUBB. Integraci�n de servicios de cumplimiento global como World Check y calificadores financieros de Moody\'s en el flujo de trabajo core de seguros.',
             tech: ['.NET Core', 'WCF', 'Oracle', 'Web API', 'SOAP'],
             impact: 'Fortalecimiento de los estándares internacionales de cumplimiento y reducción de la deuda técnica en un 30% mediante la modernización de servicios.',
             link: 'https://controlzeta.github.io/',
@@ -93,7 +93,7 @@ export class ProjectsComponent {
         {
             title: 'Safe-Cloud Document Repository',
             category: 'Almacenamiento en la Nube y Seguridad',
-            description: 'Ingeniería de un sistema seguro de almacenamiento y recuperaci�n de documentos para instituciones financieras. Implementación de lógica de permisos personalizada y manejo de datos cifrados para socios de Scotiabank.',
+            description: 'Ingeniería de un sistema seguro de almacenamiento y recuperación de documentos para instituciones financieras. Implementación de lógica de permisos personalizada y manejo de datos cifrados para socios de Scotiabank.',
             tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Estándares de Cifrado'],
             impact: 'Eliminación de errores manuales en el manejo de documentos y optimización de la velocidad de recuperación de miles de registros legales.',
             link: 'https://controlzeta.github.io/',
