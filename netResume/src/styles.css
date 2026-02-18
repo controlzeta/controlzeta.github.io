@@ -18,22 +18,31 @@
 }
 
 @layer components {
-  /* Clase para las tarjetas de experiencia - Efecto Glassmorphism */
-  .job-card {
-    @apply p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-brand-dotnet transition-all duration-300 backdrop-blur-sm shadow-xl;
-  }
+    /* Clase para las tarjetas de experiencia - Efecto Glassmorphism */
+    .job-card {
+        @apply p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-brand-dotnet transition-all duration-300 backdrop-blur-sm shadow-xl;
+    }
 
-  /* Los badges de tecnologías que usas en tu sitio actual */
-  .tech-badge {
-    @apply px-3 py-1 text-xs font-mono rounded-full border border-slate-700 bg-slate-800 text-slate-400 hover:text-brand-accent hover:border-brand-accent;
-  }
+    /* Los badges de tecnologías que usas en tu sitio actual */
+    .tech-badge {
+        @apply px-3 py-1 text-xs font-mono rounded-full border border-slate-700 bg-slate-800 text-slate-400 hover:text-brand-accent hover:border-brand-accent;
+    }
 
-  /* Gradiente para el nombre (Efecto Moderno) */
-  .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-400 to-brand-dotnet;
-  }
+    /* Gradiente para el nombre (Efecto Moderno) */
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-400 to-brand-dotnet;
+    }
 
     .links {
-        @apply px-3 font-sans hover:transition-all;
+        @apply relative px-6 py-2 border-2 border-brand-dotnet text-white font-mono rounded-lg transition-all duration-300 uppercase tracking-widest;
+        @apply m-[1em] leading-[4em];
+        box-shadow: 0 0 10px theme('colors.brand-dotnet'), inset 0 0 5px theme('colors.brand-dotnet');
+        text-shadow: 0 0 5px theme('colors.brand-dotnet');
     }
+
+        .links:hover {
+            @apply bg-brand-dotnet text-white;
+            box-shadow: 0 0 20px theme('colors.brand-dotnet'), 0 0 40px theme('colors.brand-dotnet');
+            text-shadow: 0 0 10px #fff, 0 0 20px theme('colors.brand-dotnet');
+        }
 }

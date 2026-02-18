@@ -10,7 +10,7 @@
 
         <div class="relative">
             @for (project of [projects[currentIndex]]; track project.title) {
-            <div class="grid lg:grid-cols-2 gap-12 items-center bg-slate-900/30 border border-slate-800/50 p-8 md:p-16 rounded-[2.5rem] backdrop-blur-xl shadow-2xl transition-all duration-500 hover:border-brand-dotnet/30">
+            <div (alt)="project.description"  class="grid lg:grid-cols-2 gap-12 items-center bg-slate-900/30 border border-slate-800/50 p-8 md:p-16 rounded-[2.5rem] backdrop-blur-xl shadow-2xl transition-all duration-500 hover:border-brand-dotnet/30">
 
                 <div class="space-y-8">
                     <div class="space-y-3">

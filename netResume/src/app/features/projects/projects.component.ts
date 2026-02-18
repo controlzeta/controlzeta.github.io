@@ -27,36 +27,36 @@ export class ProjectsComponent {
         {
             title: 'Enterprise Price Intelligence Crawler',
             category: 'Data Mining & Automation',
-            description: 'Designed and implemented a high-performance web scraping engine (PriceCrawler) to monitor hardware market trends. Engineered a robust data pipeline that automates extraction, normalization, and visual forecasting of pricing data.',
-            tech: ['C#', 'Selenium', 'Chrome Driver', 'SQL Server', 'Chart.js'],
-            impact: 'Automated 100% of market research tasks, providing real-time competitive pricing analytics through interactive dashboards.',
+            description: 'Faced with manual, error-prone market monitoring, I engineered a high-performance scraping engine and data pipeline. I automated the extraction and normalization of hardware pricing, implementing visual forecasting models to track market trends.',
+            tech: ['C#', 'Selenium', 'SQL Server', 'Chart.js', 'Data Normalization'],
+            impact: 'Achieved 100% automation of market research, delivering real-time competitive intelligence that eliminated manual reporting and accelerated pricing strategy adjustments.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
             image: 'assets/images/projects/crawler.png'
         },
         {
             title: 'Automated Social Engagement Engine',
             category: 'Bot Development & Social API',
-            description: 'Developed an automated content distribution system (TweetBooty) for Twitter. Implemented scheduled publishing algorithms and traffic-driving strategies through seamless API integrations.',
-            tech: ['C#', '.NET', 'Twitter API', 'Task Scheduling', 'JSON'],
-            impact: 'Boosted organic traffic to digital assets by automating consistent social presence and engagement patterns.',
+            description: 'To solve the challenge of inconsistent digital presence and low organic reach, I developed an automated content distribution system. I implemented complex scheduling algorithms and seamless API integrations to drive targeted traffic back to digital assets.',
+            tech: ['C#', '.NET', 'Twitter API', 'Task Scheduling', 'API Integration'],
+            impact: 'Significantly boosted organic traffic and brand visibility by maintaining a 24/7 strategic social presence without requiring manual intervention.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
             image: 'assets/images/projects/twitbot.png'
         },
         {
             title: 'Financial Compliance Microservices',
             category: 'Fintech / Compliance',
-            description: 'Lead the architectural transition of legacy financial modules to .NET Core at CHUBB. Integrated global compliance services like World Check and Moody\'s financial raters into the core insurance workflow.',
-            tech: ['.NET Core', 'WCF', 'Oracle', 'Web API', 'SOAP'],
-            impact: 'Strengthened international compliance standards and reduced technical debt by 30% through service modernization.',
+            description: 'Chubb needed to modernize critical compliance workflows restricted by legacy technical debt. I led the architectural migration to .NET Core and orchestrated the integration of global risk assessment services like World Check and Moody’s.',
+            tech: ['.NET Core', 'SOA', 'Oracle', 'RESTful APIs', 'Microservices'],
+            impact: 'Reduced technical debt by 30% and strengthened international compliance standards, ensuring zero-friction integration for high-stakes risk evaluation.',
             link: 'https://controlzeta.github.io/',
             image: 'assets/images/projects/compliance.png'
         },
         {
             title: 'Safe-Cloud Document Repository',
             category: 'Cloud Storage & Security',
-            description: 'Engineered a secure document storage and retrieval system for financial institutions. Implemented custom permission logic and encrypted data handling for Scotiabank partners.',
-            tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Encryption Standards'],
-            impact: 'Eliminated manual document handling errors and improved data retrieval speed for thousands of legal records.',
+            description: 'Faced with sensitive legal data risks and slow retrieval times for Scotiabank partners, I engineered a secure, encrypted document repository. I designed custom permission logic and high-performance indexing for rapid data access.',
+            tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Encryption Standards', 'Cloud Storage'],
+            impact: 'Eliminated manual document handling errors and drastically improved data retrieval speeds for thousands of legal records, ensuring 100% compliance with security protocols.',
             link: 'https://controlzeta.github.io/',
             image: 'assets/images/projects/documentStorage.png'
         }
@@ -66,36 +66,36 @@ export class ProjectsComponent {
         {
             title: 'Enterprise Price Intelligence Crawler',
             category: 'Minería de Datos y Automatización',
-            description: 'Diseño e implementación de un motor de web scraping de alto rendimiento (PriceCrawler) para monitorear tendencias del mercado de hardware. Arquitectura un pipeline de datos robusto que automatiza la extracción, normalización y predicción visual de precios.',
-            tech: ['C#', 'Selenium', 'Chrome Driver', 'SQL Server', 'Chart.js'],
-            impact: 'Automatización del 100% de las tareas de investigación de mercado, proporcionando analíticas de precios competitivos en tiempo real mediante dashboards interactivos.',
+            description: 'Ante la necesidad de monitorear precios de hardware sin procesos manuales lentos, diseñé un motor de scraping de alto rendimiento. Desarrollé un pipeline de datos para extraer, normalizar y predecir tendencias mediante visualización avanzada.',
+            tech: ['C#', 'Selenium', 'SQL Server', 'Chart.js', 'Normalización de Datos'],
+            impact: 'Automaticé el 100% de la investigación de mercado, proporcionando inteligencia competitiva en tiempo real que eliminó el error humano en la toma de decisiones de precios.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
             image: 'assets/images/projects/crawler.png'
         },
         {
             title: 'Automated Social Engagement Engine',
             category: 'Desarrollo de Bots y APIs Sociales',
-            description: 'Desarrollo de un sistema automatizado de distribución de contenido (TweetBooty) para Twitter. Implementación de algoritmos de publicación programada y estrategias de atracción de tráfico mediante integraciones fluidas con APIs.',
-            tech: ['C#', '.NET', 'Twitter API', 'Task Scheduling', 'JSON'],
-            impact: 'Impulso del tráfico orgánico hacia activos digitales mediante la automatización de presencia social constante y patrones de interacción estratégicos.',
+            description: 'Para resolver la falta de presencia digital constante, desarrollé un sistema de distribución de contenido automatizado. Implementé algoritmos de publicación programada e integraciones con APIs para atraer tráfico estratégico de forma orgánica.',
+            tech: ['C#', '.NET', 'Twitter API', 'Programación de Tareas', 'Integración de APIs'],
+            impact: 'Incrementé el tráfico orgánico y la visibilidad de marca mediante una presencia social estratégica 24/7, eliminando la necesidad de gestión manual diaria.',
             link: 'http://pakoarroyo.controlzeta.com.mx/portfolio.html',
             image: 'assets/images/projects/twitbot.png'
         },
         {
             title: 'Microservicios de Cumplimiento Financiero',
             category: 'Fintech / Cumplimiento',
-            description: 'Liderazgo en la transición arquitect�nica de módulos financieros legacy a .NET Core en CHUBB. Integraci�n de servicios de cumplimiento global como World Check y calificadores financieros de Moody\'s en el flujo de trabajo core de seguros.',
-            tech: ['.NET Core', 'WCF', 'Oracle', 'Web API', 'SOAP'],
-            impact: 'Fortalecimiento de los estándares internacionales de cumplimiento y reducción de la deuda técnica en un 30% mediante la modernización de servicios.',
+            description: 'Con el objetivo de modernizar flujos de cumplimiento críticos en CHUBB limitados por sistemas legacy, lideré la migración arquitectónica a .NET Core. Orquesté la integración de servicios globales de riesgo como World Check y Moody’s.',
+            tech: ['.NET Core', 'SOA', 'Oracle', 'APIs RESTful', 'Microservicios'],
+            impact: 'Reduje la deuda técnica en un 30% y fortalecí el cumplimiento de estándares internacionales, garantizando una evaluación de riesgos sin fricciones.',
             link: 'https://controlzeta.github.io/',
             image: 'assets/images/projects/compliance.png'
         },
         {
             title: 'Safe-Cloud Document Repository',
             category: 'Almacenamiento en la Nube y Seguridad',
-            description: 'Ingeniería de un sistema seguro de almacenamiento y recuperación de documentos para instituciones financieras. Implementación de lógica de permisos personalizada y manejo de datos cifrados para socios de Scotiabank.',
-            tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Estándares de Cifrado'],
-            impact: 'Eliminación de errores manuales en el manejo de documentos y optimización de la velocidad de recuperación de miles de registros legales.',
+            description: 'Ante los riesgos de seguridad y lentitud en la recuperación de documentos legales para Scotiabank, diseñé un repositorio cifrado de alto rendimiento. Implementé lógica de permisos personalizada y estándares de cifrado bancario.',
+            tech: ['ASP.NET MVC', 'C#', 'SQL Server', 'Estándares de Cifrado', 'Cloud Storage'],
+            impact: 'Eliminé errores manuales en el manejo de documentos y optimicé la velocidad de recuperación de miles de registros legales, asegurando integridad total de la información.',
             link: 'https://controlzeta.github.io/',
             image: 'assets/images/projects/documentStorage.png'
         }
