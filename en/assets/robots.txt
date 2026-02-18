@@ -1,0 +1,12 @@
+# https://controlzeta.github.io/robots.txt
+
+User-agent: *
+Allow: /
+
+# Evitar que indexen carpetas de configuración o assets privados
+Disallow: /assets/docs/internal/
+Disallow: /v8/
+Disallow: /node_modules/
+
+# Indicar dónde está el mapa del sitio para mejorar el crawling
+Sitemap: https://controlzeta.github.io/sitemap.xml
