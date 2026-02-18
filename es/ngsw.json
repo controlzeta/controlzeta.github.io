@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1771352699883,
+  "timestamp": 1771444277322,
   "index": "/es/index.html",
   "assetGroups": [
     {
@@ -46,7 +46,7 @@
     "/es/assets/images/projects/twitbot.png": "f6b38480d0a2b76b594dbc95fd75d975364fc73f",
     "/es/favicon.ico": "4e949783198385bd0f0213834ea2454504e7111f",
     "/es/index.html": "2e59b0e1f64c7e2f5e5187ec62be774934ce0b85",
-    "/es/main.2af4a50949aa77f0.js": "bff6a411eeaa3a9703faa29f29b91439cd08a2fa",
+    "/es/main.2af4a50949aa77f0.js": "941a62fb105440778ebdc8e06804e01b7e19974c",
     "/es/polyfills.a37299f1c4693d97.js": "f8f793f0fc3f0604e0e54bf14f1fc726461f8d8b",
     "/es/runtime.c9f30a205b32d72a.js": "a42a574f305d63e8ca8fa9f48441234ac7126ede",
     "/es/styles.21ab1fa48ae7d554.css": "57a1ce367ac373d576a46b1d1c2f45730afdac02"

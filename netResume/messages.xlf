@@ -37,34 +37,36 @@
           <context context-type="linenumber">24,26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7025184607452877056" datatype="html">
-        <source> &gt; Senior Fullstack Engineer </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">34,36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3924682128132308099" datatype="html">
+      <trans-unit id="7708270344948043036" datatype="html">
         <source>
-          Specialist in <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>.NET 8<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> architecture and modern <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>Angular<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ecosystems. Transforming legacy systems into scalable solutions.
+          <x id="INTERPOLATION" equiv-text="{{ typedText }}"/>
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">40,44</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5261532547830178200" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>Technical Lead<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> with <x id="INTERPOLATION" equiv-text="{{yearsOfExperience}}"/> years of experience in <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>Full-Stack .NET<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> development and <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>Azure<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> architecture. Specialized in scaling enterprise platforms and leading high-performance teams through technological modernization. Quantifiable impact in infrastructure cost reduction (30%) and performance optimization of critical applications using <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-white&quot;&gt;"/>microservices and .NET 8.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Expert in stakeholder communication and managing high-complexity technical projects.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">42,46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8143142956128661954" datatype="html">
-        <source> Career </source>
+        <source> View Path </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">47,49</context>
+          <context context-type="linenumber">48,50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5453179079862122867" datatype="html">
         <source> GitHub </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">51,53</context>
+          <context context-type="linenumber">52,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="11349754554368783" datatype="html">
@@ -72,6 +74,36 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/experience/experience.component.html</context>
           <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5135946597428090416" datatype="html">
+        <source> Main Contributions </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/experience/experience.component.html</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6071207313675353429" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-brand-dotnet&quot;&gt;"/>03.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Featured Projects
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/projects/projects.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8486296897495338527" datatype="html">
+        <source>Business Impact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/projects/projects.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3836120654588644262" datatype="html">
+        <source>Tech Stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/skills/skills.component.html</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
     </body>
