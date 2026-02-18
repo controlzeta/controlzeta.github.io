@@ -11,5 +11,6 @@
     <Folder Include="src\app\features\" />
     <Folder Include="src\app\shared\" />
     <Folder Include="src\assets\images\projects\" />
+    <Folder Include="src\assets\docs\" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1771451626790,
+  "timestamp": 1771452740797,
   "index": "/es/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/es/favicon.ico",
         "/es/index.html",
-        "/es/main.703695c4035bffc4.js",
+        "/es/main.acaf0951b0b9d0d8.js",
         "/es/polyfills.a37299f1c4693d97.js",
         "/es/runtime.c9f30a205b32d72a.js",
-        "/es/styles.8307db69c36a76aa.css"
+        "/es/styles.552a566200a2ef1c.css"
       ],
       "patterns": []
     },
@@ -45,11 +45,11 @@
     "/es/assets/images/projects/documentStorage.png": "98cf271cad7a10f5ebcd183b5f237b00df73d40e",
     "/es/assets/images/projects/twitbot.png": "f6b38480d0a2b76b594dbc95fd75d975364fc73f",
     "/es/favicon.ico": "4e949783198385bd0f0213834ea2454504e7111f",
-    "/es/index.html": "24006cad85e268c2a2e4d39cc2cd67e5e542c135",
-    "/es/main.703695c4035bffc4.js": "7d6f4fd4709b737e5b7455740c57111858e33818",
+    "/es/index.html": "a5b88e23cd405e2b21aaffa8b6feb04334591b6e",
+    "/es/main.acaf0951b0b9d0d8.js": "73cf25d818ecbe4fa0cf42430584729b388bee37",
     "/es/polyfills.a37299f1c4693d97.js": "f8f793f0fc3f0604e0e54bf14f1fc726461f8d8b",
     "/es/runtime.c9f30a205b32d72a.js": "a42a574f305d63e8ca8fa9f48441234ac7126ede",
-    "/es/styles.8307db69c36a76aa.css": "2a9db89a38bbecf52501d8b4b1977a658db2500a"
+    "/es/styles.552a566200a2ef1c.css": "2f5f7d49c609c23c23371e4aecd614b5ec6a2a5f"
   },
   "navigationUrls": [
     {

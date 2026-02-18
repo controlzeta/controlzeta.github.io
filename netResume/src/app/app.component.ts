@@ -72,4 +72,10 @@ export class AppComponent implements OnInit {
         ).subscribe(text => this.typedText = text);
     }
 
+    downloadCV() {
+        const link = document.createElement('a');
+        link.href = window.location.pathname.includes('/es/') ? 'assets/docs/CV_Francisco_Arroyo.pdf' : 'assets/docs/CV_Francisco_Arroyo_EN.pdf';
+        link.download = 'CV_Francisco_Arroyo_TechLead.pdf';
+        link.dispatchEvent(new MouseEvent('click'));
+    }
 }
