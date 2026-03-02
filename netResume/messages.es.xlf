@@ -69,8 +69,8 @@
           <context context-type="linenumber">52,54</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2223746379262654995" datatype="html">
-        <source>DESCARGAR CV</source>
+      <trans-unit id="3099741642167775297" datatype="html">
+        <source>Descarga CV</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">63</context>
