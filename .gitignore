@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -10,5 +10,7 @@
 /netResume/.angular/cache/16.2.16
 /netResume/.vscode
 /netResume/.vs/netResume
-/netResume/.angular/cache/18.2.21
 /netResume/dist/net-resume
+
+# AI Assistant configuration
+.cursorrules
