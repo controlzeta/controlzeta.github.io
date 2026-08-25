@@ -27,8 +27,8 @@ export class ProjectsComponent {
         {
             title: 'Teocuitla: Intelligent Concurrent Price Scraping & Analytics Engine',
             category: 'Enterprise Scraping & Data Pipelines',
-            description: 'Designed and engineered a high-performance, multi-threaded price scraping and market intelligence engine in .NET 9. Built a concurrent background service (IHostedService) utilizing Selenium Headless and HtmlAgilityPack. Features intelligent proxy rotation, adaptive anti-bot bypass mechanisms (Cloudflare, Akamai), and an automated DOM heuristic learner to dynamically rebuild broken XPath/JSON-LD selectors. Data persistence layer is optimized using EF Core 9 with clustered indices for time-series queries.',
-            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core 9', 'SQL Server / SQLite', 'HtmlAgilityPack', 'Selenium Headless', 'Worker Service', 'Design Patterns'],
+            description: 'Designed and engineered a high-performance, multi-threaded price scraping and market intelligence engine in .NET 9, developed using advanced AI assistance (Google Gemini & Antigravity). Built a concurrent background service (IHostedService) utilizing Selenium Headless and HtmlAgilityPack. Features intelligent proxy rotation, adaptive anti-bot bypass mechanisms (Cloudflare, Akamai), and an automated DOM heuristic learner to dynamically rebuild broken XPath/JSON-LD selectors. Data persistence layer is optimized using EF Core 9 with clustered indices for time-series queries.',
+            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core 9', 'SQL Server / SQLite', 'HtmlAgilityPack', 'Selenium Headless', 'Worker Service', 'AI Development (Gemini/Antigravity)'],
             impact: 'Enabled 24/7 autonomous monitoring of millions of data points across dynamic web platforms, reducing scraping failures by 90% via automated selector learning.',
             link: 'https://github.com/controlzeta/Teocuitla',
             image: 'assets/images/projects/teocuitla.png'
@@ -36,19 +36,19 @@ export class ProjectsComponent {
         {
             title: 'Tomin: High-Security Premium Financial Web Platform',
             category: 'Clean Architecture & Financial Platforms',
-            description: 'Architected a premium visual and administrative financial web application in .NET 9 using Blazor WebApp (InteractiveServer). Adhered to Clean Architecture and Generic Repository patterns with EF Core. Engineered a custom Privacy Mode featuring visual blurring and math-deduction blocking for sensitive fields. Implemented credentials lifecycle security using BCrypt, automatic audit logging, and custom glassmorphic UI via MudBlazor.',
-            tech: ['.NET 9', 'Blazor WebApp', 'Clean Architecture', 'Entity Framework Core', 'SQL Server', 'BCrypt Security', 'MudBlazor / Material 3', 'State Machine UI', 'Generic Repository Pattern'],
+            description: 'Architected a premium visual and administrative financial web application in .NET 9 using Blazor WebApp (InteractiveServer), accelerated by AI pair programming (Google Gemini & Antigravity). Adhered to Clean Architecture and Generic Repository patterns with EF Core. Engineered a custom Privacy Mode featuring visual blurring and math-deduction blocking for sensitive fields. Implemented credentials lifecycle security using BCrypt, automatic audit logging, and custom glassmorphic UI via MudBlazor.',
+            tech: ['.NET 9', 'Blazor WebApp', 'Clean Architecture', 'Entity Framework Core', 'SQL Server', 'BCrypt Security', 'MudBlazor / Material 3', 'AI Development (Gemini/Antigravity)'],
             impact: 'Delivered 100% compliance with financial auditing and data masking standards while accelerating page loads by 40% using interactive server-side rendering.',
-            link: 'https://controlzeta.github.io/',
+            link: 'https://github.com/controlzeta/tomin',
             image: 'assets/images/projects/tomin.png'
         },
         {
             title: 'Kukuna: Smart Enterprise Resource Planning WebUI',
             category: 'Multi-Tier Architecture & Blazor Server',
-            description: 'Built a multi-tier smart resource planning and automated shopping consolidation system in .NET 9 and Blazor Server. Designed a transient database context strategy for SQL Server to handle high-frequency concurrent operations safely in Blazor. Configured robust Serilog event tracking, subpath hosting strategies under /Kukuna, and drag-and-drop interactive sorting UI using MudBlazor.',
-            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core', 'SQL Server', 'Serilog Logging', 'MudBlazor UI', 'MudDragAndDrop', 'REST API', 'Transient DbContext'],
+            description: 'Built a multi-tier smart resource planning and automated shopping consolidation system in .NET 9 and Blazor Server, architected and coded using advanced AI (Google Gemini & Antigravity). Designed a transient database context strategy for SQL Server to handle high-frequency concurrent operations safely in Blazor. Configured robust Serilog event tracking, subpath hosting strategies under /Kukuna, and drag-and-drop interactive sorting UI using MudBlazor.',
+            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core', 'SQL Server', 'Serilog Logging', 'MudBlazor UI', 'MudDragAndDrop', 'AI Development (Gemini/Antigravity)'],
             impact: 'Reduced resource waste by 25% by automating ingredient consolidation and store layout mapping, optimizing load time and execution safety via transient DB contexts.',
-            link: 'https://controlzeta.github.io/',
+            link: 'https://github.com/controlzeta/kukuna',
             image: 'assets/images/projects/kukuna.png'
         },
         {
@@ -93,8 +93,8 @@ export class ProjectsComponent {
         {
             title: 'Teocuitla: Motor Inteligente y Concurrente de Scraping de Precios',
             category: 'Web Scraping y Pipelines de Datos Concurrentes',
-            description: 'Diseñé y construí un motor de scraping de precios e inteligencia competitiva en .NET 9 de alto rendimiento y ejecución multihilo. Desarrollé un servicio de Windows en segundo plano (IHostedService) con Selenium Headless y HtmlAgilityPack. Cuenta con rotación inteligente de proxies, evasión adaptativa de sistemas anti-bot (Cloudflare, Akamai) y un extractor heurístico que aprende y reconstruye selectores XPath de forma automática. Base de datos estructurada con índices agrupados en EF Core 9.',
-            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core 9', 'SQL Server / SQLite', 'HtmlAgilityPack', 'Selenium Headless', 'Worker Service', 'Design Patterns'],
+            description: 'Diseñé y construí un motor de scraping de precios e inteligencia competitiva en .NET 9 de alto rendimiento y ejecución multihilo, desarrollado con asistencia de IA avanzada (Google Gemini y Antigravity). Desarrollé un servicio de Windows en segundo plano (IHostedService) con Selenium Headless y HtmlAgilityPack. Cuenta con rotación inteligente de proxies, evasión adaptativa de sistemas anti-bot (Cloudflare, Akamai) y un extractor heurístico que aprende y reconstruye selectores XPath de forma automática. Base de datos estructurada con índices agrupados en EF Core 9.',
+            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core 9', 'SQL Server / SQLite', 'HtmlAgilityPack', 'Selenium Headless', 'Worker Service', 'Desarrollo con IA (Gemini/Antigravity)'],
             impact: 'Permitió el monitoreo autónomo 24/7 de millones de registros en portales dinámicos, reduciendo fallos de extracción en un 90% mediante aprendizaje automático de selectores.',
             link: 'https://github.com/controlzeta/Teocuitla',
             image: 'assets/images/projects/teocuitla.png'
@@ -102,19 +102,19 @@ export class ProjectsComponent {
         {
             title: 'Tomin: Plataforma Financiera Premium de Alta Seguridad',
             category: 'Clean Architecture y Plataformas Financieras',
-            description: 'Arquitecté una aplicación web premium de gestión financiera y administrativa en .NET 9 usando Blazor WebApp (InteractiveServer). Diseñada bajo principios de Clean Architecture y Repositorio Genérico con EF Core. Implementé un Modo Privacidad avanzado que ofusca datos y gráficos sensibles para evitar deducciones matemáticas. Incorporé seguridad criptográfica con BCrypt, auditoría automática de transacciones y una interfaz personalizada en MudBlazor.',
-            tech: ['.NET 9', 'Blazor WebApp', 'Clean Architecture', 'Entity Framework Core', 'SQL Server', 'BCrypt Security', 'MudBlazor / Material 3', 'State Machine UI', 'Generic Repository Pattern'],
+            description: 'Arquitecté una aplicación web premium de gestión financiera y administrativa en .NET 9 usando Blazor WebApp (InteractiveServer), acelerado mediante programación en pareja con IA (Google Gemini y Antigravity). Diseñada bajo principios de Clean Architecture y Repositorio Genérico con EF Core. Implementé un Modo Privacidad avanzado que ofusca datos y gráficos sensibles para evitar deducciones matemáticas. Incorporé seguridad criptográfica con BCrypt, auditoría automática de transacciones y una interfaz personalizada en MudBlazor.',
+            tech: ['.NET 9', 'Blazor WebApp', 'Clean Architecture', 'Entity Framework Core', 'SQL Server', 'BCrypt Security', 'MudBlazor / Material 3', 'Desarrollo con IA (Gemini/Antigravity)'],
             impact: 'Garantizó el 100% de cumplimiento en auditorías transaccionales y enmascaramiento de datos (Privacy Mode), optimizando la velocidad de carga de la interfaz en un 40%.',
-            link: 'https://controlzeta.github.io/',
+            link: 'https://github.com/controlzeta/tomin',
             image: 'assets/images/projects/tomin.png'
         },
         {
             title: 'Kukuna: ERP Inteligente y Planificador de Recursos',
             category: 'Arquitectura N-Capas y Blazor Server',
-            description: 'Desarrollé un planificador inteligente de recursos y consolidación automatizada de compras en .NET 9 y Blazor Server bajo arquitectura N-Capas. Diseñé una estrategia de contextos de base de datos transient en SQL Server para mitigar bloqueos por concurrencia en Blazor, logs estructurados con Serilog y UI interactiva Drag & Drop con MudBlazor.',
-            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core', 'SQL Server', 'Serilog Logging', 'MudBlazor UI', 'MudDragAndDrop', 'REST API', 'Transient DbContext'],
+            description: 'Desarrollé un planificador inteligente de recursos y consolidación automatizada de compras en .NET 9 y Blazor Server bajo arquitectura N-Capas, diseñado y programado utilizando IA avanzada (Google Gemini y Antigravity). Diseñé una estrategia de contextos de base de datos transient en SQL Server para mitigar bloqueos por concurrencia en Blazor, logs estructurados con Serilog y UI interactiva Drag & Drop con MudBlazor.',
+            tech: ['.NET 9', 'Blazor Server', 'Entity Framework Core', 'SQL Server', 'Serilog Logging', 'MudBlazor UI', 'MudDragAndDrop', 'Desarrollo con IA (Gemini/Antigravity)'],
             impact: 'Redujo el desperdicio de recursos en un 25% al automatizar la consolidación y mapeo de pasillos físicos, optimizando la velocidad de carga y concurrencia del sistema.',
-            link: 'https://controlzeta.github.io/',
+            link: 'https://github.com/controlzeta/kukuna',
             image: 'assets/images/projects/kukuna.png'
         },
         {
